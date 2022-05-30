@@ -1,0 +1,27 @@
+# dir setting
+data_path: "/opt/ml/workspace/RecBole/dataset"
+checkpoint_dir: "/opt/ml/workspace/RecBole/model_saved"
+
+# general setting
+epochs: 10
+train_batch_size: 64
+eval_batch_size: 256
+stopping_step: 10
+
+# Convert to Dataset
+# https://recbole.io/docs/user_guide/usage/running_new_dataset.html#convert-to-dataset
+USER_ID_FIELD: user
+ITEM_ID_FIELD: whiskey
+RATING_FIELD: rating
+TIME_FIELD: ~
+
+# data setting
+load_col:
+    inter: [user, whiskey, rating]
+
+user_inter_num_interval: "[0,inf)"
+item_inter_num_interval: "[0,inf)"
+
+# wandb
+log_wandb: False
+wandb_project: 'recbole_whiskey'

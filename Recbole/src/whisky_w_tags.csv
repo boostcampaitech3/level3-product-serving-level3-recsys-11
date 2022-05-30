@@ -1,0 +1,1202 @@
+,Whisky,Meta Critic,STDEV,#,Cost,Class,Super Cluster,Cluster,Country,Type,body,sweet,sherry,malt,aperitif,smoky,pungent,fruity,honey,floral,spicy,medicinal,nutty,winey
+0,"Macallan 10yo Full Proof 57% 1980 (OB, Giovinetti & Figli)",9.57,0.24,3,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+1,Ledaig 42yo Dusgadh,9.48,0.19,4,$$$$$+,SingleMalt-like,ABC,C,Scotland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+2,"Laphroaig 27yo 57.4% 1980-2007 (OB, 5 Oloroso Casks, 972 Bts)",9.42,0.23,4,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+3,Glenfarclas 40yo,9.29,0.26,17,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+4,Glengoyne 25yo,9.24,0.22,21,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+5,Amrut Spectrum (Batch 1),9.21,0.24,14,$$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+6,Highland Park 25yo,9.18,0.19,19,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+7,Highland Park 40yo,9.16,0.43,10,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+8,Tamdhu 30yo (MacPhail Collection 2009),9.16,0.18,3,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+9,Balvenie TUN 1401 (all batches),9.15,0.31,19,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+10,Kavalan Solist Oloroso Sherry Cask,9.15,0.13,5,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Grain,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+11,Aberlour A'Bunadh (Batch 33),9.13,0.15,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+12,Aberlour A'Bunadh (Batch 37),9.13,0.1,3,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+13,Highland Park 30yo,9.13,0.41,14,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+14,Laphroaig 25yo,9.13,0.28,23,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+15,Nikka Single Cask Coffey Malt 12yo,9.12,0.49,9,$$$$$,SingleMalt-like,ABC,C,Japan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+16,Aberlour A'Bunadh (Batch 40),9.11,0.15,4,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+17,Yamazaki 18yo,9.11,0.27,23,$$$$$,SingleMalt-like,ABC,C,Japan,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+18,Aberlour A'Bunadh (Batch 49),9.09,0.2,10,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+19,Redbreast 21yo,9.09,0.29,20,$$$$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+20,Yamazaki Sherry Cask (all vintages),9.09,0.34,11,$$$$$+,SingleMalt-like,ABC,A,Japan,,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+21,Aberlour A'Bunadh (Batch 56),9.08,0.22,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+22,Bruichladdich 21yo Cuvée 407 PX,9.08,0.17,8,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+23,Compass Box Last Vatted Malt,9.08,0.16,4,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+24,Amrut Greedy Angels (8yo and 10yo),9.07,0.2,13,$$$$$+,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+25,BenRiach 18yo Albariza Pedro Ximenez Peated,9.07,0.19,8,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+26,Amrut Spectrum (all batches),9.06,0.38,18,$$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+27,Bowmore Springtide,9.06,0.68,5,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+28,Highland Park 16yo Odin,9.06,0.29,7,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+29,GlenDronach Cask Strength (batch 1),9.05,0.27,6,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+30,Kavalan Solist Vinho Barrique,9.05,0.21,23,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+31,Aberlour A'Bunadh (Batch 53),9.04,0.12,6,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+32,GlenDronach Cask Strength (batch 2),9.04,0.14,10,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+33,Macallan Cask Strength,9.04,0.38,22,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+34,Sheep Dip Old Hebridean 1990 Blended Malt,9.04,0.22,7,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+35,Aberlour A'Bunadh (Batch 39),9.03,0.22,8,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+36,Highland Park 18yo,9.03,0.23,32,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+37,Karuizawa 1990 Sherry Butt,9.03,0.3,4,$$$$$+,SingleMalt-like,ABC,A,Japan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+38,Kavalan Solist PX Cask,9.03,0.51,8,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+39,Timorous Beastie 21yo Sherry Edition,9.03,0.2,3,$$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+40,Amrut Spectrum 004 (Batch 2),9.02,0.43,13,$$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+41,GlenDronach vintage 20yo Single Cask (all vintages),9.02,0.36,16,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+42,Kavalan Solist Manzanilla Cask,9.02,0.2,10,$$$$$+,SingleMalt-like,ABC,C,Taiwan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+43,Aberlour A'Bunadh (Batch 44),9.01,0.15,3,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+44,Aberlour A'Bunadh (Batch 52),9.01,0.22,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+45,Kavalan Solist Amontillado Cask,9.01,0.23,8,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+46,Aberlour A'Bunadh (Batch 35),9.0,0.24,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+47,BenRiach 17yo Solstice Peated Port (both editions),9.0,0.28,18,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+48,Benromach 10yo Cask Strength (100 proof),9.0,0.16,17,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+49,Highland Park 17yo The Dark,9.0,0.39,14,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+50,Springbank 21yo,9.0,0.25,16,$$$$$+,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+51,Aberlour A'Bunadh (Batch 45),8.99,0.22,10,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+52,Arran Malt 21st Anniversary Edition,8.99,0.13,6,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+53,Bunnahabhain 18yo,8.99,0.21,24,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+54,Laphroaig Cairdeas 2013 Port Wood,8.99,0.46,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+55,Nikka Taketsuru 21yo,8.99,0.29,20,$$$$$,SingleMalt-like,ABC,C,Japan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+56,Timorous Beastie 40yo Cask Strength,8.99,0.3,4,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+57,Bladnoch 12yo Sherry Cask (Sheep label),8.98,0.21,3,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+58,GlenDronach vintage 19yo Single Cask (all vintages),8.98,0.33,19,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+59,Amrut PX Sherry Single Cask 2696 (LCBO),8.97,0.27,7,$$$$$,SingleMalt-like,ABC,B,India,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+60,Highland Park 15yo Loki,8.97,0.28,18,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+61,Kilchoman Port Cask Matured,8.97,0.21,13,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+62,Aberlour A'Bunadh (Batch 36),8.96,0.46,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+63,Amrut Portonova,8.96,0.3,24,$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+64,Bowmore 15yo Laimrig,8.96,0.18,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+65,Bushmills 21yo Single Malt,8.96,0.37,11,$$$$$,SingleMalt-like,ABC,C,Ireland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+66,Glenlivet Alpha,8.96,0.09,4,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+67,Aberlour A'Bunadh (Batch 30),8.95,0.19,6,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+68,Aberlour A'Bunadh (Batch 42),8.95,0.26,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+69,AnCnoc 1975,8.95,0.56,5,$$$$$+,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+70,BenRiach 17yo Solstice 2nd Peated Port Finish,8.95,0.41,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+71,Glenmorangie Signet,8.95,0.35,28,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+72,Hakushu Sherry Cask,8.95,0.5,7,$$$$$+,SingleMalt-like,ABC,B,Japan,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+73,Kavalan Solist Sherry Cask,8.95,0.29,26,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+74,Macallan 10yo Sherry Oak Cask Strength,8.94,0.54,7,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+75,Aberlour A'Bunadh (Batch 58),8.93,0.21,9,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+76,Kavalan Solist Port Cask,8.93,0.31,19,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+77,Amrut Madeira Cask Finish (Batch 1),8.92,0.16,6,$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+78,Macallan 18yo Sherry Oak,8.92,0.31,25,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+79,Tomatin 40yo,8.92,0.37,3,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+80,Aberlour A'Bunadh (all batches),8.91,0.19,34,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+81,Aberlour A'Bunadh (Batch 34),8.91,0.32,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+82,Balvenie TUN 1509 (all batches),8.91,0.19,13,$$$$$+,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+83,BenRiach 35yo,8.91,0.65,5,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+84,GlenDronach Cask Strength (batch 4),8.91,0.22,14,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+85,BenRiach 17yo Solstice 1st Peated Port Finish,8.9,0.22,4,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+86,Bunnahabhain 25yo,8.9,0.31,21,$$$$$+,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+87,Glengoyne 40yo,8.9,0.83,3,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+88,Glenlivet XXV 25yo,8.9,0.21,14,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+89,Aberlour A'Bunadh (Batch 54),8.89,0.2,8,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+90,Amrut Intermediate Sherry,8.89,0.46,26,$$$$,SingleMalt-like,ABC,B,India,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+91,Amrut Kadhambam,8.89,0.25,23,$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+92,Glengoyne 21yo,8.89,0.21,23,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+93,Highland Park 21yo,8.89,0.37,18,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+94,Glengoyne Cask Strength (batch 7),8.88,0.22,3,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+95,Highland Park 16yo Thor,8.88,0.29,14,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+96,Kilchoman PX Sherry Finish,8.88,0.19,7,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+97,Springbank 12yo Cask Strength,8.88,0.29,26,$$$$,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+98,Aberlour A'Bunadh (Batch 46),8.87,0.09,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+99,Macallan Reflexion,8.87,0.34,7,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+100,Amrut PX Sherry Single Cask 3516 (SAQ),8.86,0.19,6,$$$$,SingleMalt-like,ABC,B,India,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+101,Compass Box This is Not a Luxury Whisky,8.86,0.46,15,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+102,GlenDronach Cask Strength (batch 3),8.86,0.26,9,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+103,Laphroaig Cairdeas 2020 Port & Wine Casks,8.86,0.4,4,$$$$,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+104,Macallan 25yo Sherry Oak,8.86,0.45,9,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+105,Aberlour A'Bunadh (Batch 47),8.85,0.29,11,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+106,Ben Nevis 10yo (post-2017),8.85,0.36,9,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+107,Glen Garioch 17yo Renaissance Chapter 3,8.85,0.32,3,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+108,Glen Garioch 1998 Wine Cask Matured,8.85,0.23,3,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+109,GlenDronach Cask Strength (all batches),8.85,0.16,25,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+110,Glenrothes 25yo,8.85,0.47,5,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+111,Kilchoman Loch Gorm,8.85,0.19,25,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+112,Scallywag 13yo,8.85,0.08,4,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+113,Smogen Sherry Project 1:2,8.85,0.2,3,$$$$,SingleMalt-like,ABC,C,Sweden,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+114,White Oak Akashi 14yo,8.85,0.55,3,$$$$$+,SingleMalt-like,ABC,C,Japan,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+115,Aberlour A'Bunadh (Batch 66),8.84,0.21,6,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+116,AnCnoc 22yo,8.84,0.31,13,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+117,BenRiach 18yo Latada,8.84,0.17,8,$$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+118,GlenDronach 15yo Revival,8.84,0.27,27,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+119,Longrow Red 11yo Port Cask,8.84,0.38,18,$$$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+120,Aberlour 12yo Non-Chill-Filtered,8.83,0.22,16,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+121,Balblair 1990 (all releases),8.83,0.23,15,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+122,Bunnahabhain 14yo 2003 Pedro Ximenez Finish,8.83,0.56,15,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+123,GlenDronach 12yo Sauternes Cask Finish,8.83,0.18,7,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+124,GlenDronach 18yo Allardice,8.83,0.37,30,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+125,GlenDronach Cask Strength (batch 6),8.83,0.2,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+126,Glenlivet Nadurra 16yo,8.83,0.22,28,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+127,High Coast (Box) PX - Pedro Ximénez Finish,8.83,0.19,9,$$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+128,Kavalan Solist Fino Sherry Cask,8.83,0.51,16,$$$$$+,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+129,Longrow Red 12yo Pinot Noir Finish,8.83,0.3,11,$$$$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+130,Aberlour A'Bunadh (Batch 32),8.82,0.72,4,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+131,Aberlour A'Bunadh (Batch 61),8.82,0.21,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+132,Aberlour A'Bunadh (Batch 69),8.82,0.07,3,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+133,Glenmorangie Companta,8.82,0.56,14,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+134,Green Spot Chateau Leoville Barton,8.82,0.35,14,$$$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+135,Aberlour A'Bunadh (Batch 59),8.81,0.22,4,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+136,Amrut PX Sherry Single Cask (all casks),8.81,0.46,17,$$$$,SingleMalt-like,ABC,A,India,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+137,Longmorn 15yo,8.81,0.41,8,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+138,Smogen Sherry Project 1:4,8.81,0.27,5,$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+139,Aberlour A'Bunadh (Batch 60),8.8,0.23,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+140,Bowmore 25yo,8.8,0.48,11,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+141,GlenDronach 18yo Tawny Port Finish,8.8,0.36,8,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+142,Glenlivet Nadurra Cask Strength (NAS),8.8,0.11,3,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+143,Kavalan Brandy Oak,8.8,0.24,8,$$$$$,SingleMalt-like,ABC,A,Taiwan,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+144,Royal Brackla 21yo,8.8,0.21,5,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+145,Two Brewers Release 09 Special Finishes,8.8,0.4,6,$$$$,SingleMalt-like,ABC,B,Canada,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+146,Aberlour A'Bunadh (Batch 50),8.79,0.36,9,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+147,GlenDronach 21yo Parliament,8.79,0.39,29,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+148,Glenfiddich Snow Phoenix,8.79,0.38,13,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+149,Glengoyne Teapot Dram (all batches),8.79,0.48,6,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+150,Glenrothes Minister's Reserve,8.79,0.17,6,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+151,Highland Park Full Volume,8.79,0.22,16,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+152,Aberlour A'Bunadh (Batch 48),8.78,0.51,4,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+153,Aberlour A'Bunadh (Batch 65),8.78,0.23,3,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+154,Bruichladdich Port Charlotte 2009 MC:01,8.78,0.28,11,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+155,Deanston 2008 Bordeaux Red Wine Cask Matured,8.78,0.2,6,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+156,Glenmorangie Bacalta,8.78,0.32,8,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+157,Ledaig 18yo,8.78,0.58,18,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+158,Longrow Red 11yo Australian Shiraz,8.78,0.47,10,$$$$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+159,Springbank 15yo,8.78,0.23,25,$$$$$,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+160,Glen Garioch 15yo Renaissance Chapter 1,8.77,0.22,8,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+161,Two Brewers Release 02 Special Finishes,8.77,0.51,5,$$$$,SingleMalt-like,ABC,B,Canada,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+162,Balvenie 21yo Port Wood,8.76,0.37,26,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+163,High Coast (Box) Dalvve Sherry Influence,8.76,0.4,4,$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+164,Longrow Red 11yo Cabernet Sauvignon,8.76,0.45,12,$$$$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+165,Millstone 12yo Sherry Cask,8.76,0.51,12,$$$$,SingleMalt-like,ABC,C,Netherlands,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+166,Smogen Sherry Project 1:3,8.76,0.26,3,$$$$,SingleMalt-like,ABC,C,Sweden,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+167,Arran Malt Sassicaia Wine Cask Finish,8.75,0.19,5,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+168,Glenfarclas 25yo,8.75,0.28,23,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+169,Aberlour 18yo,8.74,0.28,15,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+170,Arran Malt Amarone Cask Finish,8.74,0.29,18,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+171,Glenfarclas 17yo,8.74,0.26,26,$$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+172,Two Brewers Special Finishes (all releases),8.74,0.19,7,$$$$,SingleMalt-like,ABC,B,Canada,Bourbon,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+173,Blue Spot 7yo Cask Strength,8.73,0.11,3,$$$$,SingleMalt-like,ABC,C,Ireland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+174,Glenfarclas 105,8.73,0.36,33,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+175,Highland Park 15yo Fire,8.73,0.35,11,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+176,Macallan Classic Cut (all editions),8.73,0.21,15,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+177,GlenDronach Cask Strength (batch 5),8.72,0.26,11,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+178,Glengoyne Cask Strength (batch 1),8.72,0.47,4,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+179,Glengoyne Cask Strength (batch 5),8.72,0.15,3,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+180,Longmorn 16yo,8.72,0.32,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+181,Macallan Ruby,8.72,0.23,14,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+182,Scallywag Cask Strength (all batches),8.72,0.08,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+183,Aberlour A'Bunadh (Batch 57),8.71,0.43,8,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+184,Highland Park Valknut,8.71,0.23,6,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+185,Bowmore 10yo Devil's Cask (all batches),8.7,0.39,26,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+186,Bunnahabhain 11yo Manzanilla Cask Matured 2008,8.7,0.18,3,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+187,GlenDronach Cask Strength (batch 7),8.7,0.49,5,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+188,Glenmorangie Nectar d'Or,8.7,0.29,27,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+189,Highland Park 15yo,8.7,0.24,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+190,Karuizawa Asama Vintages 1999-2000,8.7,0.52,9,$$$$$+,SingleMalt-like,ABC,C,Japan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+191,Mortlach 16yo (F&F),8.7,0.27,11,$$$$$,SingleMalt-like,ABC,C,Scotland,Grain,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+192,Smogen Sherry Project 1:1,8.7,0.11,3,$$$$,SingleMalt-like,ABC,C,Sweden,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+193,Springbank 13yo Green,8.7,0.35,6,$$$$,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+194,Deanston 10yo PX Finish,8.69,0.43,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+195,Glenrothes Whisky Maker's Cut,8.69,0.31,7,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+196,Jura Brooklyn,8.69,0.25,7,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+197,Knappogue Castle 16yo Twin Wood,8.69,0.44,7,$$$$,SingleMalt-like,ABC,C,Ireland,Grain,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+198,Macallan Rare Cask (all batches),8.69,0.33,14,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+199,Macallan Sienna,8.69,0.33,18,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+200,Sheep Dip 1999 Amoroso Blended Malt,8.69,0.59,3,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+201,Teerenpeli Distiller’s Choice KARHI,8.69,0.16,3,$$$$,SingleMalt-like,ABC,C,Finland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+202,Two Brewers Release 15 Special Finishes,8.69,0.28,6,$$$$,SingleMalt-like,ABC,B,Canada,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+203,Amrut Bengal Tiger PX Single Cask (Canada),8.68,0.24,6,$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+204,Mortlach 15yo (Gordon & MacPhail),8.68,0.34,18,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+205,Oban Distillers Edition (all vintages),8.68,0.29,21,$$$$,SingleMalt-like,ABC,C,Scotland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+206,Aberlour A'Bunadh (Batch 38),8.67,0.18,3,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+207,Ben Nevis 10yo Cask Strength,8.67,0.31,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+208,Aberlour A'Bunadh (Batch 62),8.66,0.33,4,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+209,Arran Malt Madeira Wine Cask,8.66,0.45,12,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+210,Glengoyne Cask Strength (all batches),8.66,0.38,19,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+211,Glenmorangie The Taghta,8.66,0.33,11,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+212,Redbreast Lustau Edition,8.66,0.32,20,$$$$,SingleMalt-like,ABC,C,Ireland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+213,Tomatin Cu Bocan 2005 Limited Edition,8.66,0.46,3,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+214,BenRiach 21yo Tawny Port Finish,8.65,0.26,5,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+215,Compass Box The Story of the Spaniard,8.65,0.26,8,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+216,Glen Garioch 15yo Wine Cask Matured,8.65,0.25,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+217,Glencadam 14yo Oloroso Sherry Cask Finish,8.65,0.53,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+218,GlenDronach 15yo Tawny Port Finish,8.65,0.51,8,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+219,Glenfarclas 21yo,8.65,0.29,19,$$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+220,Glengoyne Cask Strength (batch 2),8.65,0.42,3,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+221,Ohishi Sherry Single Cask,8.65,0.43,8,$$$$,SingleMalt-like,ABC,C,Japan,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+222,Red Spot 15yo,8.65,0.36,10,$$$$$,SingleMalt-like,ABC,C,Ireland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+223,Redbreast Mano a Lámh,8.65,0.37,4,$$$,SingleMalt-like,ABC,C,Ireland,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+224,Sullivans Cove French Oak,8.65,0.31,8,$$$$$+,SingleMalt-like,ABC,C,Tasmania,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+225,Tomatin 18yo,8.65,0.2,17,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+226,Ardbeg Galileo,8.64,0.58,20,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+227,Ben Nevis 18yo The Maltman,8.64,0.34,4,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+228,Bunnahabhain Moine (all bottlings),8.64,0.54,16,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+229,Glenfiddich 21yo Gran Reserva,8.64,0.39,18,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+230,Longrow Red 14yo Burgundy Wood,8.64,0.64,6,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+231,Tamdhu Batch Strength (all batches),8.64,0.53,18,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+232,Balblair 1989,8.63,0.39,12,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+233,Balvenie 17yo Doublewood,8.63,0.31,19,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+234,BenRiach 12yo Matured in Sherry Wood,8.63,0.21,20,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+235,Tomatin 14yo Portwood,8.63,0.31,15,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+236,Benromach 15yo,8.62,0.43,16,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+237,Glenfarclas 15yo,8.62,0.46,24,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+238,Glenrothes 18yo,8.62,0.33,7,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+239,Kilchoman Sherry Single Cask,8.62,0.62,17,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+240,Aberlour 16yo Double Cask Matured,8.61,0.17,17,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+241,AnCnoc 2000,8.61,0.19,4,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+242,Arran Malt Port Cask Finish,8.61,0.34,19,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+243,Glengoyne 18yo,8.61,0.34,19,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+244,Hazelburn 12yo (Springbank),8.61,0.35,19,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+245,Highland Park Valkyrie,8.61,0.21,11,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+246,Macallan 25yo Fine Oak,8.61,0.28,3,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+247,Swiss Highland Classic Single Malt,8.61,0.39,4,$$$$$,SingleMalt-like,ABC,C,Switzerland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+248,Timorous Beastie 12yo Cask Strength,8.61,0.1,3,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+249,Highland Park Magnus (2017),8.6,0.18,8,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+250,Dalmore Port Wood Reserve,8.59,0.28,6,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+251,GlenDronach 12yo Original,8.59,0.24,27,$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+252,Tobermory 15yo,8.59,0.35,18,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+253,Balvenie 16yo Triple Cask,8.58,0.24,11,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+254,Glenfarclas 12yo,8.58,0.32,24,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+255,Glenmorangie Quinta Ruban,8.58,0.42,30,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+256,Aberfeldy 18yo,8.57,0.3,9,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+257,GlenDronach 18yo Marsala Finish,8.57,0.13,5,$$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+258,Glenmorangie Dornoch,8.57,0.47,9,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+259,Bowmore 12yo Enigma,8.56,0.37,12,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+260,Kilchoman Madeira Cask Matured,8.56,0.53,11,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+261,Amrut Naarangi,8.55,0.5,18,$$$$$,SingleMalt-like,ABC,C,India,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+262,Bowmore 15yo Darkest,8.55,0.35,28,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+263,Macallan 12yo Sherry Oak,8.55,0.41,29,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+264,Mackmyra Moment Korsbar,8.55,0.27,3,$$$$$,SingleMalt-like,ABC,B,Sweden,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+265,Santis Alpstein (all editions),8.55,0.06,3,$$$$$,SingleMalt-like,ABC,C,Switzerland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+266,Spirit of Hven Sankt Claus,8.55,0.58,3,$$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+267,"Glenfarclas 1968-2000 54.2% (OB, Old Stock Reserve, Ceramic)",8.54,0.24,3,$$$$$+,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+268,Glenfiddich 15yo Solera,8.54,0.29,33,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+269,Glenmorangie A Midwinter Night’s Dram,8.54,0.31,8,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+270,Laphroaig PX Triple Matured,8.54,0.62,24,$$$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+271,Glen Garioch 1999 Sherry Cask Matured,8.53,0.82,12,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+272,Glengoyne 12yo Cask Strength,8.53,0.44,10,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+273,Aberlour Casg Annamh,8.52,0.31,10,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+274,Ben Nevis 10yo (all editions),8.52,0.5,17,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+275,Dalwhinnie Distillers Edition,8.52,0.29,13,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+276,Macallan 30yo Fine Oak,8.52,0.37,6,$$$$$+,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+277,Talisker Port Ruighe,8.52,0.38,22,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+278,Tyrconnell 10yo Port Cask Finish,8.52,0.31,12,$$$$,SingleMalt-like,ABC,B,Ireland,Blend,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+279,Glen Garioch 15yo Sherry Cask Matured,8.51,0.67,4,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+280,Glengoyne Cask Strength (batch 4),8.51,0.27,8,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+281,Macallan Whisky Maker's Edition,8.51,0.39,14,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+282,Redbreast All Sherry Single Cask 1999,8.51,0.89,5,$$$$$,SingleMalt-like,ABC,A,Ireland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+283,Teerenpeli Distiller’s Choice AURA,8.51,0.08,3,$$$$$,SingleMalt-like,ABC,C,Finland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+284,Tomatin Oloroso Sherry 1995,8.51,0.58,4,$$$$$,SingleMalt-like,ABC,C,Scotland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+285,Amrut PX Sherry Single Cask 2701,8.5,0.74,3,$$$$,SingleMalt-like,ABC,B,India,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+286,Dalmore 18yo,8.5,0.39,18,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+287,Glenlivet Nadurra Oloroso,8.5,0.53,15,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+288,Glenmorangie Duthac,8.5,0.27,9,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+289,Kavalan Sherry Oak,8.5,0.51,11,$$$$$,SingleMalt-like,ABC,B,Taiwan,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+290,Mackmyra Skordetid,8.5,0.67,6,$$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+291,Arran Malt Sherry Single Cask,8.48,0.53,10,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+292,Glengoyne 12yo,8.48,0.33,16,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+293,Glengoyne 15yo,8.48,0.5,11,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+294,Mackmyra Midvinter,8.48,0.58,3,$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+295,Penderyn Portwood,8.47,0.33,6,$$$,SingleMalt-like,ABC,C,Wales,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+296,Singleton of Glen Ord 18yo,8.47,0.35,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+297,Westland Winter 2016,8.47,0.51,6,$$$$,SingleMalt-like,ABC,C,USA,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+298,Bushmills 16yo Single Malt,8.46,0.49,20,$$$$,SingleMalt-like,ABC,B,Ireland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+299,Glenfiddich 19yo Age of Discovery (Madeira Cask),8.46,0.47,15,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+300,Jura 16yo Diurach's Own,8.46,0.37,16,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+301,Glengoyne Cask Strength (batch 3),8.45,0.76,6,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+302,Highland Park Dark Origins,8.45,0.46,26,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+303,Smogen Primör,8.45,0.27,4,$$$$$,SingleMalt-like,ABC,C,Sweden,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+304,Westland Sherry Wood,8.45,0.43,20,$$$$,SingleMalt-like,ABC,B,USA,Blend,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+305,Glenglassaugh 26yo,8.44,0.57,8,$$$$$+,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+306,Glenmorangie Milsean,8.44,0.38,13,$$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+307,Green Spot Chateau Montelena,8.44,0.28,7,$$$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+308,Ledaig 1996,8.44,0.77,3,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+309,BenRiach 15yo Tawny Port Finish,8.43,0.31,13,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+310,Glentauchers 1991 18yo (Gordon & MacPhail),8.43,0.24,3,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+311,Tyrconnell 10yo Sherry Cask Finish,8.43,0.34,9,$$$$,SingleMalt-like,ABC,B,Ireland,Blend,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+312,Dalmore Cigar Malt,8.42,0.38,8,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+313,Macallan 10yo Sherry Oak,8.42,0.32,11,$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+314,Highland Park 12yo Saint Magnus,8.41,0.37,6,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+315,Balvenie 12yo Doublewood,8.4,0.32,29,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+316,Blair Athol 12yo (F&F),8.4,0.44,9,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+317,Glenmorangie The Tayne,8.4,0.36,11,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+318,Lismore 21yo,8.4,0.18,4,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+319,Glenmorangie Lasanta,8.39,0.36,28,$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+320,Arran Malt Sherry Cask Finish,8.37,0.54,12,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+321,Bruichladdich Rocks,8.37,0.34,12,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+322,Dalmore 15yo,8.37,0.41,24,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+323,Glen Moray Classic Sherry Cask finish,8.37,0.21,6,$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+324,Jura 21yo,8.37,0.77,7,$$$$$,SingleMalt-like,ABC,C,Scotland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+325,Wemyss Malts The Spice King,8.37,0.31,13,$$$,SingleMalt-like,ABC,C,Scotland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+326,Aberfeldy 16yo,8.35,0.24,4,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+327,Aberlour 12yo Double Cask Matured,8.35,0.25,23,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+328,Bushmills Black Bush,8.35,0.37,25,$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+329,Glenfarclas 10yo,8.35,0.32,19,$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+330,Glen Moray Classic Port Cask finish,8.33,0.21,5,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+331,GlenDronach 14yo Sauternes Cask Finish,8.33,0.41,6,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+332,Teeling Single Malt,8.33,0.32,12,$$$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+333,Arran Malt Pomerol Bordeaux Cask Finish,8.32,0.69,8,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+334,Bladnoch 15yo Adela,8.32,0.34,9,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+335,Dalmore King Alexander III,8.32,0.45,14,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+336,Jura 12yo Elixir,8.31,0.44,11,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+337,Kavalan Concertmaster Port Cask,8.31,0.55,25,$$$$,SingleMalt-like,ABC,C,Taiwan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+338,Timorous Beastie,8.3,0.39,9,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+339,Balvenie 12yo Triple Cask,8.29,0.43,12,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+340,Glen Scotia Double Cask,8.29,0.55,12,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+341,Glencadam 12yo Port Wood Finish,8.29,0.37,6,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+342,Glenfiddich Malt Master's Edition,8.29,0.29,8,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+343,Laphroaig Select,8.29,0.38,17,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+344,Tomatin Cu Bocan Sherry Edition,8.29,0.29,4,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+345,Auchentoshan Three Wood,8.28,0.41,30,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+346,Dalmore Cigar Malt Reserve,8.28,0.66,15,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+347,Benrinnes 15yo F&F,8.27,0.84,7,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+348,Game of Thrones House Baratheon Royal Lochnagar 12 ans,8.27,0.32,12,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+349,Glenfiddich Reserve Cask,8.27,0.31,9,$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+350,Jura 21yo 200th Anniversary,8.27,0.82,4,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+351,Ohishi Sherry Cask,8.27,0.51,8,$$$$,SingleMalt-like,ABC,C,Japan,Bourbon,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+352,Writers Tears Red Head Single Malt,8.27,0.35,11,$$$,SingleMalt-like,ABC,C,Ireland,Blend,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+353,Jura Seven Wood,8.26,0.22,6,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+354,Aberlour 10yo,8.25,0.4,19,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+355,Bushmills Sherry Cask Reserve,8.25,0.4,5,$$$$,SingleMalt-like,ABC,C,Ireland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+356,"Ben Nevis 10yo (old label, pre-2017)",8.24,0.46,12,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+357,Singleton of Dufftown Tailfire,8.23,0.42,5,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+358,Glen Moray 16yo,8.22,0.56,8,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+359,Glenglassaugh Revival,8.21,0.47,14,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+360,Glenrothes Robur Reserve,8.21,0.49,6,$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+361,Macallan Select Oak,8.21,0.31,14,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+362,Wemyss Malts Velvet Fig,8.21,1.22,5,$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+363,Bowmore Black Rock,8.2,0.35,9,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+364,Glen Garioch 16yo Renaissance Chapter 2,8.2,0.49,6,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+365,Tullibardine 500 Sherry Finish,8.16,0.29,10,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+366,Nantou (Omar) Yushan Sherry Cask,8.15,0.36,11,$$$$,SingleMalt-like,ABC,C,Taiwan,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+367,Mackmyra Blomstertid,8.1,0.26,3,$$$$,SingleMalt-like,ABC,C,Sweden,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+368,Glenrothes Sherry Cask Reserve,8.08,0.67,12,$$$$,SingleMalt-like,ABC,A,Scotland,Malt,3,3,1,0.0,0,0.0,0,1.0,1.0,0,1.0,0.0,0,0
+369,Dalmore Gran Reserva,8.05,0.34,10,$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+370,Bladnoch Samsara,8.04,0.6,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+371,Longmorn Distiller's Choice,8.01,0.43,9,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+372,Jura 18yo,7.99,0.68,9,$$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+373,Penderyn Madeira,7.99,0.95,15,$$$$,SingleMalt-like,ABC,B,Wales,Blend,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+374,Royal Lochnagar 12yo,7.99,0.33,15,$$,SingleMalt-like,ABC,C,Scotland,Rye,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+375,Jura 16yo,7.94,0.54,5,$$$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+376,Tullibardine 1993 Port,7.94,0.39,5,$$$$,SingleMalt-like,ABC,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+377,Penderyn Sherrywood,7.9,0.64,12,$$$$,SingleMalt-like,ABC,B,Wales,Rye,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+378,Jura Turas Mara,7.87,0.54,5,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+379,Amrut PX Sherry Single Cask 2702,7.84,0.94,3,$$$$,SingleMalt-like,ABC,B,India,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+380,Lohin McKinnon Wine Barrel Finished (Black Sage),7.84,0.64,8,$$$,SingleMalt-like,ABC,C,Canada,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+381,Singleton of Dufftown Spey Cascade,7.43,0.64,3,$$,SingleMalt-like,ABC,C,Scotland,Malt,3,3,1,0.0,0,0.5,0,1.0,0.0,1,1.0,0.0,1,0
+382,Ichiro's Malt The Joker,9.22,0.19,4,$$$$$+,SingleMalt-like,EF,F,Japan,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+383,Bruichladdich Black Art 7.x 1994,9.16,0.13,5,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+384,Cragganmore 12yo (Special Release 2019),9.15,0.16,3,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+385,Hibiki 21yo,9.13,0.27,11,$$$$$+,SingleMalt-like,EF,E,Japan,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+386,Bunnahabhain 40yo,9.12,0.38,6,$$$$$+,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+387,Bruichladdich Black Art 3.x 1989,9.11,0.37,15,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+388,Bruichladdich Black Art 8.x 1994,9.1,0.27,3,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+389,Bruichladdich Black Art 6.x 1990,9.09,0.21,10,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+390,Midleton Very Rare 2017,9.08,0.29,4,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+391,Glenfiddich 30yo,9.07,0.11,4,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+392,Glencadam 25yo,9.06,0.05,4,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+393,Midleton Dair Ghaelach,9.06,0.4,10,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+394,Amrut Virgin Oak Single Cask,9.04,0.25,5,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+395,Bruichladdich Black Art 2.x 1989,9.03,0.24,9,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+396,Redbreast 12yo Cask Strength,9.03,0.27,27,$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+397,Macallan Edition No. 6,9.02,0.28,5,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+398,Cragganmore 25yo,9.01,0.05,4,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+399,Mackmyra Reserve Single Cask (various casks),9.01,0.5,7,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+400,Amrut Double Cask,8.98,0.19,13,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+401,Midleton Very Rare 2021,8.98,0.44,3,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+402,Aultmore 25yo,8.97,0.24,5,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+403,Yamazaki Mizunara,8.96,0.22,9,$$$$$+,SingleMalt-like,EF,E,Japan,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+404,Compass Box 3yo Deluxe,8.95,0.34,13,$$$$$+,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+405,GlenDronach 19yo Madeira Finish,8.94,0.37,8,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+406,Old Pulteney 25yo,8.94,0.21,6,$$$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+407,Arran Malt 18yo,8.93,0.15,19,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+408,Bruichladdich The Organic 2010,8.93,0.17,4,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+409,Kanosuke New Born 2018 8mo,8.93,0.23,4,$$$$,SingleMalt-like,EF,F,Japan,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+410,Craigellachie 23yo,8.91,0.21,13,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+411,Glenlivet Nadurra First Fill (White Oak),8.91,0.25,5,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+412,Tomatin Decades,8.91,0.56,9,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+413,Yamazaki Limited Edition 2016,8.91,0.28,3,$$$$$+,SingleMalt-like,EF,E,Japan,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+414,Amrut Herald,8.9,0.16,6,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+415,Two Brewers Release 22 Innovative,8.9,0.21,4,$$$$,SingleMalt-like,EF,E,Canada,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+416,Amrut Fusion,8.89,0.23,32,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+417,Glenmorangie Ealanta,8.89,0.27,19,$$$$$+,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+418,Macallan Edition No. 2,8.89,0.24,23,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+419,Two Brewers Release 23 Special Finishes,8.89,0.29,5,$$$$,SingleMalt-like,EF,E,Canada,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+420,Caol Ila 18yo Unpeated 2017,8.88,0.29,15,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+421,Kavalan ex-Bourbon Oak,8.88,0.24,7,$$$$,SingleMalt-like,EF,E,Taiwan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+422,Compass Box Spice Tree Extravaganza,8.87,0.28,12,$$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+423,Glen Grant 25yo,8.87,0.16,3,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+424,Macallan Edition No. 4,8.87,0.36,13,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+425,Arran Malt The Devil’s Punch Bowl (all chapters),8.86,0.31,10,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+426,Bruichladdich Black Art 5.x 1992,8.86,0.32,11,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+427,Arran Malt Bourbon Single Cask,8.85,0.26,10,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+428,Balblair 15yo,8.85,0.1,6,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+429,Compass Box Phenomenology,8.85,0.44,12,$$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+430,Mortlach 16yo,8.85,0.22,12,$$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+431,Arran Malt 17yo,8.84,0.25,11,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+432,Glenmorangie Astar,8.83,0.33,21,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+433,Kavalan Solist Ex-Bourbon,8.83,0.24,26,$$$$$+,SingleMalt-like,EF,E,Taiwan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+434,Mackmyra Moment Glöd,8.82,0.45,4,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+435,Glenlivet 21yo Archive (all batches),8.81,0.26,15,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+436,Mackmyra Moment Urberg,8.81,0.27,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+437,BenRiach 25yo,8.8,0.45,17,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+438,Bruichladdich 21yo Cuvée 382 La Berenice,8.8,0.59,10,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+439,Bruichladdich 21yo Cuvée 640 Eroica,8.8,0.43,11,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+440,Glen Grant Five Decades,8.8,0.21,6,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+441,High Coast (Box) The 2nd Step Collection 02,8.8,0.15,9,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+442,Paul John Single Cask,8.8,0.62,8,$$$$,SingleMalt-like,EF,E,India,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+443,Amrut Two Continents,8.79,0.46,15,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+444,Hibiki 17yo,8.79,0.31,20,$$$$$,SingleMalt-like,EF,E,Japan,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+445,Midleton Very Rare (all vintages),8.79,0.39,15,$$$$$,SingleMalt-like,EF,E,Ireland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+446,Midleton Very Rare 2016,8.79,0.34,4,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+447,Nikka From the Barrel,8.79,0.34,32,$$$,SingleMalt-like,EF,F,Japan,Blend,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+448,Auchentoshan 21yo,8.78,0.26,15,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+449,Game of Thrones House Tyrell Clynelish Reserve,8.78,0.21,10,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+450,Macallan Edition No. 1,8.78,0.46,11,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+451,Arran Malt Tokaji Aszu Wine Finish,8.77,0.35,4,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+452,Nikka Taketsuru 17yo,8.77,0.27,16,$$$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+453,Old Pulteney 17yo,8.77,0.28,25,$$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+454,Two Brewers Release 14 Innovative,8.77,0.32,6,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+455,Aberfeldy 21yo,8.76,0.22,10,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+456,Compass Box Spice Tree,8.76,0.34,29,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+457,Hakushu 18yo,8.76,0.31,10,$$$$$,SingleMalt-like,EF,F,Japan,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+458,Kininvie 17yo (all batches),8.76,0.29,10,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+459,Mortlach Special Strength,8.76,0.61,6,$$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+460,Strathmill 25yo,8.76,0.48,4,$$$$$+,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+461,Westland Single Cask,8.76,0.14,6,$$$$,SingleMalt-like,EF,E,USA,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+462,Cragganmore NAS (Special Release 2016),8.75,0.64,5,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+463,Macallan Edition No. 3,8.75,0.25,15,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+464,Glen Scotia 15yo,8.74,0.33,15,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+465,Glenfiddich Winter Storm 21yo Experimental Series No. 3,8.74,0.36,10,$$$$$+,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+466,Old Pulteney 15yo,8.74,0.41,9,$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+467,Redbreast 15yo,8.74,0.26,20,$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+468,Arran Malt Napoleon Cognac Finish,8.73,0.7,5,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+469,Clynelish 14yo,8.73,0.29,24,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+470,Glenfiddich 19yo Age of Discovery (Bourbon Cask),8.73,0.27,10,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+471,Glenfiddich Cask of Dreams,8.73,0.21,8,$$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+472,Mackmyra Special 04,8.73,0.37,8,$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+473,Amrut Bourbon Single Cask,8.72,0.36,13,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+474,Balvenie 12yo Single Barrel,8.72,0.37,18,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+475,Glenmorangie 18yo,8.72,0.27,21,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+476,Mackmyra Moment Rimfrost,8.72,0.4,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+477,AnCnoc 18yo,8.71,0.32,15,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+478,Bruichladdich Black Art 4.x 1990,8.71,0.57,17,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+479,Redbreast 12yo,8.71,0.41,26,$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+480,Shelter Point French Oak Double Barreled,8.71,0.43,4,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+481,Glenfiddich Project XX Experimental Series No. 2,8.7,0.26,14,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+482,Balvenie 25yo Single Barrel,8.69,0.78,4,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+483,Glen Garioch 12yo,8.69,0.29,21,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+484,High Coast (Box) The Festival 2016,8.69,0.03,3,$$$$$,SingleMalt-like,EF,F,Sweden,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+485,Macallan 18yo Fine Oak,8.69,0.26,9,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+486,Bunnahabhain 12yo,8.68,0.28,33,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+487,Mortlach 18yo,8.68,0.63,10,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+488,Two Brewers Release 21 Classic,8.68,0.19,5,$$$$,SingleMalt-like,EF,E,Canada,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+489,Glenfiddich 15yo Distillery Edition,8.67,0.28,20,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+490,Two Brewers Release 17 Innovative,8.67,0.22,5,$$$$,SingleMalt-like,EF,E,Canada,Rye,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+491,Bruichladdich The Organic 2009,8.66,0.44,5,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+492,Ichiro's Malt Double Distilleries,8.66,0.24,10,$$$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+493,Macallan Edition No. 5,8.66,0.3,8,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+494,Mackmyra Special 03,8.66,0.29,7,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+495,Caol Ila 17yo Unpeated 2015,8.65,0.45,14,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+496,Nikka Coffey Malt,8.65,0.46,16,$$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+497,"Bruichladdich The Organic (Mid Coul, Coulmore, Mains of Tullibardine Farms)",8.64,0.26,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+498,Kilkerran Work in Progress Sherry Wood,8.64,0.36,15,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+499,Storas 21yo Rare Cask Reserves Blended,8.64,0.12,5,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+500,Aberlour A'Bunadh Alba (all batches),8.63,0.65,3,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+501,Balblair 18yo,8.63,0.37,6,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+502,Balcones Texas Single Malt Whisky,8.63,0.34,21,$$$$,SingleMalt-like,EF,E,USA,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+503,Matsui Sakura Cask,8.63,0.41,4,$$$$,SingleMalt-like,EF,F,Japan,Bourbon,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+504,Teerenpeli Distiller's Choice KASKI,8.63,0.26,4,$$$$,SingleMalt-like,EF,E,Finland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+505,Tobermory 12yo Bourbon-matured,8.63,0.25,6,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+506,Two Brewers Release 04 Special Finishes,8.63,0.2,5,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+507,Timorous Beastie 18yo,8.62,0.28,5,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+508,Craigellachie 17yo,8.61,0.19,12,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+509,Glenrothes Vintage 1995 (all bottlings),8.61,0.31,18,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+510,Sullivans Cove Port Cask Strength,8.61,0.65,9,$$$$$,SingleMalt-like,EF,E,Tasmania,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+511,Two Brewers Innovative (all releases),8.6,0.29,8,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+512,Aberlour A'Bunadh Alba (Batch 1),8.59,0.54,4,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+513,Bruichladdich The Organic (all editions),8.59,0.29,15,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+514,Glen Scotia Victoriana,8.59,0.4,13,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+515,Mackmyra Special 09,8.59,0.2,4,$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+516,Paul John Classic Select Cask,8.59,0.39,7,$$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+517,Compass Box Oak Cross,8.58,0.37,18,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+518,Glenlivet Cipher,8.58,0.34,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+519,Glenlivet 18yo,8.56,0.24,28,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+520,Old Pulteney 18yo,8.56,0.49,7,$$$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+521,Glenfiddich 18yo,8.55,0.37,28,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+522,Mortlach 12yo,8.55,0.55,6,$$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+523,Sullivans Cove Bourbon Cask Strength,8.55,0.72,7,$$$$,SingleMalt-like,EF,F,Tasmania,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+524,Two Brewers Release 08 Innovative,8.55,0.6,6,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+525,Sullivans Cove American Oak,8.54,0.39,7,$$$$$,SingleMalt-like,EF,E,Tasmania,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+526,Balvenie 14yo Carribean Cask,8.53,0.34,26,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+527,Deanston 18yo (Bourbon Finish),8.53,0.34,11,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+528,Glengoyne 17yo,8.53,0.36,17,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+529,Midleton Very Rare 2015,8.53,0.37,6,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+530,Tyrconnell 10yo Madeira Cask Finish,8.53,0.36,12,$$$$,SingleMalt-like,EF,E,Ireland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+531,Arran Malt Sauternes Finish,8.52,0.29,17,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+532,Nikka Pure Malt Red,8.52,0.31,10,$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+533,Westland American Single Malt (American Oak),8.52,0.34,20,$$$$,SingleMalt-like,EF,E,USA,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+534,Glen Grant 18yo,8.51,0.57,12,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+535,Glenfiddich 14yo Rich Oak,8.51,0.31,14,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+536,Green Spot,8.51,0.35,24,$$$$,SingleMalt-like,EF,F,Ireland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+537,Singleton of Glendullan 15yo,8.51,0.29,6,$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+538,Auchentoshan Bartender's Malt,8.5,0.46,13,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+539,Benromach Organic,8.5,0.39,19,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+540,High Coast (Box) The Messenger,8.5,0.43,4,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+541,Mackmyra Special 08,8.5,0.33,5,$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+542,Royal Brackla 16yo,8.5,0.29,12,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+543,Copperworks American Single Malt,8.49,0.26,6,$$$,SingleMalt-like,EF,E,USA,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+544,Teerenpeli Distiller’s Choice RASI,8.49,0.44,3,$$$$,SingleMalt-like,EF,E,Finland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+545,Yamazaki Distiller's Reserve,8.49,0.27,10,$$$$,SingleMalt-like,EF,E,Japan,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+546,Glen Grant 16yo,8.48,0.34,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+547,Kininvie 23yo (all batches),8.48,0.4,9,$$$$$+,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+548,Mackmyra Moment Jord,8.48,0.75,3,$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+549,Bruichladdich The Organic 2003,8.47,0.27,6,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+550,Mackmyra Special 05,8.47,0.4,7,$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+551,Paul John Brilliance,8.47,0.34,15,$$$,SingleMalt-like,EF,E,India,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+552,Macallan 21yo Fine Oak,8.46,0.36,7,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+553,Mackmyra Moment Källa,8.46,0.29,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+554,Singleton of Glendullan 18yo,8.46,0.32,3,$$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+555,Bruichladdich Black Art 1989,8.45,0.56,5,$$$$$+,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+556,Macallan 15yo Fine Oak,8.45,0.48,15,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+557,Singleton of Glen Ord 15yo,8.45,0.47,5,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+558,Mackmyra Moment Solsken,8.43,0.55,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+559,Bunnahabhain Stiuireadair,8.42,0.37,10,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+560,Macallan 12yo Double Cask,8.42,0.34,15,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+561,Glen Elgin 12yo,8.41,0.23,17,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+562,Mortlach Rare Old,8.41,0.37,18,$$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+563,Tullamore Dew 14yo Single Malt,8.41,0.23,3,$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+564,Balblair 16yo,8.4,0.42,4,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+565,Bushmills 12yo Single Malt,8.4,0.18,3,$$$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+566,GlenDronach 8yo The Hielan,8.4,0.31,17,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+567,Glenfiddich IPA Cask Finish Experimental Series No. 1,8.4,0.39,21,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+568,Nikka Taketsuru 12yo,8.4,0.4,20,$$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+569,Teerenpeli 8yo,8.4,0.4,7,$$$$$,SingleMalt-like,EF,E,Finland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+570,Tullibardine 25yo,8.4,0.4,7,$$$$$+,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+571,Auchentoshan 18yo,8.39,0.38,17,$$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+572,Bunnahabhain Darach Ur,8.39,0.32,10,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+573,Bunnahabhain Eirigh Na Greine,8.39,0.41,13,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+574,Glenlivet Captain's Reserve,8.39,0.2,4,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+575,Nikka All Malt,8.39,0.22,9,$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+576,Craigellachie 14yo,8.38,0.28,6,$$$$$+,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+577,Knappogue Castle 14yo Twin Wood,8.38,0.4,7,$$$$,SingleMalt-like,EF,E,Ireland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+578,Mackmyra Moment Malström (Maelstrom),8.38,0.8,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+579,Glenlivet 15yo French Oak,8.37,0.27,22,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+580,Mackmyra Special 10,8.36,0.5,3,$$$$,SingleMalt-like,EF,E,Sweden,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+581,Okanagan Spirits Laird of Fintry (all editions),8.36,0.66,10,$$$,SingleMalt-like,EF,E,Canada,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+582,Tomatin 15yo,8.36,0.42,9,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+583,Dalmore 12yo,8.34,0.31,26,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+584,BenRiach 12yo Horizons,8.33,0.39,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+585,Glenrothes Vintage 1998 (2014),8.33,0.59,12,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+586,Old Pulteney 12yo,8.33,0.46,31,$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+587,Singleton of Dufftown 18yo,8.33,0.14,6,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+588,Glenfiddich 14yo Bourbon Barrel Reserve,8.32,0.28,17,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+589,Glenrothes Vintage Reserve (NAS),8.32,0.35,8,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+590,Old Pulteney Navigator,8.32,0.36,16,$$$,SingleMalt-like,EF,E,Scotland,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+591,Scapa 16yo,8.31,0.3,17,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+592,Cragganmore 12yo,8.3,0.3,22,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+593,Auchentoshan 12yo,8.29,0.27,26,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+594,Gouden Carolus Single Malt,8.29,0.33,5,$$$$,SingleMalt-like,EF,E,Belgium,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+595,Singleton of Dufftown 15yo,8.29,0.21,8,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+596,Singleton of Glen Ord 12yo,8.29,0.31,7,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+597,Sullivans Cove Double Cask,8.29,0.5,14,$$$$,SingleMalt-like,EF,E,Tasmania,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+598,Monkey Shoulder,8.28,0.38,23,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+599,Royal Brackla 12yo,8.28,0.42,13,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+600,Teaninich 10yo (F&F),8.28,0.18,4,,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+601,Teeling Small Batch (Rum Cask Finish),8.28,0.37,26,$$,SingleMalt-like,EF,E,Ireland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+602,Tullibardine 225 Sauternes Finish,8.28,0.37,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+603,Wemyss Malts Smooth Gentleman,8.28,0.12,3,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+604,Deveron 12yo,8.27,0.31,7,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+605,Macallan 10yo Fine Oak,8.27,0.34,21,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+606,Nantou (Omar) Yushan Bourbon Cask,8.27,0.38,9,$$$$,SingleMalt-like,EF,E,Taiwan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+607,Deanston 12yo,8.26,0.42,24,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+608,Deveron 18yo,8.25,0.66,8,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+609,Edradour 10yo,8.24,0.69,18,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+610,Macallan Amber,8.24,0.44,15,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+611,Tobermory 10yo,8.22,0.39,27,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+612,Glenrothes Elders' Reserve,8.21,0.71,7,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+613,Scallywag,8.21,0.54,16,$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+614,Stalk & Barrel Single Malt (All Casks),8.21,0.44,14,$$$,SingleMalt-like,EF,F,Canada,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+615,Strathisla 12yo,8.21,0.28,15,$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+616,Bruichladdich Sherry Classic,8.19,0.94,6,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+617,Glencadam Origin 1825 (NAS),8.19,0.14,7,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+618,Glen Breton 21yo,8.18,0.37,3,$$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+619,Mackmyra Moment Jakt,8.18,0.56,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+620,Glenrothes 12yo,8.17,0.87,7,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+621,Tomintoul 12yo Oloroso Sherry,8.17,0.58,11,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+622,Auchroisk 10yo (F&F),8.16,0.09,4,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+623,Glenfiddich Select Cask,8.16,0.38,11,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+624,The Irishman Single Malt (NAS),8.15,0.4,8,$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+625,Arran Malt Robert Burns Single Malt,8.14,0.6,11,$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+626,Tullibardine 1993 Sauternes,8.13,0.36,5,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+627,Aberfeldy 12yo,8.12,0.33,24,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+628,Glenrothes Manse Reserve,8.12,0.93,3,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+629,Glenrothes Vintage 2001 (all bottlings),8.12,0.59,11,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+630,BenRiach 15yo Sauternes Finish,8.09,0.54,3,$$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+631,Glenburgie 10yo (Gordon & MacPhail),8.09,0.41,8,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+632,Ohishi Brandy Cask,8.09,0.35,4,$$$$,SingleMalt-like,EF,E,Japan,Bourbon,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+633,Glen Moray 10yo Chardonnay Cask,8.08,0.56,14,$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+634,Glen Garioch Virgin Oak,8.07,0.46,8,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+635,Glenlivet 12yo,8.07,0.34,26,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+636,Lohin McKinnon Choclolate Malt,8.06,0.48,3,$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+637,Two Brewers Release 05 Innovative,8.06,0.77,6,$$$$,SingleMalt-like,EF,E,Canada,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+638,Tomatin 12yo,8.05,0.47,23,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+639,Miltonduff 10yo (F&F),8.04,0.44,4,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+640,Tullibardine 228 Burgundy Finish,8.04,0.32,6,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+641,Singleton of Dufftown Unité,8.03,0.33,4,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+642,Tullamore Dew 10yo Single Malt,8.01,0.84,6,$$$,SingleMalt-like,EF,E,Ireland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+643,Dalmore Valour,8.0,0.38,11,$$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+644,Singleton of Glendullan 12yo,8.0,0.43,15,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+645,Glen Deveron 10yo (Macduff),7.95,0.38,5,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+646,Millstone 8yo French Oak,7.94,0.57,4,$$$$,SingleMalt-like,EF,E,Netherlands,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+647,Glenlivet Founder's Reserve,7.93,0.35,20,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+648,Santis Edition Sigel,7.9,0.75,8,$$$,SingleMalt-like,EF,E,Switzerland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+649,Singleton of Dufftown 12yo,7.89,0.47,12,$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+650,Game of Thrones House Tully Singleton Glendullan Select,7.88,0.42,6,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+651,Scapa Skiren,7.88,0.61,12,$$$$,SingleMalt-like,EF,E,Scotland,Blend,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+652,Glen Moray 12yo Chenin Blanc,7.82,0.83,6,$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+653,Penderyn Legend,7.81,0.77,10,$$$,SingleMalt-like,EF,F,Wales,Blend,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+654,Glenrothes Select Reserve,7.79,0.33,15,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+655,Singleton of Glen Ord Signature,7.79,0.39,3,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+656,Penderyn Aur Cymru,7.72,0.65,9,$$$$,SingleMalt-like,EF,E,Wales,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+657,Speyside 10yo,7.7,0.64,4,$$$,SingleMalt-like,EF,E,Scotland,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+658,Mars Iwai Tradition,7.6,0.85,8,$$$$,SingleMalt-like,EF,E,Japan,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+659,Mackmyra Special 01,7.54,0.44,3,$$$$$,SingleMalt-like,EF,E,Sweden,Malt,2,2,0,1.0,0,0.5,0,1.0,1.0,0,0.5,0.0,0,1
+660,Glen Moray 16yo Chenin Blanc,7.53,0.66,4,$$$,SingleMalt-like,EF,F,Scotland,Malt,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+661,Santis Edition Säntis,7.49,0.86,7,$$$$,SingleMalt-like,EF,F,Switzerland,Blend,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+662,McClelland's Speyside Single Malt,6.95,0.82,7,$$,SingleMalt-like,EF,F,Scotland,Bourbon,3,3,0,1.0,0,1.0,0,1.0,0.0,0,1.0,0.0,0,0
+663,Kavalan Solist Moscatel Cask,9.11,0.3,6,$$$$$+,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+664,Midleton Barry Crockett Legacy,9.1,0.23,16,$$$$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+665,Kavalan Solist Rum Cask,9.08,0.36,3,$$$$$+,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+666,Glen Scotia 25yo,9.06,0.08,3,$$$$$+,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+667,Yamazaki Limited Edition 2015,8.99,0.11,3,$$$$$+,SingleMalt-like,GH,G,Japan,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+668,Highland Park 17yo The Light,8.98,0.27,7,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+669,Bruichladdich Laddie Twenty Two 22yo,8.91,0.26,12,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+670,Mackmyra Iskristall,8.91,0.27,3,$$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+671,Aultmore 21yo,8.9,0.34,4,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+672,Mackinlay's Shackleton Rare Old Highland Malt Discovery edition,8.88,0.41,16,$$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+673,Teeling Silver Reserve 21yo Sauternes Finish,8.88,0.36,10,$$$$$,SingleMalt-like,GH,H,Ireland,Rye,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+674,High Coast (Box) The 2nd Step Collection 03,8.87,0.35,4,$$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+675,Compass Box Double Single,8.86,0.29,9,$$$$$,SingleMalt-like,GH,G,Scotland,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+676,Mackmyra Vinterdrom,8.86,0.05,3,$$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+677,Old Pulteney 21yo,8.86,0.31,22,$$$$$,SingleMalt-like,GH,H,Scotland,Bourbon,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+678,Bruichladdich Laddie Ten 10yo (Second Edition),8.85,0.25,14,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+679,Compass Box Double Single (all editions),8.85,0.26,11,$$$$$,SingleMalt-like,GH,G,Scotland,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+680,Ichiro's Malt Chichibu On The Way,8.85,0.35,7,$$$$$+,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+681,Glencadam 21yo,8.83,0.28,12,$$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+682,Kilkerran 12yo,8.83,0.23,23,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+683,Kavalan Distillery Reserve Rum Cask,8.82,0.27,3,$$$$$,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+684,Benromach 5yo,8.81,0.2,4,$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+685,Bruichladdich Laddie Ten 10yo,8.81,0.26,22,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+686,Glen Breton Ice 17yo,8.8,0.1,4,$$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+687,High Coast (Box) Quercus IV Mongolica,8.8,0.58,3,$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+688,Mackinlay's Shackleton Rare Old Highland Malt (both limited editions),8.79,0.36,19,$$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+689,Matsui Mizunara Cask,8.79,0.23,5,$$$$,SingleMalt-like,GH,G,Japan,Rye,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+690,Two Brewers Release 10 Cask Strength,8.79,0.24,7,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+691,Amrut Cask Strength,8.78,0.42,14,$$$$,SingleMalt-like,GH,G,India,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+692,Arran Malt Orkney Bere Barley,8.78,0.34,8,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+693,Macallan 17yo Fine Oak,8.78,0.52,11,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+694,Yamazaki Bourbon Barrel,8.78,0.26,9,$$$$$,SingleMalt-like,GH,G,Japan,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+695,Two Brewers Cask Strength (all releases),8.77,0.26,6,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+696,Balvenie 15yo Single Barrel (Cask),8.76,0.37,29,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+697,Bruichladdich Laddie Sixteen 16yo,8.76,0.22,14,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+698,Glencadam 30yo,8.76,0.26,3,$$$$$+,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+699,Glenmorangie Spios Private Edition No 9,8.76,0.24,12,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+700,Kilkerran Work in Progress Bourbon Wood,8.76,0.43,15,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+701,Two Brewers Release 06 Classic,8.76,0.36,6,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+702,Compass Box Enlightenment,8.75,0.18,10,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+703,Glenmorangie Tusail,8.75,0.32,16,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+704,Bladnoch 19yo (Cow label),8.74,0.22,4,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+705,AnCnoc 16yo,8.73,0.33,17,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+706,Hakushu 10yo,8.72,0.26,4,$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+707,Hakushu 12yo,8.72,0.24,24,$$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+708,Aultmore 18yo,8.7,0.31,10,$$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+709,Compass Box Rivals,8.7,0.19,5,$$$$$,SingleMalt-like,GH,G,Scotland,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+710,Glenfiddich 26yo Excellence,8.7,0.47,6,$$$$$+,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+711,Arran Malt 14yo,8.68,0.24,26,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+712,Stronachie 18yo,8.67,0.3,8,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+713,Yamazaki 12yo,8.67,0.29,30,$$$$,SingleMalt-like,GH,G,Japan,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+714,Longrow 10yo,8.66,0.44,16,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+715,BenRiach Cask Strength,8.65,0.41,11,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+716,Caol Ila 15yo Unpeated 2018,8.65,0.45,17,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+717,Kavalan Podium,8.65,0.27,11,$$$$,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+718,Linkwood 12yo (F&F),8.65,0.31,9,$$$$,SingleMalt-like,GH,H,Scotland,Blend,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+719,Mackmyra The First Edition (Den Första Utgåvan),8.65,0.35,18,$$$,SingleMalt-like,GH,H,Sweden,Blend,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+720,Two Brewers Release 13 Classic,8.65,0.73,4,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+721,Arran Malt 12yo Cask Strength (all editions),8.64,0.37,19,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+722,Mackmyra Ten Years 10yo,8.63,0.25,9,$$$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+723,Hibiki 12yo,8.62,0.26,24,$$$$,SingleMalt-like,GH,G,Japan,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+724,Glenmorangie The Tarlogan,8.61,0.33,6,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+725,Mackinlay's Shackleton Rare Old Highland Malt Journey edition,8.6,0.25,11,$$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+726,Two Brewers Classic (all releases),8.59,0.4,9,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+727,Westland Garryana,8.59,0.36,12,$$$$$,SingleMalt-like,GH,G,USA,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+728,Kilkerran Work in Progress,8.58,0.36,15,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+729,Mackmyra Preludium 03,8.58,0.88,5,$$$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+730,Tullibardine 20yo,8.58,0.31,5,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+731,Mars Maltage Cosmo,8.56,0.23,5,$$$$,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+732,Arran Malt 10yo,8.55,0.27,27,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+733,Bruichladdich Classic Laddie Scottish Barley,8.55,0.34,22,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+734,Spirit of Hven Urania,8.55,0.5,3,$$$$$+,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+735,Two Brewers Release 16 Classic,8.55,0.55,6,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+736,Yamazaki Puncheon,8.55,0.35,11,$$$$$,SingleMalt-like,GH,G,Japan,,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+737,Glencadam 15yo,8.53,0.34,16,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+738,Two Brewers Release 20 Innovative,8.53,0.53,5,$$$$,SingleMalt-like,GH,G,Canada,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+739,Balblair 10yo,8.52,0.25,3,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+740,Bladnoch 10yo (F&F),8.52,0.67,3,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+741,Two Brewers Release 01 Classic,8.52,0.45,6,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+742,Dalwhinnie 15yo,8.51,0.38,27,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+743,GlenDronach 14yo Virgin Oak,8.51,0.38,11,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+744,Ichiro's Malt Chichibu The Floor Malted,8.51,0.46,7,$$$$$+,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+745,AnCnoc 12yo,8.5,0.37,28,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+746,Nikka Miyagikyo NAS,8.5,0.29,13,$$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+747,Timorous Beastie 10yo,8.5,0.16,3,$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+748,Glen Breton 15yo Battle of the Glen,8.49,0.28,7,$$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+749,AnCnoc Peter Arkle (all releases),8.48,0.3,10,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+750,Glendalough 13yo Single Malt,8.48,0.3,9,$$$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+751,Tomatin Cu Bocan Virgin Oak Edition,8.48,0.51,3,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+752,Ichiro's Malt Chichibu The First,8.47,0.45,13,$$$$$+,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+753,Kavalan King Car Conductor,8.47,0.31,11,$$$$,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+754,Mackmyra Svensk Ek,8.47,0.44,5,$$$$,SingleMalt-like,GH,H,Sweden,Bourbon,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+755,Old Pulteney Huddart,8.47,0.26,5,$$$,SingleMalt-like,GH,H,Scotland,Bourbon,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+756,Balblair 2000,8.45,0.37,13,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+757,Glen Scotia 21yo,8.45,0.25,6,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+758,High Coast (Box) Quercus III Petraea,8.45,0.49,3,$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+759,Mackmyra Special 07,8.45,0.56,7,$$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+760,Yamazaki NAS,8.45,0.23,6,$$$$,SingleMalt-like,GH,G,Japan,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+761,BenRiach 10yo,8.44,0.35,14,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+762,Game of Thrones House Stark Dalwhinnie Winter’s Frost,8.44,0.35,13,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+763,Inchgower 14yo (F&F),8.44,0.61,9,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+764,Sheep Dip Blended Malt,8.44,0.41,15,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+765,Benromach Traditional,8.43,0.46,13,$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+766,Glen Grant 10yo (G&M),8.43,0.3,4,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+767,Glencadam 10yo,8.43,0.47,15,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+768,Macallan 12yo Fine Oak,8.43,0.39,19,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+769,Bruichladdich Laddie Classic (Edition 01),8.42,0.55,7,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+770,FEW Single Malt,8.42,0.55,6,$$$$,SingleMalt-like,GH,G,USA,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+771,Glen Garioch Founder's Reserve,8.42,0.39,21,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+772,Glen Scotia 18yo,8.42,0.58,5,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+773,Kavalan Single Malt Whisky,8.42,0.44,19,$$$$,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+774,Craigellachie 13yo,8.41,0.51,24,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+775,Knappogue Castle 12yo,8.41,0.37,16,$$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+776,Talisker Skye,8.41,0.31,14,$$,SingleMalt-like,GH,G,Scotland,Grain,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+777,BenRiach 12yo,8.4,0.3,18,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+778,Glenmorangie 10yo,8.4,0.41,29,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+779,Nikka Taketsuru NAS,8.4,0.47,11,$$$$,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+780,Stronachie 10yo,8.4,0.44,4,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+781,Aultmore 12yo,8.39,0.38,19,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+782,Mackmyra The Swedish Whisky (Brukswhisky),8.39,0.58,14,$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+783,Bruichladdich Laddie Eight 8yo,8.38,0.5,7,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+784,Wemyss Malts The Hive,8.38,0.22,14,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+785,Strathmill 12yo,8.37,0.28,3,$$$$,SingleMalt-like,GH,G,Scotland,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+786,Tomintoul 25yo,8.37,0.69,6,$$$$$+,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+787,Hakushu Distiller's Reserve,8.35,0.17,5,$$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+788,Auchentoshan Valinch,8.34,0.64,15,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+789,Hazelburn 8yo (Springbank),8.34,0.41,11,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+790,Hibiki Harmony,8.34,0.48,23,$$$$,SingleMalt-like,GH,G,Japan,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+791,Ichiro's Malt Mizunara Wood Reserve (MWR),8.34,0.51,15,$$$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+792,Tomatin Cask Strength,8.34,0.49,10,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+793,Hakushu NAS,8.33,0.36,5,$$$,SingleMalt-like,GH,H,Japan,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+794,Glenglassaugh Octaves Classic,8.31,0.31,5,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+795,Glenkinchie Distiller's Edition (all editions),8.31,0.28,15,$$$$,SingleMalt-like,GH,B,Scotland,Malt,3,3,1,1.0,0,0.0,0,1.0,0.5,1,0.5,0.0,0,0
+796,Amrut Indian Single Malt,8.29,0.87,18,$$$,SingleMalt-like,GH,G,India,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+797,Glen Grant 12yo,8.29,0.49,11,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+798,Glen Scotia 14yo,8.29,0.16,5,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+799,Mackmyra Special 02,8.29,0.77,3,$$$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+800,Mannochmore 12yo (F&F),8.29,0.14,5,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+801,Tamdhu 10yo,8.29,0.6,18,$$$$,SingleMalt-like,GH,H,Scotland,Blend,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+802,BenRiach 20yo,8.27,0.69,12,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+803,Penderyn Myth,8.27,0.38,7,$$$,SingleMalt-like,GH,G,Wales,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+804,Tomintoul 16yo,8.27,0.41,19,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+805,Wolfburn (NAS),8.27,0.39,10,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+806,Deveron 10yo,8.26,0.77,3,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+807,Glengoyne 10yo,8.26,0.33,18,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+808,Arran Malt Lochranza Reserve,8.25,0.21,6,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+809,Glenfiddich 1963 Original Malt,8.25,0.44,8,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+810,Hibiki Harmony Master's Select,8.25,0.67,7,$$$$$,SingleMalt-like,GH,G,Japan,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+811,High Coast (Box) Quercus I Robur,8.25,0.43,3,$$$$,SingleMalt-like,GH,G,Sweden,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+812,Highland Park Svein,8.25,0.44,12,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+813,Mackinlay's Shackleton Blended Malt,8.25,0.39,8,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+814,Tullibardine Vintage 1993,8.25,0.45,10,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+815,Glendalough 7yo Single Malt,8.24,0.31,8,$$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+816,Balblair 12yo,8.23,0.18,7,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+817,Glen Breton Ice 12yo,8.23,0.26,3,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+818,Glen Grant 10yo,8.23,0.5,10,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+819,St George's Chapter 6 (unpeated),8.23,0.47,10,$$$,SingleMalt-like,GH,G,England,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+820,Bladnoch 1993-2009 (G&M),8.22,0.2,5,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+821,Bladnoch Vintage 1992-2007 (Signatory),8.22,0.5,4,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+822,Glen Breton Ice 10yo,8.22,0.59,8,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+823,Teerenpeli 10yo,8.22,0.44,6,$$$$$,SingleMalt-like,GH,H,Finland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+824,White Oak Akashi 5yo,8.22,0.6,9,$$$$$,SingleMalt-like,GH,G,Japan,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+825,Glenkinchie 12yo,8.2,0.27,21,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+826,Highland Park Harald,8.2,0.47,13,$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+827,Glenrothes Alba Reserve,8.19,0.54,10,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+828,Shelter Point Classic Single Cask (KWM) Single Malt Whisky,8.18,0.44,3,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+829,Glenlossie 10yo (F&F),8.17,0.33,9,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+830,Stronachie 12yo,8.17,0.37,9,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+831,Tyrconnell Single Malt Irish Whiskey,8.17,0.47,19,$$,SingleMalt-like,GH,H,Ireland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+832,Bushmills 10yo Single Malt,8.16,0.48,24,$$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+833,Auchentoshan Virgin Oak,8.15,0.58,7,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+834,Tomatin Legacy,8.15,0.42,12,$$,SingleMalt-like,GH,G,Scotland,Blend,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+835,Glenglassaugh Evolution,8.14,0.35,9,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+836,Glenrothes Bourbon Cask Reserve,8.14,0.15,4,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+837,Macallan Gold,8.14,0.31,20,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+838,Nikka Gold & Gold,8.14,0.31,8,$$$,SingleMalt-like,GH,G,Japan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+839,Shelter Point Artisanal Single Malt Whisky,8.14,0.49,10,$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+840,The Quiet Man 8yo Single Malt,8.14,0.54,5,$$$,SingleMalt-like,GH,H,Ireland,Bourbon,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+841,Deanston Virgin Oak,8.13,0.43,17,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+842,Kilbeggan Irish Reserve Malt Whiskey,8.12,0.64,8,$$,SingleMalt-like,GH,G,Ireland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+843,Cardhu Amber Rock,8.11,0.39,5,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+844,Knappogue Castle Vintage,8.11,0.84,5,$$$,SingleMalt-like,GH,H,Ireland,Grain,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+845,Glenfiddich 12yo,8.09,0.25,32,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+846,Mackmyra Midnattssol,8.09,0.64,6,$$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+847,Tormore 14yo,8.09,0.41,5,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+848,Speyburn 10yo,8.06,0.33,23,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+849,Cardhu 12yo,8.05,0.5,21,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+850,Game of Thrones House Targaryen Cardhu Gold Reserve,8.05,0.31,13,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+851,Glen Spey 12yo (F&F),8.05,0.45,5,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+852,Glenturret 10yo,8.05,0.49,13,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+853,Pig's Nose 5yo Blended Malt,8.05,0.36,6,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+854,Tullibardine Aged Oak Edition,8.03,0.42,9,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+855,Glen Moray 12yo,8.01,0.31,14,$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+856,Tomatin Cu Bocan,8.01,0.39,15,$$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+857,Glenrothes 10yo,7.99,0.35,5,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+858,Bladnoch 16yo (Signatory),7.98,0.44,4,$$$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+859,Glen Breton 10yo Rare,7.98,0.55,17,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+860,Lohin McKinnon Single Malt,7.97,0.36,9,$$$,SingleMalt-like,GH,H,Canada,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+861,Auchentoshan Classic,7.93,0.47,9,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+862,Tormore 12yo,7.93,0.42,10,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+863,White Oak Akashi Single Malt (NAS),7.92,0.46,7,$$$$,SingleMalt-like,GH,G,Japan,Rye,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+864,Nantou (Omar) Yushan Blended Malt,7.91,0.38,5,$$$,SingleMalt-like,GH,G,Taiwan,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+865,Glen Moray Classic,7.89,0.4,7,$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+866,Knockando 12yo (All Vintages),7.88,0.48,12,$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+867,Glen Grant The Major's Reserve,7.86,0.59,11,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+868,Tomintoul 10yo,7.86,0.51,17,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+869,Speyside 12yo,7.85,0.65,10,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+870,Mackmyra Mack,7.83,0.53,3,$$$,SingleMalt-like,GH,H,Sweden,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+871,BenRiach Heart of Speyside,7.81,0.69,8,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+872,Kirin 18yo (Fuji Sanroku),7.81,2.65,5,$$$$$+,SingleMalt-like,GH,G,Japan,Bourbon,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+873,Macallan Gold Double Cask,7.81,0.51,3,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+874,Auchentoshan American Oak,7.77,0.75,12,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+875,Auchentoshan 10yo,7.74,0.37,10,$$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+876,Loch Lomond NAS,7.69,0.43,14,$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+877,Glen Breton 14yo,7.68,1.04,7,$$$$,SingleMalt-like,GH,G,Canada,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+878,Tamnavulin 12yo,7.68,0.79,4,$$,SingleMalt-like,GH,H,Scotland,Malt,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+879,Tullibardine Sovereign,7.53,2.1,10,$$$,SingleMalt-like,GH,G,Scotland,Malt,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+880,McClelland's Highland Single Malt,7.05,0.65,7,$$,SingleMalt-like,GH,G,Scotland,Rye,1,3,0,0.0,1,0.1,0,1.0,1.0,1,1.0,0.0,0,0
+881,McClelland's Lowland Single Malt,6.89,0.56,4,$$,SingleMalt-like,GH,H,Scotland,Bourbon,0,3,0,1.0,1,0.0,0,1.0,0.0,1,0.0,0.0,0,0
+882,Port Ellen 2nd release 24yo 59.35%,9.51,0.23,7,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+883,Port Ellen 9th release 30yo,9.48,0.12,5,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+884,Caol Ila 35yo,9.41,0.22,4,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+885,Port Ellen 14th release 35yo,9.4,0.12,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+886,Port Ellen 10th release 31yo,9.38,0.54,5,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+887,Port Ellen 15th release 32yo,9.37,0.47,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+888,Port Ellen 11th release 32yo,9.33,0.46,6,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+889,Port Ellen 7th release 28yo,9.33,0.33,4,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+890,Talisker 35yo,9.33,0.33,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+891,Port Ellen (all OB releases),9.32,0.31,19,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+892,Caol Ila 30yo,9.3,0.25,14,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+893,Port Ellen 16th release 37yo,9.22,0.37,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+894,Port Ellen 6th release 27yo,9.22,0.16,7,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+895,Port Ellen 3rd release 24yo,9.21,0.22,9,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+896,Port Ellen 4th release 25yo,9.2,0.13,5,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+897,Talisker 30yo,9.2,0.34,14,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+898,Port Ellen 17th release 37yo,9.18,0.7,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+899,Ledaig 19yo 1998 Pedro Ximénez Finish,9.14,0.3,5,$$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+900,Springbank 16yo Local Barley,9.11,0.22,14,$$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+901,Ledaig 42yo,9.1,0.48,3,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+902,Talisker 18yo,9.09,0.22,25,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+903,Compass Box Flaming Heart 2018 6th Edition,9.08,0.24,7,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+904,Port Ellen 12th release 32yo,9.06,0.51,10,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+905,Compass Box Flaming Heart 2008 2nd Edition,9.05,0.27,4,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+906,Compass Box Flaming Heart 2015 5th Edition - 15th Anniversary,9.05,0.32,22,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+907,Springbank 11yo Local Barley,9.05,0.2,12,$$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+908,Nikka Yoichi 15yo,8.99,0.24,19,$$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+909,Two Brewers Release 07 Peated,8.99,0.28,7,$$$$,SingleMalt-like,I,I,Canada,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+910,Compass Box Flaming Heart (all editions),8.98,0.29,30,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+911,Highland Park Sigurd,8.98,0.35,8,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+912,Ledaig 13yo Amontillado Cask Finish,8.98,0.2,12,$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+913,Bruichladdich Port Charlotte 2010 MRC:01,8.97,0.2,12,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+914,Bruichladdich Port Charlotte PC10 Tro Na Linntean,8.96,0.39,12,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+915,Tomatin Cu Bocan 1989 Limited Edition,8.96,0.34,4,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+916,Glen Garioch 1994,8.95,0.4,8,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+917,Kilchoman Bourbon Single Cask,8.95,0.25,15,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+918,Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo 1982-2005,8.95,0.13,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+919,Springbank 18yo,8.95,0.22,25,$$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+920,Talisker 25yo,8.94,0.29,21,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+921,Bruichladdich Port Charlotte 2007 CC:01,8.93,0.29,17,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+922,Compass Box Flaming Heart 2010 3rd Edition - 10th Anniversary,8.93,0.3,10,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+923,Glen Garioch 1991,8.93,0.22,3,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+924,Bruichladdich Port Charlotte PC11 Eorna Na H-Alba,8.92,0.25,6,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+925,Kilkerran 8yo Cask Strength,8.92,0.23,14,$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+926,Oban 21yo,8.92,0.18,5,$$$$$+,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+927,Port Ellen 8th release 29yo,8.92,0.48,8,$$$$$+,SingleMalt-like,I,I,Scotland,Rye,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+928,Talisker 57 North,8.92,0.26,22,$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+929,BenRiach 21yo Authenticus Peated,8.91,0.35,16,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+930,Caol Ila 25yo,8.91,0.18,13,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+931,Compass Box Flaming Heart 2012 4th Edition,8.91,0.31,18,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+932,Kavalan Distillery Reserve Peaty Cask,8.9,0.38,7,$$$$$+,SingleMalt-like,I,I,Taiwan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+933,Talisker Distiller's Edition (all editions),8.9,0.23,29,$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+934,Glen Garioch 1995,8.89,0.36,12,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+935,Compass Box The Lost Blend,8.88,0.25,17,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+936,High Coast (Box) Hav,8.88,0.27,3,$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+937,Bowmore Vault Edition Second Release,8.87,0.14,3,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+938,Bruichladdich Port Charlotte PC12 Oileanach Furachail,8.87,0.43,13,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+939,Talisker 8yo (Special Releases),8.87,0.32,8,$$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+940,Wemyss Malts The Rockpool,8.87,0.28,3,$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+941,Bladnoch 9yo Lightly Peated,8.86,0.65,4,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+942,Bruichladdich Port Charlotte 10yo Heavily Peated (Second Edition),8.85,0.36,12,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+943,Talisker 15yo (Special Release 2019),8.85,0.29,13,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+944,Bruichladdich Port Charlotte PC10 (Second Edition),8.84,0.19,7,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+945,Spirit of Hven Seven Stars No. 5 Alioth,8.84,0.27,3,$$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+946,BenRiach 25yo Authenticus Peated,8.83,0.51,13,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+947,Bowmore Mizunara Cask Finish,8.83,0.47,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+948,Dun Bheagan Islay 2009,8.83,0.21,3,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+949,Ledaig 19yo Marsala Finish,8.83,0.33,8,$$$$$,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+950,Talisker 10yo,8.82,0.22,31,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+951,Glenlivet Nadurra Peated Cask Finish,8.81,0.25,4,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+952,Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo (all editions),8.8,0.33,6,$$$$$+,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+953,Bruichladdich Port Charlotte 2010 OLC:01 9yo,8.78,0.23,3,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+954,Two Brewers Release 19 Peated,8.78,0.39,6,$$$$,SingleMalt-like,I,I,Canada,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+955,Bowmore 10yo Tempest,8.77,0.24,21,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+956,Bruichladdich Infinity Third Edition,8.77,0.28,5,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+957,Bruichladdich Port Charlotte 10yo Heavily Peated (First Edition),8.77,0.22,9,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+958,Hakushu Single Malt Heavily Peated,8.77,0.32,12,$$$$$+,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+959,Highland Park 12yo (reviews pre-2014),8.77,0.23,22,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+960,Oban 18yo,8.77,0.21,17,$$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+961,Westland Peat Week,8.77,0.26,7,$$$$,SingleMalt-like,I,I,USA,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+962,Nikka Yoichi 12yo,8.76,0.2,9,$$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+963,Two Brewers Peated (all releases),8.76,0.43,8,$$$$,SingleMalt-like,I,I,Canada,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+964,Caol Ila 18yo,8.75,0.5,21,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+965,Game of Thrones House Greyjoy Talisker Select Reserve,8.75,0.38,10,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+966,Springbank 12yo Green,8.75,0.31,8,$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+967,Bruichladdich Port Charlotte An Turas Mor,8.74,0.27,13,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+968,Nikka Pure Malt Black,8.74,0.25,17,$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+969,Caol Ila 12yo,8.73,0.19,25,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+970,Ben Nevis Celebrated Traditional (NAS),8.72,0.19,5,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+971,GlenDronach Peated Port Wood,8.72,0.32,4,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+972,Port Ellen 2nd release 24yo 54.3%,8.72,0.73,3,$$$$$+,SingleMalt-like,I,I,Scotland,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+973,Springbank 10yo,8.72,0.28,28,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+974,Highland Park 15yo Freya,8.71,0.4,15,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+975,Bruichladdich Port Charlotte Scottish Barley Heavily Peated,8.7,0.26,23,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+976,Kilchoman Sanaig,8.7,0.25,23,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+977,Paul John Peated Select Cask,8.7,0.29,11,$$$$,SingleMalt-like,I,I,India,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+978,Glenglassaugh Torfa,8.69,0.31,7,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+979,Highland Park 17yo Ice,8.69,0.3,10,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+980,Nikka Pure Malt White,8.69,0.35,13,$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+981,Spirit of Hven Tycho’s Star,8.69,0.29,6,$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+982,Compass Box Lady Luck,8.68,0.42,6,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+983,Paul John Bold,8.68,0.27,6,$$$,SingleMalt-like,I,I,India,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+984,Big Peat (Douglas Laing),8.66,0.27,21,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+985,Kilchoman Sauternes Cask Matured,8.66,0.15,10,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+986,Nikka Miyagikyo 15yo,8.66,0.27,13,$$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+987,Edradour Ballechin 10yo,8.65,0.54,8,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+988,Nikka Yoichi 10yo,8.64,0.28,20,$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+989,Highland Park 12yo (all reviews),8.63,0.22,33,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+990,Lohin McKinnon Peated,8.63,0.47,3,$$$,SingleMalt-like,I,I,Canada,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+991,BenRiach 10yo Curiositas,8.62,0.31,22,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+992,Benromach 10yo,8.62,0.33,31,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+993,Bruichladdich Islay Barley (all vintages),8.62,0.2,20,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+994,Longrow 7yo Gaja Barolo Finish,8.62,0.53,9,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+995,Mackmyra Svensk Rök,8.61,0.31,5,$$$$,SingleMalt-like,I,I,Sweden,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+996,Balvenie 14yo Peat Week,8.6,0.33,15,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+997,Talisker Dark Storm,8.6,0.2,13,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+998,Talisker Storm,8.6,0.27,24,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+999,Bowmore 17yo White Sands,8.59,0.32,7,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1000,Compass Box Eleuthera,8.59,0.39,16,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1001,GlenDronach Peated,8.59,0.29,17,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1002,Highland Park 12yo Viking Honour (post-2017),8.59,0.34,11,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1003,Port Ellen Douglas Laing McGibbon's Provenance John Milroy 23yo 1978-2001,8.59,0.43,3,$$$$$+,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1004,Mars Kogamatake The Revival 2011,8.58,0.46,5,$$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1005,Matsui The Peated,8.58,0.5,3,$$$$,SingleMalt-like,I,I,Japan,Rye,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1006,Westland Peated,8.58,0.44,14,$$$$,SingleMalt-like,I,I,USA,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1007,Arran Malt Machrie Moor Cask Strength,8.57,0.65,7,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1008,Dun Bheagan Islay (all vintage editions),8.57,0.33,7,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1009,Game of Thrones The Night’s Watch Oban Bay Reserve,8.57,0.31,11,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1010,Nikka Yoichi NAS,8.57,0.3,15,$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1011,Bowmore 15yo Mariner,8.56,0.48,8,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1012,Bowmore 18yo,8.56,0.42,26,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1013,Bowmore Vault Edition First Release,8.56,0.32,15,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1014,"Elements of Islay ""Peat""",8.55,0.83,6,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1015,Kilchoman Coull Point,8.55,0.34,10,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1016,Paul John Edited,8.55,0.41,10,$$$,SingleMalt-like,I,I,India,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1017,BenRiach Peated Quarter Casks,8.53,0.38,4,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1018,Nikka Miyagikyo 12yo,8.52,0.3,8,$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1019,Glenfiddich Vintage Cask,8.51,0.28,7,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1020,Nikka Miyagikyo 10yo,8.51,0.35,10,$$$$,SingleMalt-like,I,I,Japan,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1021,Spirit of Hven Seven Stars No. 2 Merak,8.51,0.35,4,$$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1022,Two Brewers Release 03 Peated,8.51,0.49,8,$$$$,SingleMalt-like,I,I,Canada,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1023,High Coast (Box) Early Days (batches 01/02),8.5,0.3,3,$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1024,Highland Park 12yo (reviews 2014-2017),8.49,0.43,19,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1025,Ledaig 10yo,8.49,0.4,30,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1026,Ardmore Traditional Cask,8.48,0.23,26,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1027,Oban 14yo,8.48,0.38,30,$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1028,High Coast (Box) Dalvve,8.46,0.25,10,$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1029,Spirit of Hven Seven Stars No. 3 Phecda,8.45,0.39,3,$$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1030,Dun Bheagan Islay 1999,8.42,0.24,3,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1031,Glen Garioch 1997,8.42,0.24,7,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1032,Teerenpeli Suomi 100 Juhlaviski,8.42,0.71,4,$$$$,SingleMalt-like,I,I,Finland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1033,Oban Little Bay,8.41,0.35,17,$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1034,Glenfiddich Fire & Cane Experimental Series No. 4,8.4,0.46,15,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1035,Highland Park 10yo (all reviews),8.39,0.41,18,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1036,Bowmore 12yo,8.38,0.3,23,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1037,Bowmore 17yo,8.38,0.66,8,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1038,Wemyss Malts Peat Chimney,8.37,0.4,16,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1039,Fettercairn Fior,8.36,0.31,7,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1040,Glen Moray Classic Peated,8.36,0.29,6,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1041,Glenglassaugh Octaves Peated,8.35,0.58,3,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1042,Glen Scotia 12yo,8.34,0.39,10,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1043,Benromach Sassicaia,8.32,0.31,9,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1044,Bowmore No.1,8.32,0.42,6,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1045,Bowmore Gold Reef,8.31,0.35,11,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1046,Highland Park 10yo Viking Scars,8.31,0.66,5,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1047,Jura Superstition,8.28,0.45,26,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1048,Penderyn Peated,8.28,0.64,9,$$$$,SingleMalt-like,I,I,Wales,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1049,Springbank CV,8.28,0.41,10,$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1050,Penderyn Celt,8.27,0.77,7,$$$,SingleMalt-like,I,I,Wales,Blend,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1051,BenRiach Birnie Moss,8.24,0.35,11,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1052,Spirit of Hven Seven Stars No. 1 Dubhe,8.22,0.42,3,$$$$$,SingleMalt-like,I,I,Sweden,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1053,Bowmore Small Batch,8.21,0.53,14,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1054,Glenrothes Peated Cask Reserve,8.21,0.66,4,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1055,Connemara Peated Single Malt,8.18,0.29,20,$$$,SingleMalt-like,I,I,Ireland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1056,St George's Chapter 9 (peated),8.17,0.52,5,$$$,SingleMalt-like,I,I,England,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1057,Bruichladdich 8yo Laddie Eight,8.16,0.68,4,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1058,Highland Park Einar,8.14,0.58,10,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1059,Old Ballantruan Peated (Toumintoul),8.1,0.59,10,$$$$,SingleMalt-like,I,I,Scotland,Bourbon,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1060,Arran Malt Machrie Moor Peated (all editions),8.06,0.57,17,$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1061,Jura 10yo Origin,7.95,0.35,21,$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1062,Glenfiddich 12yo Caoran Reserve,7.83,0.49,8,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1063,Bowmore Legend,7.63,0.62,11,$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1064,Longrow 10yo Tokaji Finish,7.41,1.07,6,$$$$$,SingleMalt-like,I,I,Scotland,Malt,2,2,0,0.0,0,2.0,0,1.0,0.0,0,1.0,0.5,1,0
+1065,Brora 35yo,9.43,0.3,13,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1066,Brora 30yo,9.39,0.27,20,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1067,Ardbeg 23yo Twenty Something,9.29,0.17,8,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1068,Ardbeg Uigeadail,9.19,0.37,31,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1069,Bruichladdich Octomore 10 (Third Edition),9.17,0.2,5,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1070,Ardbeg 21yo,9.16,0.25,15,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1071,Laphroaig 21yo,9.13,0.38,13,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1072,Ardbeg 19yo Traigh Bhan,9.1,0.22,10,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1073,Bruichladdich Octomore 7.3,9.1,0.47,14,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1074,Lagavulin 16yo,9.1,0.35,34,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1075,Kavalan Solist Peaty Cask,9.09,0.13,7,$$$$$+,SingleMalt-like,J,J,Taiwan,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1076,Laphroaig Cairdeas 2015,9.09,0.23,13,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1077,Bruichladdich Octomore 6.2,9.08,0.18,12,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1078,Lagavulin 12yo Cask Strength,9.08,0.18,29,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1079,Amrut Peated Cask Strength,9.07,0.29,18,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1080,Ardbeg Supernova 2014,9.07,0.32,15,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1081,Bruichladdich Octomore 8.3,9.07,0.19,13,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1082,Ardbeg Corryvreckan,9.06,0.33,28,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1083,Bruichladdich Octomore 9.3,9.06,0.26,13,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1084,Amrut Portpipe Peated Single Cask #4668 (2017),9.04,0.23,3,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1085,Ardbeg Alligator,9.04,0.18,18,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1086,"Smogen 8yo (4,8-10/2011)",9.04,0.31,3,$$$$$,SingleMalt-like,J,J,Sweden,Bourbon,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1087,Ardbeg 22yo Twenty Something,9.03,0.16,4,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1088,Bruichladdich Octomore 8.2,9.03,0.2,9,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1089,Lagavulin Distiller's Edition (All Vintages),9.03,0.26,26,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1090,Ardbeg Ardbog,9.02,0.4,25,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1091,Compass Box No Name,9.02,0.3,17,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1092,Ardbeg Supernova 2015,9.01,0.32,8,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1093,Kilchoman 2008 Vintage,9.01,0.17,7,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1094,Laphroaig 18yo,9.01,0.26,25,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1095,Longrow 18yo,9.01,0.3,18,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1096,Bruichladdich Octomore 7.1,9.0,0.28,17,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1097,Compass Box No Name (all editions),9.0,0.3,17,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1098,Bruichladdich Octomore 10 (Second Edition),8.99,0.25,13,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1099,Compass Box Peat Monster 2014 - 10th Anniversary,8.99,0.29,12,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1100,Laphroaig Cairdeas 2019 Triple Wood Cask Strength,8.99,0.18,9,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1101,Bruichladdich Octomore 10.2,8.98,0.23,5,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1102,Ichiro's Malt Chichibu The Peated,8.98,0.35,12,$$$$$+,SingleMalt-like,J,J,Japan,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1103,Bruichladdich Octomore 8.4,8.97,0.09,4,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1104,Laphroaig Cairdeas 2014 Amontillado,8.97,0.2,14,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1105,Smogen Single Cask (all editions),8.97,0.11,5,$$$$$,SingleMalt-like,J,J,Sweden,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1106,Smogen Single Cask 4yo 7/2011,8.97,0.21,4,$$$$$,SingleMalt-like,J,J,Sweden,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1107,Ardbeg 17yo,8.96,0.34,8,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1108,Kilchoman 2009 Vintage,8.96,0.11,4,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1109,Kilchoman Original Cask Strength,8.96,0.39,9,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1110,Laphroaig Quarter Cask,8.96,0.3,30,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1111,Amrut Portpipe Peated Single Cask #2712 (2013),8.95,0.1,3,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1112,AnCnoc Cutter,8.95,0.46,10,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1113,Kilchoman 2007 Vintage,8.94,0.3,9,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1114,Laphroaig 10yo Cask Strength (all batches),8.94,0.58,30,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1115,Bruichladdich Octomore 10,8.93,0.35,6,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1116,Compass Box Peat Monster 2008 Reserve Edition,8.93,0.19,3,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1117,Bruichladdich Octomore 10 (Fourth Edition),8.92,0.07,3,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1118,High Coast (Box) The Festival 2014,8.91,0.09,3,$$$$$,SingleMalt-like,J,J,Sweden,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1119,Ardbeg Dark Cove,8.9,0.28,24,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1120,Bruichladdich Octomore 11.3,8.89,0.32,7,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1121,Bruichladdich Octomore 7.2,8.89,0.44,14,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1122,Amrut 100 Peated,8.88,0.34,7,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1123,AnCnoc Rutter,8.88,0.33,8,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1124,Ardbeg 10yo,8.88,0.35,30,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1125,Brora 21yo,8.88,0.43,4,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1126,Ardbeg Grooves,8.87,0.24,19,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1127,Bruichladdich Octomore 11.1,8.87,0.17,8,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1128,Compass Box No Name No. 2,8.87,0.15,7,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1129,Bruichladdich Octomore 8.1,8.86,0.14,15,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1130,Ardbeg Supernova 2019,8.85,0.24,6,$$$$$+,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1131,Lagavulin 8yo,8.85,0.25,27,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1132,Laphroaig Cairdeas 2018 Fino,8.85,0.24,11,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1133,Compass Box Monster 2004,8.84,0.34,3,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1134,Laphroaig Cairdeas 2016 Madeira,8.83,0.4,17,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1135,Ardbeg Auriverdes,8.82,0.38,20,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1136,Bruichladdich Octomore 6.3,8.82,0.62,12,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1137,Laphroaig An Cuan Mor,8.82,0.23,18,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1138,Wemyss Malts Kiln Embers,8.82,0.18,4,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1139,Ardbeg An Oa,8.8,0.26,20,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1140,BenRiach 18yo Dunder,8.79,0.28,5,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1141,Bruichladdich Octomore 10.3,8.79,0.34,5,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1142,Bruichladdich Octomore 6.1,8.79,0.3,21,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1143,Longrow CV,8.79,0.33,18,$$$,SingleMalt-like,J,J,Scotland,Rye,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1144,Ardbeg Kelpie,8.78,0.18,15,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1145,Bunnahabhain Ceòbanach,8.78,0.24,17,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1146,Laphroaig 10yo,8.78,0.29,29,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1147,Ardbeg Perpetuum,8.77,0.4,19,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1148,Bruichladdich Port Charlotte Islay Barley Heavily Peated,8.77,0.19,8,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1149,Compass Box Peat Monster 2015 Cask Strength,8.77,0.31,5,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1150,Game of Thrones House Lannister Lagavulin 9yo,8.77,0.21,18,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1151,Kilchoman Machir Bay (all vintages),8.77,0.24,30,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1152,Laphroaig 15yo (200th Anniversary),8.77,0.33,18,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1153,Amrut Portpipe Peated Single Cask (all casks),8.75,0.43,16,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1154,Longrow Peated,8.75,0.2,20,$$$,SingleMalt-like,J,J,Scotland,Rye,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1155,Two Brewers Release 12 Peated,8.75,0.48,5,$$$$,SingleMalt-like,J,J,Canada,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1156,Amrut Portpipe Peated Single Cask #2713 (2013),8.74,0.15,4,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1157,Connemara Turf Mor,8.74,0.46,11,$$$$,SingleMalt-like,J,J,Ireland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1158,Bruichladdich Octomore 10.4,8.73,0.68,6,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1159,Bruichladdich Octomore 9.1,8.73,0.33,11,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1160,Compass Box Peat Monster (all editions),8.73,0.25,27,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1161,Kilchoman 100% Islay (all editions),8.73,0.24,23,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1162,Lagavulin 11yo Offerman Edition,8.73,0.27,9,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1163,Bunnahabhain Toiteach A Dha,8.72,0.33,10,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1164,Big Peat Christmas Edition (all editions),8.71,0.35,15,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1165,Bruichladdich Octomore 7.4,8.71,0.61,13,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1166,Compass Box Peat Monster 2005,8.71,0.09,4,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1167,Compass Box Peat Monster 2006,8.71,0.01,3,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1168,Kilchoman Spring 2011 Release,8.71,0.25,8,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1169,Laphroaig Cairdeas 2017,8.71,0.28,15,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1170,Bruichladdich Octomore 10.1,8.7,0.31,8,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1171,Bruichladdich Octomore 11.2,8.7,0.18,3,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1172,Compass Box Peat Monster 2012,8.7,0.32,10,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1173,Amrut Portpipe Peated Single Cask #2712 (2016),8.68,0.51,6,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1174,Caol Ila Distiller's Edition (all editions),8.68,0.37,18,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1175,Compass Box Peat Monster 2015,8.68,0.16,5,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1176,Laphroaig Lore,8.68,0.31,22,$$$$$,SingleMalt-like,J,J,Scotland,Rye,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1177,Smogen Single Cask 4yo 20/2011,8.68,0.27,3,$$$$$,SingleMalt-like,J,J,Sweden,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1178,Amrut Peated,8.67,0.27,16,$$$$,SingleMalt-like,J,J,India,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1179,Ileach Peated Islay Cask Strength,8.66,0.4,14,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1180,Laphroaig Triple Wood,8.66,0.35,24,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1181,Ardbeg Drum,8.65,0.42,18,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1182,Bruichladdich Octomore 9.2,8.65,0.56,3,$$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1183,Jura Prophecy,8.64,0.31,21,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1184,Bunnahabhain Toiteach,8.57,0.39,19,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1185,AnCnoc Flaughter,8.55,0.34,11,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1186,BenRiach 17yo Septendecim Peated,8.54,0.55,19,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1187,Benromach Peat Smoke,8.54,0.33,21,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1188,Bruichladdich Port Charlotte The Peat Project,8.51,0.38,7,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1189,Kilchoman Winter 2010 Release,8.49,0.15,4,$$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1190,Compass Box Peat Monster 2010,8.45,0.86,3,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1191,Finlaggan Old Reserve,8.43,0.51,16,$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1192,Ileach Peated Islay,8.4,0.36,8,$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1193,Bunnahabhain Cruach Mhona,8.38,0.4,9,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1194,Laphroaig QA Cask,8.23,0.55,12,$$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1195,Milstone Peated,8.19,0.58,3,$$$,SingleMalt-like,J,J,Netherlands,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1196,Tomintoul Peaty Tang,7.99,0.53,14,$$,SingleMalt-like,J,J,Scotland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1197,Santis Edition Dreifaltigkeit,7.97,1.34,7,$$$$,SingleMalt-like,J,J,Switzerland,Blend,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1198,McClelland's Islay Single Malt,7.78,0.7,9,$$,SingleMalt-like,J,J,Scotland,Bourbon,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1199,Santis Edition Dreifaltigkeit / Cask Strength Peated,7.19,1.76,12,$$$$,SingleMalt-like,J,J,Switzerland,Blend,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
+1200,Santis Cask Strength Peated,6.46,1.89,6,$$$$,SingleMalt-like,J,J,Switzerland,Malt,3,1,0,0.5,0,3.0,1,0.5,0.0,0,0.5,1.0,0,0
