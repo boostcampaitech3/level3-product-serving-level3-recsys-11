@@ -1,0 +1,122 @@
+Mon 30 May 2022 04:42:34 INFO General Hyper Parameters: 
+gpu_id=0
+use_gpu=True
+seed=2020
+state=INFO
+reproducibility=True
+data_path=dataset/whiskey_with_taste
+show_progress=True
+
+Training Hyper Parameters: 
+checkpoint_dir=model_saved
+epochs=300
+train_batch_size=64
+learner=adam
+learning_rate=0.001
+training_neg_sample_num=0
+training_neg_sample_distribution=uniform
+eval_step=1
+stopping_step=10
+
+Evaluation Hyper Parameters: 
+eval_setting=RO_RS
+group_by_user=False
+split_ratio=[0.8, 0.1, 0.1]
+leave_one_num=2
+real_time_process=False
+metrics=['Recall', 'NDCG']
+topk=[5, 10]
+valid_metric=NDCG@10
+eval_batch_size=256
+
+Dataset Hyper Parameters: 
+field_separator=	
+seq_separator= 
+USER_ID_FIELD=user
+ITEM_ID_FIELD=whiskey
+RATING_FIELD=rating
+TIME_FIELD=None
+seq_len=None
+LABEL_FIELD=label
+threshold=None
+NEG_PREFIX=neg_
+load_col={'inter': ['user', 'whiskey', 'rating']}
+unload_col=None
+unused_col=None
+additional_feat_suffix=None
+lowest_val=None
+highest_val=None
+equal_val=None
+not_equal_val=None
+max_user_inter_num=None
+min_user_inter_num=0
+max_item_inter_num=None
+min_item_inter_num=0
+fields_in_same_space=None
+preload_weight=None
+normalize_field=None
+normalize_all=None
+ITEM_LIST_LENGTH_FIELD=item_length
+LIST_SUFFIX=_list
+MAX_ITEM_LIST_LENGTH=50
+POSITION_FIELD=position_id
+HEAD_ENTITY_ID_FIELD=head_id
+TAIL_ENTITY_ID_FIELD=tail_id
+RELATION_ID_FIELD=relation_id
+ENTITY_ID_FIELD=entity_id
+
+
+Mon 30 May 2022 04:42:34 INFO whiskey_with_taste
+The number of users: 12156
+Average actions of users: 7.153681612505142
+The number of items: 638
+Average actions of items: 136.5039246467818
+The number of inters: 86953
+The sparsity of the dataset: 98.87882552935146%
+Remain Fields: ['user', 'whiskey', 'rating']
+Mon 30 May 2022 04:42:34 INFO Build [ModelType.CONTEXT] DataLoader for [train] with format [InputType.POINTWISE]
+Mon 30 May 2022 04:42:34 INFO Evaluation Setting:
+	No Grouping
+	Ordering: {'strategy': 'shuffle'}
+	Splitting: {'strategy': 'by_ratio', 'ratios': [0.8, 0.1, 0.1]}
+	No Negative Sampling
+Mon 30 May 2022 04:42:34 INFO batch_size = [[64]], shuffle = [True]
+
+Mon 30 May 2022 04:42:34 INFO Build [ModelType.CONTEXT] DataLoader for [evaluation] with format [InputType.POINTWISE]
+Mon 30 May 2022 04:42:34 INFO Evaluation Setting:
+	No Grouping
+	Ordering: {'strategy': 'shuffle'}
+	Splitting: {'strategy': 'by_ratio', 'ratios': [0.8, 0.1, 0.1]}
+	No Negative Sampling
+Mon 30 May 2022 04:42:34 INFO batch_size = [[256, 256]], shuffle = [False]
+
+Mon 30 May 2022 04:42:35 INFO DeepFM(
+  (token_embedding_table): FMEmbedding(
+    (embedding): Embedding(12794, 10)
+  )
+  (float_embedding_table): Embedding(1, 10)
+  (first_order_linear): FMFirstOrderLinear(
+    (token_embedding_table): FMEmbedding(
+      (embedding): Embedding(12794, 1)
+    )
+    (float_embedding_table): Embedding(1, 1)
+  )
+  (fm): BaseFactorizationMachine()
+  (mlp_layers): MLPLayers(
+    (mlp_layers): Sequential(
+      (0): Dropout(p=0.2, inplace=False)
+      (1): Linear(in_features=30, out_features=128, bias=True)
+      (2): ReLU()
+      (3): Dropout(p=0.2, inplace=False)
+      (4): Linear(in_features=128, out_features=128, bias=True)
+      (5): ReLU()
+      (6): Dropout(p=0.2, inplace=False)
+      (7): Linear(in_features=128, out_features=128, bias=True)
+      (8): ReLU()
+    )
+  )
+  (deep_predict_layer): Linear(in_features=128, out_features=1, bias=True)
+  (sigmoid): Sigmoid()
+  (loss): BCELoss()
+)
+Trainable parameters: 177867
