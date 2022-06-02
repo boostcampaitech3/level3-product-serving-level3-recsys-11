@@ -20,8 +20,8 @@ from Model.train import train
 app = FastAPI()
 with open('Model/config.yaml', 'r') as f:
         CONFIG = yaml.safe_load(f)
-train(CONFIG)
-# initiate(CONFIG)
+# train(CONFIG)
+config, model, dataset, dataloader, _, _=initiate(CONFIG)
 
 
 @app.get("/")
@@ -49,60 +49,40 @@ class Rec_lists(BaseModel):
 
 
 rec_random = []
-@app.get("/recommend_random", description="추천 리스트를 가져옵니다")
+@app.get("/recommend_e_list", description="Expert 추천 리스트를 가져옵니다")
 async def get_rec_random() -> List[Whiskey]:
     return rec_random
 
-@app.post("/recommend_random", description="랜덤 추천을 요청합니다")
+@app.post("/recommend_e", description="Expert 추천을 요청합니다.")
 async def make_rec_random(item:Request):
     item_dict = await item.json()
     topk = item_dict['topk']
-    random_rec_movies = get_random_rec(topk)
-    random_rec_movies.to_csv('temp.csv')
-    # print(random_rec_movies)
-    tmp=[]
-    for i in range(topk):
-        tmp.append(Whiskey(title=random_rec_movies['title'].iloc[i],
-        poster_link=random_rec_movies['poster_link'].iloc[i],
-        year=random_rec_movies['year'].iloc[i]
-                    ))
-    new_rec=Movies(movies=tmp)
-    rec_random.append(new_rec)
-    return new_rec
+    whiskies_like = item_dict['whiskies']
+    whiskies_hate = item_dict['whiskies']
     
-@app.post("/recommend", description="추천을 요청합니다")
-async def make_rec(model,likedmovies,topk):
-    s3_rec_movies = get_model_rec(
-                    model,
-                    likedmovies,
-                    topk,
-                )
-    return s3_rec_movies
+    agent = Collector(whiskies_like,whiskies_hate)
+    list_pop = agent._popularity(topk)
+    list_recvae = agent._recvae_topk(topk)
+    return list_recvae
+    
+@app.get("/recommend_b_list", description="Beginner 추천 리스트를 가져옵니다")
+async def get_rec_random() -> List[Whiskey]:
+    return rec_random
 
-users = []
-
-@app.get("/users", description="유저들의 정보를 가져옵니다.")
-async def get_users() -> List[Movies]:
-    return users
-
-@app.get("/users/{usersid}", description="Order 정보를 가져옵니다")
-async def get_order(usersid: UUID) -> Union[Movies, dict]:
-    # order_id를 기반으로 order를 가져온다
-    user = get_user_by_id(usersid=usersid)
-    if not user:
-        return {"message": "유저 정보를 찾을 수 없습니다"}
-    return user
+@app.post("/recommend_b", description="Beginner 추천을 요청합니다.")
+async def make_rec_random(item:Request):
+    item_dict = await item.json()
+    topk = item_dict['topk']
+    dict_taste = item_dict['dict_taste']
+    agent = Greeter()
+    result_orga = agent._cal_cos_sim(dict_taste, organized=True)
+    result_cluster, result_df_cluster = agent.find_cluster(dict_taste)
+    result_sort_by_popularity = agent.sort_by_popularity(result_df_cluster, topk=topk)
+#     
 
 
 
-def get_user_by_id(userid: UUID) -> Optional[Movies]:
-    return next((user for user in users if user.id == userid), None)
-    # 제네레이터
-    # iter, next 키워드로 검색
-    # 제네레이터를 사용한 이유 : 메모리를 더 절약해서 사용할 수 있음
-    # 이터레이터, 이터러블, 제네레이터 => 파이썬 면접에서 많이 나오는 소재. GIL
-    # iter는 반복 가능한 객체에서 이터레이터를 반환
-    # next는 이터레이터에서 값을 차례대로 꺼냄
+
 
 
 

@@ -23,7 +23,7 @@ def train(CONFIG):
 def rename(CONFIG):
     path=CONFIG['dir_model_saved']
     file_list = sorted_ls(path)
-    shutil.copyfile(path+file_list[-1],path+"model.pth")
+    shutil.copyfile(path+'/'+file_list[-1],path+"/model.pth")
 
 
 def sorted_ls(path):

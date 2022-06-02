@@ -24,11 +24,7 @@ def  initiate(CONFIG):
     config, model, dataset, dataloader, _, _ = load_data_and_model(
             model_file= Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_used'],
         )
-
-    config_vae, model_vae, _, _, _, _ = load_data_and_model(
-                    model_file=Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_vae_used'],
-                )
-    return 0
+    return config, model, dataset, dataloader, _, _
         
 
 
@@ -54,7 +50,7 @@ class Collector():
     
     def _popularity(self, k:int=10) -> list:
         list_pop = []
-        dir_Pop = Path(CONFIG['dir_dataset']) / CONFIG['name_dataset'] / f'Pop.csv'
+        dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
         iterator = pd.read_csv(dir_Pop).iterrows()
         
         for idx, row in iterator:
@@ -123,9 +119,10 @@ class Collector():
 
 
 class Greeter():
-    def __init__(self) -> None:
-        self.df_whisky = pd.read_csv(CONFIG['dir_integration'], sep=CONFIG['sep_source'])
-        self.cluster2taste = pd.read_csv(CONFIG['dir_whiskey_cluster'], sep=CONFIG['sep_source'])
+    def __init__(self,CONFIG) -> None:
+        self.CONFIG=CONFIG
+        self.df_whisky = pd.read_csv(self.CONFIG['dir_integration'], sep=self.CONFIG['sep_source'])
+        self.cluster2taste = pd.read_csv(self.CONFIG['dir_whiskey_cluster'], sep=self.CONFIG['sep_source'])
         self.cluster2taste = self.cluster2taste.set_index('Cluster')
         self.minmaxscaler = MinMaxScaler()
         self.dict_range_cost = {
@@ -189,7 +186,7 @@ class Greeter():
         return df_cluster[condition]
 
     def _find_idx_range_cost(self, val):
-        won_per_cad = CONFIG['won_per_cad']
+        won_per_cad = self.CONFIG['won_per_cad']
         val = val / won_per_cad
         
         for idx, (k, (v_min, v_max)) in enumerate(self.dict_range_cost.items()):
@@ -198,15 +195,15 @@ class Greeter():
         raise IndexError
     
     def sort_by_popularity(self, df_cluster, topk=None):
-        sort_by = CONFIG['sort_by']
+        sort_by = self.CONFIG['sort_by']
         
         if topk:
             return df_cluster.sort_values(by=sort_by).iloc[:topk, :]
         else:
             return df_cluster.sort_values(by=sort_by)
 
-if __name__ == '__main__':
-    initiate()
+# if __name__ == '__main__':
+#     initiate()
 #     from IPython.display import display
     
 #     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.

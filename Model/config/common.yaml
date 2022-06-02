@@ -1,6 +1,6 @@
 # dir setting
 data_path: "Model/dataset"
-checkpoint_dir: "model_saved"
+checkpoint_dir: "Model/model_saved"
 
 # general setting
 epochs: 10

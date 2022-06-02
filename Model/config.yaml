@@ -21,18 +21,12 @@ dir_whiskey_cluster:        'Model/src_processed/whiskey_cluster.csv'
 dir_whiskey_w_tag:          'Model/src_processed/whisky_w_tags.csv'
 dir_integration:            'Model/src_processed/integration.csv'
 
-# version.1
-# file_model_used:            'LightGCN-May-20-2022_05-21-45.pth'
-# file_model_vae_used:        'RecVAE-May-20-2022_05-03-35.pth'
-
-# version.2
-file_model_used:            'LightGCN-Jun-01-2022_07-59-25.pth'
-file_model_vae_used:        'RecVAE-May-30-2022_05-09-30.pth'
+file_model_used:            'model.pth'
 
 won_per_cad: 984.52
 sort_by: ['Meta Critic', '#']
 
 #Train Params
-epochs: 300
+epochs: 1
 train_batch_size: 64
 eval_batch_size: 256
