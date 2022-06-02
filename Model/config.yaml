@@ -1,0 +1,38 @@
+columns_inter:        ['user',  'whiskey',  'rating']
+columns_inter_types:  ['token', 'token',    'float']
+
+columns_item:         ['whiskey', 'Meta Critic',  '#',      'Country',  'Type',   'price',  'body',   'sweet',  'sherry',   'malt',   'aperitif',   'smoky', 'pungent',   'fruity',   'honey',  'floral',   'spicy',  'medicinal',  'nutty',  'winey']
+columns_item_types:   ['token',   'float',        'float',  'token',    'token',  'float',  'float',  'float',  'float',    'float',  'float',      'float',  'float',    'float',    'float',  'float',    'float',  'float',      'float',  'float']
+
+sep:            '\t'
+sep_source:     '$'
+
+col_user: 'user'
+col_item: 'whiskey'
+
+name_dataset:               'whiskey_with_taste'
+dir_dataset:                '/Model/dataset'
+
+dir_source_of_interaction:  'src_processed/interaction.csv'
+dir_source_of_item:         'src_processed/integration.csv'
+
+dir_model_saved:            'Model/model_saved'
+dir_whiskey_cluster:        'Model/src_processed/whiskey_cluster.csv'
+dir_whiskey_w_tag:          'Model/src_processed/whisky_w_tags.csv'
+dir_integration:            'Model/src_processed/integration.csv'
+
+# version.1
+# file_model_used:            'LightGCN-May-20-2022_05-21-45.pth'
+# file_model_vae_used:        'RecVAE-May-20-2022_05-03-35.pth'
+
+# version.2
+file_model_used:            'LightGCN-Jun-01-2022_07-59-25.pth'
+file_model_vae_used:        'RecVAE-May-30-2022_05-09-30.pth'
+
+won_per_cad: 984.52
+sort_by: ['Meta Critic', '#']
+
+#Train Params
+epochs: 300
+train_batch_size: 64
+eval_batch_size: 256
