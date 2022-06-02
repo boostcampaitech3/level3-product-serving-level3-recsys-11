@@ -9,8 +9,7 @@ import torch
 from pathlib import Path
 
 import yaml
-with open('config.yaml', 'r') as f:
-    CONFIG = yaml.load(f)
+
 
 from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
 from sklearn.preprocessing import MinMaxScaler
@@ -20,17 +19,30 @@ from collections import defaultdict
 
 from deprecated import deprecated
 
+def  initiate(CONFIG):
+
+    config, model, dataset, dataloader, _, _ = load_data_and_model(
+            model_file= Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_used'],
+        )
+
+    config_vae, model_vae, _, _, _, _ = load_data_and_model(
+                    model_file=Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_vae_used'],
+                )
+    return 0
+        
+
+
+
 class Collector():
-    def __init__(self, goods:list=[], poors:list=[], user_id:str=None, dataloader:UserDataLoader=None) -> None:
+    def __init__(self,CONFIG, goods:list=[], poors:list=[], user_id:str=None, dataloader:UserDataLoader=None) -> None:
         self.goods = goods
         self.poors = poors
         self.user_id = user_id
-        self.config, self.model, self.dataset, self.dataloader, _, _ = load_data_and_model(
-            model_file=Path(CONFIG['dir_model_saved']) / CONFIG['file_model_used'],
-        )
-        self.config_vae, self.model_vae, _, _, _, _ = load_data_and_model(
-            model_file=Path(CONFIG['dir_model_saved']) / CONFIG['file_model_vae_used'],
-        )
+        self.config, self.model, self.dataset, self.dataloader
+    
+        self.config_vae, self.model_vae, _, _, _, _ 
+        self.CONFIG=CONFIG
+
         if dataloader:
             self.dataloader = dataloader
     
@@ -193,7 +205,8 @@ class Greeter():
         else:
             return df_cluster.sort_values(by=sort_by)
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
+    initiate()
 #     from IPython.display import display
     
 #     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.

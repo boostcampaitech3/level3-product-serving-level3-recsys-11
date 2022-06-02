@@ -7,10 +7,21 @@ from typing import List, Union, Optional, Dict, Any
 
 from datetime import datetime
 
-from predict import load_model, get_model_rec, get_random_rec
+from recbole.quick_start.quick_start import load_data_and_model
+import yaml
+from pathlib import Path
 
+import sys, os
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('Model'))))
+
+from Model.utils import initiate,Collector,Greeter
+from Model.train import train
 
 app = FastAPI()
+with open('Model/config.yaml', 'r') as f:
+        CONFIG = yaml.safe_load(f)
+train(CONFIG)
+# initiate(CONFIG)
 
 
 @app.get("/")
@@ -24,15 +35,15 @@ class Whiskey(BaseModel):
     info_link: str
     image_link: str
 
-class Movies(BaseModel):
+class Rec_lists(BaseModel):
     userid: UUID = Field(default_factory=uuid4)
-    movies: List[Whiskey] = Field(default_factory=list)
+    Whiskies: List[Whiskey] = Field(default_factory=list)
     created_at: datetime = Field(default_factory=datetime.now)
     updated_at: datetime = Field(default_factory=datetime.now)
     
     # @property
-    def add_product(self, movie: Whiskey):
-        self.movies.append(movie)
+    def add_product(self, item: Whiskey):
+        self.Whiskies.append(item)
         self.updated_at = datetime.now()
         return self
 
