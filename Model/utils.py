@@ -9,7 +9,8 @@ import torch
 from pathlib import Path
 
 import yaml
-
+with open('config.yaml', 'r') as f:
+    CONFIG = yaml.load(f)
 
 from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
 from sklearn.preprocessing import MinMaxScaler
@@ -19,30 +20,18 @@ from collections import defaultdict
 
 from deprecated import deprecated
 
-def  initiate(CONFIG):
-
-    config, model, dataset, dataloader, _, _ = load_data_and_model(
-            model_file= Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_used'],
-        )
-
-    config_vae, model_vae, _, _, _, _ = load_data_and_model(
-                    model_file=Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_vae_used'],
-                )
-    return 0
-        
-
-
-
+# %%
 class Collector():
-    def __init__(self,CONFIG, goods:list=[], poors:list=[], user_id:str=None, dataloader:UserDataLoader=None) -> None:
+    def __init__(self, goods:list=[], poors:list=[], user_id:str=None, dataloader:UserDataLoader=None) -> None:
         self.goods = goods
         self.poors = poors
         self.user_id = user_id
-        self.config, self.model, self.dataset, self.dataloader
-    
-        self.config_vae, self.model_vae, _, _, _, _ 
-        self.CONFIG=CONFIG
-
+        self.config, self.model, self.dataset, self.dataloader, _, _ = load_data_and_model(
+            model_file=Path(CONFIG['dir_model_saved']) / CONFIG['file_model_used'],
+        )
+        self.config_vae, self.model_vae, _, _, _, _ = load_data_and_model(
+            model_file=Path(CONFIG['dir_model_saved']) / CONFIG['file_model_vae_used'],
+        )
         if dataloader:
             self.dataloader = dataloader
     
@@ -122,6 +111,7 @@ class Collector():
         return self.dataset.id2token(self.dataset.iid_field, array_id)
 
 
+# %%
 class Greeter():
     def __init__(self) -> None:
         self.df_whisky = pd.read_csv(CONFIG['dir_integration'], sep=CONFIG['sep_source'])
@@ -164,8 +154,7 @@ class Greeter():
         
         return class_cluster, df_cluster
     
-    @deprecated(reason='데이터셋이 바뀜.')
-    def filter_by_price_class(self, df_cluster, _price_min, _price_max):            
+    def filter_by_price(self, df_cluster, _price_min, _price_max):            
         if _price_min > _price_max:
             tmp = _price_min
             _price_min = _price_max
@@ -179,7 +168,8 @@ class Greeter():
         condition = df_cluster.Cost.isin(list_price_allowed)
         return df_cluster[condition]
     
-    def filter_by_price(self, df_cluster, _price_min, _price_max):            
+    @deprecated(reason='데이터셋이 바뀜.')
+    def filter_by_price_class(self, df_cluster, _price_min, _price_max):            
         if _price_min > _price_max:
             tmp = _price_min
             _price_min = _price_max
@@ -205,43 +195,45 @@ class Greeter():
         else:
             return df_cluster.sort_values(by=sort_by)
 
+# %%
 if __name__ == '__main__':
-    initiate()
-#     from IPython.display import display
+    from IPython.display import display
     
-#     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.
-#     agent = Collector(['ledaig-1972', 'highland-park-freya', 'ardbeg-ten'], ['mcclellands-islay'])
+    # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.
+    agent = Collector(['Macallan 10yo Full Proof 57% 1980 (OB, Giovinetti & Figli)', "Jura 16yo Diurach's Own"], ['BenRiach Birnie Moss'])
     
-#     # 해당 목록을 기준으로 '인기도 기반 추천 목록'과 'VAE 기반 알고리즘 추천 목록' 전달.
-#     list_pop = agent._popularity(10)
-#     list_recvae = agent._recvae_topk(10)
-#     print(f"list_pop : \n{list_pop}")
-#     print(f"list_recvae : \n{list_recvae}")
+    # 해당 목록을 기준으로 '인기도 기반 추천 목록'과 'VAE 기반 알고리즘 추천 목록' 전달.
+    list_pop = agent._popularity(10)
+    list_recvae = agent._recvae_topk(10)
+    print(f"list_pop : \n{list_pop}")
+    print(f"list_recvae : \n{list_recvae}")
 
-# if __name__ == '__main__':
-#     from IPython.display import display
+# %%
+if __name__ == '__main__':
+    from IPython.display import display
     
-#     # 인스턴스 생성 및 사용자의 취향을 설정.
-#     agent = Greeter()
-#     dict_taste = {'body':2, 'sweet':5, 'sherry':0}
+    # 인스턴스 생성 및 사용자의 취향을 설정.
+    agent = Greeter()
+    dict_taste = {'body':2, 'sweet':5, 'sherry':0}
     
-#     # 코사인 거리를 각 클러스터 별로 계산
-#     result_orga = agent._cal_cos_sim(dict_taste, organized=True)
-#     print(result_orga)
+    # 코사인 거리를 각 클러스터 별로 계산
+    result_orga = agent._cal_cos_sim(dict_taste, organized=True)
+    print(result_orga)
     
-#     # 가장 유사도가 높은 클러스터를 'A'와 같이 출력
-#     # 해당 클러스터에 해당하는 DataFrame을 출력
-#     result_cluster, result_df_cluster = agent.find_cluster(dict_taste)
-#     print(result_cluster)
-#     display(result_df_cluster)
+    # 가장 유사도가 높은 클러스터를 'A'와 같이 출력
+    # 해당 클러스터에 해당하는 DataFrame을 출력
+    result_cluster, result_df_cluster = agent.find_cluster(dict_taste)
+    print(result_cluster)
+    display(result_df_cluster)
     
-#     # 원화 가격 기준으로 가격을 필터링한 DataFrame을 출력
-#     result_filter_by_price = agent.filter_by_price(result_df_cluster, 125000, 500000)
-#     display(result_filter_by_price)
+    # 원화 가격 기준으로 가격을 필터링한 DataFrame을 출력
+    result_filter_by_price = agent.filter_by_price(result_df_cluster, 125000, 500000)
+    display(result_filter_by_price)
     
-#     # 인기도 기준으로 정렬된 DataFrame을 출력
-#     # topk를 설정한 경우 k개만 출력
-#     result_sort_by_popularity = agent.sort_by_popularity(result_df_cluster, topk=10)
-#     display(result_sort_by_popularity)
+    # 인기도 기준으로 정렬된 DataFrame을 출력
+    # topk를 설정한 경우 k개만 출력
+    result_sort_by_popularity = agent.sort_by_popularity(result_df_cluster, topk=10)
+    display(result_sort_by_popularity)
     
     
+# %%

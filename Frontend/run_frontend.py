@@ -4,9 +4,21 @@ import sys
 current_module = sys.modules[__name__]
 
 import pandas as pd
+import numpy as np
+from deprecated import deprecated
 
 
 # %%
+# 가격 환산.
+dict_range_cost = {
+    "$":        (0,     30),
+    "$$":       (30,    50),
+    "$$$":      (50,    70),
+    "$$$$":     (70,    125),
+    "$$$$$":    (125,   300),
+    "$$$$$+":   (300,   ''),
+    }
+
 # button을 위해 설계 & 상수 정의 함수
 def save(**kwarg):
     for k,v in kwarg.items():
@@ -14,21 +26,25 @@ def save(**kwarg):
 
 # 위스키 이미지 출력
 def img_whisky(name:str):
-    if name in st.session_state['df_img'].index:
-        img_url = st.session_state['df_img'].loc[name][0]
-        st.image(img_url, caption=name, width=128)
+    df = st.session_state['df_final']
+    
+    img_url = df[df.Whiskey.isin([name])].images.iloc[0]
+    st.image(img_url, caption=name, width=128)
 
 # 위스키 정보 출력
 def info_whisky(name:str):
-    condition = st.session_state['df_final'].whiskey == name
+    condition = st.session_state['df_final'].Whiskey == name
     
-    price = st.session_state['df_final'].price
-    Type = st.session_state['df_final'].Type
+    price = st.session_state['df_final'].Cost
+    Type = st.session_state['df_final'].Class
     links = st.session_state['df_final'].links
     
-    st.write(f'price:\t{price[condition].iloc[0]}')
-    st.write(f'type :\t{Type[condition].iloc[0]}')
-    st.write(f'link :\t{links[condition].iloc[0]}')
+    price = price[condition].iloc[0]
+    price = dict_range_cost[price]
+    
+    st.write(f'price:\n[CAD] {price[0]} ~ {price[1]}')
+    st.write(f'type :\n{Type[condition].iloc[0]}')
+    st.write(f'link :\n[{name}]({links[condition].iloc[0]})')
 
 # 위스키 평가표 출력
 def radio_whisky(name:str):
@@ -43,6 +59,7 @@ def radio_whisky(name:str):
             del st.session_state['whisky_list'][name]
 
 # 현실적인 문제를 고려한 Unit
+@deprecated(reason="검색 구조를 바꿈.")
 def survey_whisky(Num:int, df_ind):
     try:
         col(Num, lambda idx : img_whisky(df_ind[idx]))
@@ -52,6 +69,7 @@ def survey_whisky(Num:int, df_ind):
             st.subheader('조회 결과 없음.')
 
 # 현실적인 문제를 고려한 Unit
+@deprecated(reason="검색 구조를 바꿈.")
 def display_whisky(Num:int, df_ind):
     try:
         col(Num, lambda idx : img_whisky(df_ind[idx]))
@@ -59,6 +77,30 @@ def display_whisky(Num:int, df_ind):
     except:
         with st.columns([1,3,1])[1]:
             st.subheader('조회 결과 없음.')
+            
+# 현실적인 문제를 고려한 Unit
+def survey_whisky_with_df(df, Num=10):
+    cells_upper_iter = cells()
+    cells_lower_iter = cells()
+    for idx, item in enumerate(df):
+        with next(cells_upper_iter):
+            img_whisky(item)
+        with next(cells_lower_iter):
+            radio_whisky(item)
+        if idx + 1 >= Num:
+            break
+
+# 현실적인 문제를 고려한 Unit
+def display_whisky_with_df(df, Num=10):
+    cells_upper_iter = cells()
+    cells_lower_iter = cells()
+    for idx, item in enumerate(df):
+        with next(cells_upper_iter):
+            img_whisky(item)
+        with next(cells_lower_iter):
+            info_whisky(item)
+        if idx + 1 >= Num:
+            break
 
 # unit 가로 나열
 def col(Num:int=5, func=lambda idx:None):
@@ -66,6 +108,14 @@ def col(Num:int=5, func=lambda idx:None):
         for ind, col in enumerate(st.columns(Num)):
             with col:
                 func(ind)
+
+# unit 무한 제공 iterator
+def cells(Num=5):
+    while True:
+        with st.container():
+            for ind, col in enumerate(st.columns(Num)):
+                if ind >= Num: break
+                yield col
 
 # %%
 # 상수 초기값 정의
@@ -76,8 +126,7 @@ init = {
     'counter': 0,
     'value': 0,
     'whisky_list': {},
-    'df_final': pd.read_csv('/opt/ml/workspace/src/src_processed/integration.csv', sep='$'),
-    'df_img': pd.read_csv('/opt/ml/workspace/src/src_processed/images.csv', index_col='whiskey', sep='$')
+    'df_final': pd.read_csv('../Dataset/total_df.csv', sep='$'),
 }
 
 # 상수 초기화
@@ -87,7 +136,6 @@ for k,v in init.items():
 
 # %%
 def Scene1():
-    st.write('Scene1')
     with st.columns([1,3])[1]:
         st.title(':wine_glass: 환영합니다!! :wine_glass:')
     st.title("")
@@ -103,8 +151,8 @@ def Scene1():
     with right:
         st.button('없다!', on_click=save, kwargs={'is_beginner':True, 'Scene':2})
 
+
 def Scene2():
-    st.write('Scene2')
     key, val = None, None
     encode = {'모름':0.375,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.5,'매우 좋아함':1.0, True:1.0, False:0.0}
     
@@ -186,7 +234,7 @@ def Scene2():
         if key:
             st.session_state["tag_list"].update({key:val})
     
-    st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
+    # st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
     
     _, left, right = st.columns([1.5,2,2])
     with left:
@@ -196,7 +244,6 @@ def Scene2():
     
 
 def Scene3():
-    st.write('Scene3')
     st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
     
     with st.columns([1,3])[1]:
@@ -212,35 +259,32 @@ def Scene3():
     with right:
         st.button('다시 시도', on_click=save, kwargs={'counter':0, 'Scene':2})
         
+        
 def Scene4():
-    st.write('Scene4')
     df_final = st.session_state['df_final']
-    df_final_country = df_final.Country.drop_duplicates().to_list()
 
     with st.columns([1,3,1])[1]:
         st.title('당신의 경험을 이야기해주세요!')
         st.title('')
-        whiskey = st.text_input('검색창')
-        list_country = st.multiselect('생산 국가', df_final_country)
+        whiskey = st.multiselect('검색창', df_final.Whiskey)
     
-    if list_country:
-        df_final_country = list_country
-    condition_word = df_final.whiskey.str.contains(f'\w*({whiskey})\w*')
-    condition_country = df_final.Country.isin(df_final_country)
-    
-    df_with_condition = df_final[condition_word & condition_country].whiskey
-
-    Num = 5
-    survey_whisky(Num, df_with_condition.iloc)
-    
-    st.sidebar.write(st.session_state["whisky_list"])
-    # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
-
-    with st.columns([1,3])[1]:
+    with st.columns([1,3,1])[1]:
+        st.title('')
         st.button('확인', on_click=save, kwargs={'Scene':5})
     
+    if not whiskey:
+        whiskey = []
+        
+    condition_word = df_final.Whiskey.isin(whiskey)
+    df_with_condition = df_final[condition_word].Whiskey
+
+    survey_whisky_with_df(df_with_condition)
+    
+    # st.sidebar.write(st.session_state["whisky_list"])
+    # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
+
+    
 def Scene5():
-    st.write('Scene5')
     st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
     
     with st.columns([1,3])[1]:
@@ -254,53 +298,62 @@ def Scene5():
     
     with right:
         st.button('다시 시도', on_click=save, kwargs={'Scene':4})
-
+        
+        
 def Scene6():
-    pass
-    # from utils import Collector, Greeter
-    
-    # st.write('Scene6')
-    # price_low, price_high = st.sidebar.slider('가격', 0, 100, (0, 100))
-    # topk = st.sidebar.number_input('갯수', step=1, value=5, min_value=0, max_value=6)
-    
-    # for_newbie = Greeter()
-    # for_expert = Collector()
-    
-    
-    # # 단순 인기도 기반 추천
-    # df_pop = for_expert._popularity(topk)
-    
-    
-    # # 태그 기반 추천
-    # result_cluster, result_df_cluster = for_newbie.find_cluster(st.session_state['tag_list'])
-    # result_filter_by_price = for_newbie.filter_by_price(result_df_cluster, price_low, price_high)
-    # result_sort_by_popularity = for_newbie.sort_by_popularity(result_filter_by_price, topk=10)
-    
-    # df_tag_pop = result_sort_by_popularity.whiskey.iloc
-    
-    
-    # # 추천 시스템 기반 추천
-    # history = st.session_state['whisky_list']
-    # for_expert.goods = [item for item, rating in history.items() if rating]
-    # for_expert.poors = [item for item, rating in history.items() if not rating]
-    
-    # # df_recvae = for_expert._recvae_topk(topk)
-    
-    # Num = topk
-    # st.title('인기 상품')
-    # display_whisky(Num, df_pop)
-    
-    # st.title('내 취향에 맞는 상품')
-    # display_whisky(Num, df_tag_pop)
+    from ..Model.utils import Collector, Greeter
 
-    # # if not st.session_state['is_beginner']:
-    # #     st.title('나에게 맞는 상품')
-    # #     display_whisky(Num, df_recvae)
+    # sidebar
+    price_low, price_high = st.sidebar.slider('가격 [원화 기준]', 0, 1000000, (0, 1000000), step=5000)
+    topk = st.sidebar.number_input('갯수', step=1, value=5, min_value=0, max_value=6)
+    
+    # 객체 로딩.
+    for_newbie = Greeter()
+    for_expert = Collector()
+    
+    
+    # 단순 인기도 기반 추천
+    df_pop = for_expert._popularity(topk)
+    
+    
+    # 태그 기반 추천
+    result_cluster, result_df_cluster = for_newbie.find_cluster(st.session_state['tag_list'])
+    result_filter_by_price = for_newbie.filter_by_price(result_df_cluster, price_low, price_high)
+    result_sort_by_popularity = for_newbie.sort_by_popularity(result_filter_by_price, topk=10)
+    
+    df_tag_pop = result_sort_by_popularity.Whiskey.iloc
+    
+    
+    # 추천 시스템 기반 추천
+    history = st.session_state['whisky_list']
+    for_expert.goods = [item for item, rating in history.items() if rating]
+    for_expert.poors = [item for item, rating in history.items() if not rating]
+    
+    df_recvae = for_expert._recvae_topk(topk)
+    
+    
+    # 표현 구간.
+    Num = topk
+    st.title('인기 상품')
+    display_whisky(Num, df_pop)
+    
+    st.title('내 취향에 맞는 상품')
+    display_whisky(Num, df_tag_pop)
+
+    if not st.session_state['is_beginner']:
+        st.title('나에게 맞는 상품')
+        display_whisky(Num, df_recvae)
 
     
 # %%
-# Scene 활성화
 N = st.session_state['Scene']
+
+# Team Logo
+with st.columns([1, 3, 1])[1]:
+    st.image('team_logo.jpg')
+    st.write(f'Scene{N}')
+
+# Scene 활성화
 run_scene = getattr(current_module, f'Scene{N}')
 run_scene()
 
