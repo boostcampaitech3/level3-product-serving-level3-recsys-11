@@ -214,29 +214,31 @@ def Scene3():
         
 def Scene4():
     st.write('Scene4')
-    df_final = st.session_state['df_final']
+    df_final = pd.read_csv('/opt/ml/workspace/src/src_processed/integration.csv', sep='$')
+    st.write(df_final)
     df_final_country = df_final.Country.drop_duplicates().to_list()
-
-    with st.columns([1,3,1])[1]:
+    df_final_price = df_final.price.drop_duplicates().to_list()
+    try:
         st.title('당신의 경험을 이야기해주세요!')
-        st.title('')
-        whiskey = st.text_input('검색창')
-        list_country = st.multiselect('생산 국가', df_final_country)
-    
-    if list_country:
-        df_final_country = list_country
-    condition_word = df_final.whiskey.str.contains(f'\w*({whiskey})\w*')
-    condition_country = df_final.Country.isin(df_final_country)
-    
-    df_with_condition = df_final[condition_word & condition_country].whiskey
-
-    Num = 5
-    survey_whisky(Num, df_with_condition.iloc)
-    
+        with st.columns([1,3,1])[1]:
+            st.title('')
+            whiskey = st.text_input('검색창')
+            list_country = st.multiselect('생산 국가', df_final_country)
+            whiskey_price = st.slider('가격',0,13000,(0,13000))
+            st.write(whiskey_price[0], type(whiskey_price[0]),type(df_final['price'][0]))
+        if list_country:
+            df_final_country = list_country
+        condition_word = df_final.whiskey.str.contains(f'\w*({whiskey})\w*')
+        condition_country = df_final.Country.isin(df_final_country)
+        condition_price = ((df_final['price'] >= whiskey_price[0]) & (df_final['price'] <= whiskey_price[1]))
+        df_with_condition = df_final[condition_word & condition_country & condition_price].whiskey
+        Num = 5
+        col(Num, lambda idx : img_whisky(df_with_condition.iloc[idx]))
+        col(Num, lambda idx : radio_whisky(df_with_condition.iloc[idx]))
+    except IndexError:
+        st.write("해당하는 결과가 없습니다!")
     st.sidebar.write(st.session_state["whisky_list"])
-    # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
-
-    with st.columns([1,3])[1]:
+    with st.columns([2,1,1,3])[2]:
         st.button('확인', on_click=save, kwargs={'Scene':5})
     
 def Scene5():
