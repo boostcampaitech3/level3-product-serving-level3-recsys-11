@@ -295,7 +295,6 @@ def Scene4():
     
     # st.sidebar.write(st.session_state["whisky_list"])
     # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
-
     
 def Scene5():
     encode = {True: '👍', False: '👎'}
