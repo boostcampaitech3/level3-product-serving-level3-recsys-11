@@ -42,21 +42,20 @@ def info_whisky(name:str):
     price = price[condition].iloc[0]
     price = dict_range_cost[price]
     
-    st.write(f'price:\n[CAD] {price[0]} ~ {price[1]}')
-    st.write(f'type :\n{Type[condition].iloc[0]}')
-    st.write(f'link :\n[{name}]({links[condition].iloc[0]})')
+    st.write(f'**price:**')
+    st.write(f'[CAD] {price[0]} ~ {price[1]}')
+    st.write(f'**type :**')
+    st.write(f'{Type[condition].iloc[0]}')
+    st.write(f'**link :**')
+    st.write(f'[{name}]({links[condition].iloc[0]})')
 
 # 위스키 평가표 출력
 def radio_whisky(name:str):
-    like = st.radio('평가', ('👊', '👍', '👎'), key=name)
-    dict_emoji = {'👊':None, '👍':True, '👎':False}
+    like = st.radio('평가', ('👍', '👎'), key=name)
+    dict_emoji = {'👍':True, '👎':False}
     like = dict_emoji[like]
     
-    if like!=None:
-        st.session_state['whisky_list'].update({name: like})
-    else:
-        if name in st.session_state['whisky_list']:
-            del st.session_state['whisky_list'][name]
+    st.session_state['whisky_list'].update({name: like})
 
 # 현실적인 문제를 고려한 Unit
 @deprecated(reason="검색 구조를 바꿈.")
@@ -136,10 +135,11 @@ for k,v in init.items():
 
 # %%
 def Scene1():
-    with st.columns([1,3])[1]:
-        st.title(':wine_glass: 환영합니다!! :wine_glass:')
+    with st.columns([1.5,3])[1]:
+        # st.title(':wine_glass: 환영합니다!! :wine_glass:')
+        st.title('환영합니다!!')
     st.title("")
-    with st.columns([1,3])[1]:
+    with st.columns([1.1,3])[1]:
         st.subheader('나는 위스키를 마셔본 적이')
     
     st.title("")
@@ -154,66 +154,76 @@ def Scene1():
 
 def Scene2():
     key, val = None, None
-    encode = {'모름':0.375,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.5,'매우 좋아함':1.0, True:1.0, False:0.0}
+    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':1.0, '그러함':0.0}
+    
+    opt_list = ['매우 안좋아함','안좋아함','모름','좋아함','매우 좋아함']
+    opt_bool = ['그렇지 않음', '그러함']
     
     if st.session_state['counter'] == 0:
-        with st.expander("바디감이란?"):
-            st.write("바디감은 알코올, 음료의 무게감이라고도 표현합니다.")
-            st.write("음료의 진하기라고도 표현하며, 비교를 하자면")
-            st.write("안동소주:바디감 강함, 진로:바디감 약함 입니다.")
-        val=st.select_slider("바디감 있는게 좋으신가요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value")
+        # with st.expander("바디감이란?"):
+        #     st.write("바디감은 알코올, 음료의 무게감이라고도 표현합니다.")
+        #     st.write("음료의 진하기라고도 표현하며, 비교를 하자면")
+        #     st.write("안동소주:바디감 강함, 진로:바디감 약함 입니다.")
+        val=st.select_slider("바디감 있는게 좋으신가요?",options =opt_list,key = "value", value='모름')
         key = 'body'
         val = encode[val]
     elif st.session_state['counter'] == 1:
-        val=st.select_slider("단맛을 즐기시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #단맛을 즐기시나요?
+        val=st.select_slider("단맛을 즐기시나요?",options =opt_list,key = "value", value='모름') #단맛을 즐기시나요?
         key = 'sweet'
         val = encode[val]
     elif st.session_state['counter'] == 2:
-        val=st.checkbox("와인을 좋아하시나요?",key = "value") #와인을 좋아하시나요?
+        # val=st.checkbox("와인을 좋아하시나요?",key = "value") #와인을 좋아하시나요?
+        val=st.select_slider("와인을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'sherry'
         val = encode[val]
     elif st.session_state['counter'] == 3:
-        val=st.checkbox("곡물을 좋아하시나요?",key = "value") #곡물을 좋아하시나요?
+        # val=st.checkbox("곡물을 좋아하시나요?",key = "value") #곡물을 좋아하시나요?
+        val=st.select_slider("곡물을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'malt'
         val = encode[val]
     elif st.session_state['counter'] == 4:
-        val=st.checkbox("식전주를 즐겨드시나요?",key = "value") #식전주를 즐겨드시나요?
+        # val=st.checkbox("식전주를 즐겨드시나요?",key = "value") #식전주를 즐겨드시나요?
+        val=st.select_slider("식전주을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'aperitif'
         val = encode[val]
     elif st.session_state['counter'] == 5:
-        val=st.select_slider("훈연향을 좋아하시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #훈연향을 좋아하시나요?
+        val=st.select_slider("훈연향을 좋아하시나요?",options =opt_list,key = "value", value='모름') #훈연향을 좋아하시나요?
         key = 'smoky'
         val = encode[val]
     elif st.session_state['counter'] == 6:
-        val=st.checkbox("양파향(?)을 좋아하시나요?",key = "value") #양파향(?)을 좋아하시나요?
+        # val=st.checkbox("양파향(?)을 좋아하시나요?",key = "value") #양파향(?)을 좋아하시나요?
+        val=st.select_slider("양파향을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'pungent'
         val = encode[val]
     elif st.session_state['counter'] == 7:
-        val=st.select_slider("과일을 좋아하시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #과일을 좋아하시나요?
+        val=st.select_slider("과일을 좋아하시나요?",options =opt_list,key = "value", value='모름') #과일을 좋아하시나요?
         key = 'fruity'
         val = encode[val]
     elif st.session_state['counter'] == 8:
-        val=st.checkbox("꿀을 좋아하시나요?",key = "value") #꿀을 좋아하시나요?
+        # val=st.checkbox("꿀을 좋아하시나요?",key = "value") #꿀을 좋아하시나요?
+        val=st.select_slider("꿀을 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'honey'
         val = encode[val]
     elif st.session_state['counter'] == 9:  
-        val=st.select_slider("꽃향기를 좋아하시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #꽃향기를 좋아하시나요?
+        val=st.select_slider("꽃향기를 좋아하시나요?",options =opt_list,key = "value", value='모름') #꽃향기를 좋아하시나요?
         key = 'floral'
         val = encode[val]
     elif st.session_state['counter'] == 10:
-        val=st.select_slider("매운 것을 잘 드시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #매운 것을 잘 드시나요?
+        val=st.select_slider("매운 것을 잘 드시나요?",options =opt_list,key = "value", value='모름') #매운 것을 잘 드시나요?
         key = 'spicy'
         val = encode[val]
     elif st.session_state['counter'] == 11:
-        val=st.select_slider("한약을 잘 드시나요?",options =['모름','매우 안좋아함','안좋아함','좋아함','매우 좋아함'],key = "value") #한약을 잘 드시나요?
+        val=st.select_slider("한약을 잘 드시나요?",options =opt_list,key = "value", value='모름') #한약을 잘 드시나요?
         key = 'medicinal'
         val = encode[val]
     elif st.session_state['counter'] == 12:
-        val=st.checkbox("견과류 향기를 좋아하시나요?",key = "value")  #견과류 향기를 좋아하시나요?
+        # val=st.checkbox("견과류 향기를 좋아하시나요?",key = "value")  #견과류 향기를 좋아하시나요?
+        val=st.select_slider("견과류 향기를 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'nutty'
         val = encode[val]
     elif st.session_state['counter'] == 13:
-        val=st.checkbox("포도주 좋아하시나요?",key = "value") #포도주 좋아하시나요?
+        # val=st.checkbox("포도주 좋아하시나요?",key = "value") #포도주 좋아하시나요?
+        val=st.select_slider("포도주 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'winey'
         val = encode[val]
     
@@ -246,12 +256,12 @@ def Scene2():
 def Scene3():
     st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
     
-    with st.columns([1,3])[1]:
+    with st.columns([1,3,1])[1]:
         st.title('답변 주신 취향을 확정지을까요??')
     
     st.title("")
     
-    _, left, right = st.columns([1.5,2,2])
+    _, left, right = st.columns([1.0,2,2])
     with left:
         Num = 6 if st.session_state['is_beginner'] else 4
         st.button('네', on_click=save, kwargs={'Scene':Num})
@@ -280,19 +290,23 @@ def Scene4():
 
     survey_whisky_with_df(df_with_condition)
     
+    whisky_list = st.session_state['whisky_list']
+    st.session_state['whisky_list'] = {item:rating for item, rating in whisky_list.items() if item in whiskey}
+    
     # st.sidebar.write(st.session_state["whisky_list"])
     # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
 
     
 def Scene5():
-    st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
+    encode = {True: '👍', False: '👎'}
+    st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부').map(lambda x : encode[x]))
     
-    with st.columns([1,3])[1]:
+    with st.columns([1,3,1])[1]:
         st.title('답변 주신 위스키들을 확정지을까요??')
     
     st.title("")
     
-    _, left, right = st.columns([1.5,2,2])
+    _, left, right = st.columns([1,2,2])
     with left:
         st.button('네', on_click=save, kwargs={'Scene':6})
     
@@ -348,19 +362,26 @@ def Scene6():
 # %%
 N = st.session_state['Scene']
 
+# config
+st.set_page_config(
+     page_title="WeSuki",
+     page_icon="img/icon_logo.jpg",
+     layout="centered",
+     initial_sidebar_state="expanded",
+ )
+
 # Team Logo
-with st.columns([1, 3, 1])[1]:
-    st.image('team_logo.jpg')
-    st.write(f'Scene{N}')
+with st.columns([1, 6, 1])[1]:
+    st.image('img/team_logo.jpg')
 
 # Scene 활성화
 run_scene = getattr(current_module, f'Scene{N}')
 run_scene()
 
 # for debug
-st.title('')
-k = st.text_input('Scene')
-st.button('warp', on_click=save, kwargs={'Scene':k})
+# st.title('')
+# k = st.text_input(f'Scene{N}')
+# st.button('warp', on_click=save, kwargs={'Scene':k})
 # st.session_state
 
 # %%
