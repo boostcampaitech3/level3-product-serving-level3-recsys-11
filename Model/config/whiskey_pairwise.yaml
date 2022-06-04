@@ -1,9 +1,0 @@
-# metrics setting[Ranking-based]
-metrics: ['Recall', 'NDCG']
-valid_metric: NDCG@10
-topk: [5, 10]
-
-
-# neg_sampling
-neg_sampling:
-    popularity: 10
