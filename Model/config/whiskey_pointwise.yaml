@@ -1,0 +1,9 @@
+# metrics setting[value-based]
+metrics: ['AUC', 'RMSE']
+valid_metric: AUC
+
+
+# defining Label
+LABEL_FIELD: rating
+threshold:
+    rating: 80.0

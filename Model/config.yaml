@@ -1,0 +1,32 @@
+columns_inter:        ['user',  'whiskey',  'rating']
+columns_inter_types:  ['token', 'token',    'float']
+
+columns_item:         ['Whiskey', 'Meta Critic',  'STDEV',  '#',      'Class',  'Cost',   'Super Cluster', 'Cluster', 'body',   'sweet',  'sherry',   'malt',   'aperitif',   'smoky', 'pungent',   'fruity',   'honey',  'floral',   'spicy',  'medicinal',  'nutty',  'winey']
+columns_item_types:   ['token',   'float',        'float',  'float',  'token',  'token',  'token',         'token,',  'float',  'float',  'float',    'float',  'float',      'float',  'float',    'float',    'float',  'float',    'float',  'float',      'float',  'float']
+
+sep:            '\t'
+sep_source:     '$'
+
+col_user: 'user'
+col_item: 'whiskey'
+
+name_dataset:               'whiskey_with_taste'
+dir_dataset:                'Dataset/'
+
+dir_source_of_interaction:  'Dataset/user_whiskey_interaction_renamed.csv'
+dir_source_of_item:         'Dataset/total_df.csv'
+
+dir_model_saved:            'Model/model_saved'
+dir_whiskey_cluster:        'Dataset/whiskey_cluster_norm.csv'
+dir_whiskey_w_tag:          'Dataset/total_df.csv'
+dir_integration:            'Dataset/total_df.csv'
+
+file_model_used:            'model.pth'
+
+won_per_cad: 984.52
+sort_by: ['Meta Critic', '#']
+
+#Train Params
+epochs: 1
+train_batch_size: 64
+eval_batch_size: 256
