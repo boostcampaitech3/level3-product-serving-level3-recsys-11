@@ -30,23 +30,22 @@ def  initiate(CONFIG):
 
 
 class Collector():
-    def __init__(self,CONFIG, goods:list=[], poors:list=[], user_id:str=None, dataloader:UserDataLoader=None) -> None:
+    def __init__(self,CONFIG,config, model, dataset, dataloader:UserDataLoader=None, goods:list=[], poors:list=[], user_id:str=None) -> None:
         self.goods = goods
         self.poors = poors
         self.user_id = user_id
-        self.config, self.model, self.dataset, self.dataloader
-    
-        self.config_vae, self.model_vae, _, _, _, _ 
+
         self.CONFIG=CONFIG
+
+        self.config=config
+        self.model=model
+        self.dataset=dataset
 
         if dataloader:
             self.dataloader = dataloader
     
     def topk(self, k:int=10) -> list:
         return self._popularity(k)
-    
-    def retrain(self) -> None:
-        raise NotImplementedError
     
     def _popularity(self, k:int=10) -> list:
         list_pop = []
@@ -64,22 +63,13 @@ class Collector():
             list_pop.append(whiskey)
         return list_pop
     
-    def _recbole(self, k:int=10) -> list:
-        uid_series = self._encode_user([self.user_id])
-        
-        topk_score, topk_iid_list = full_sort_topk(
-            uid_series, self.model, 
-            self.dataloader, k=k, 
-            device=self.config['device'])
-        
-        return self._decode(topk_iid_list.cpu())[0]
     
     def _recvae_predict(self) -> torch.Tensor:
         uid_series_good = self._encode(self.goods)
         uid_series_poor = self._encode(self.poors)
         
         rating_matrix = self._make_rating_matrix(uid_series_good)
-        scores, _, _, _ = self.model_vae.forward(rating_matrix, self.model_vae.dropout_prob)
+        scores, _, _, _ = self.model.forward(rating_matrix, self.model.dropout_prob)
 
         # [PAD], self.goods, self.poors에 해당하는 모든 아이템 제외
         scores[:, 0] = -np.inf
@@ -97,7 +87,7 @@ class Collector():
     # 내부적으로만 사용되는 함수들
     def _make_rating_matrix(self, uid_series:np.ndarray) -> torch.Tensor:
         n_items = self.dataset.num(self.dataset.iid_field)
-        device=self.config_vae['device']
+        device=self.config['device']
         
         col_indices = torch.Tensor(uid_series).to(device).long()
         row_indices = torch.zeros_like(col_indices).to(device).long()
@@ -168,13 +158,9 @@ class Greeter():
             _price_min = _price_max
             _price_max = tmp
         
-        idx_min = self._find_idx_range_cost(_price_min)
-        idx_max = self._find_idx_range_cost(_price_max)
-        
-        list_price_allowed = self.list_cost[idx_min:idx_max+1]
-        
-        condition = df_cluster.Cost.isin(list_price_allowed)
+        condition = (_price_min <= df_cluster.price) & (df_cluster.price < _price_max)
         return df_cluster[condition]
+
     
     def filter_by_price(self, df_cluster, _price_min, _price_max):            
         if _price_min > _price_max:
@@ -182,7 +168,12 @@ class Greeter():
             _price_min = _price_max
             _price_max = tmp
         
-        condition = (_price_min <= df_cluster.price) & (df_cluster.price < _price_max)
+        idx_min = self._find_idx_range_cost(_price_min)
+        idx_max = self._find_idx_range_cost(_price_max)
+        
+        list_price_allowed = self.list_cost[idx_min:idx_max+1]
+        
+        condition = df_cluster.Cost.isin(list_price_allowed)
         return df_cluster[condition]
 
     def _find_idx_range_cost(self, val):
@@ -201,9 +192,23 @@ class Greeter():
             return df_cluster.sort_values(by=sort_by).iloc[:topk, :]
         else:
             return df_cluster.sort_values(by=sort_by)
+    def topk(self, k:int=10) -> list:
+        return self._popularity(k)
+    
+    def _popularity(self, k:int=10) -> list:
+        list_pop = []
+        dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
+        iterator = pd.read_csv(dir_Pop).iterrows()
+        
+        for idx, row in iterator:
+            whiskey = row['whiskey']
+            if len(list_pop) == k:
+                break
+            list_pop.append(whiskey)
+        return list_pop
 
-# if __name__ == '__main__':
-#     initiate()
+if __name__ == '__main__':
+    initiate()
 #     from IPython.display import display
     
 #     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.

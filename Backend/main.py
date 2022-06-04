@@ -17,67 +17,107 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('Model'))))
 from Model.utils import initiate,Collector,Greeter
 from Model.train import train
 
+import pandas as pd
 app = FastAPI()
 with open('Model/config.yaml', 'r') as f:
         CONFIG = yaml.safe_load(f)
+
 # train(CONFIG)
 config, model, dataset, dataloader, _, _=initiate(CONFIG)
 
-
+total_df=pd.read_csv(CONFIG['dir_integration'],sep="$")
 @app.get("/")
 def hello_world():
     return {"hello": "world"}
 
 
 class Whiskey(BaseModel):
-    id: UUID = Field(default_factory=uuid4)
     name: str
     info_link: str
     image_link: str
 
 class Rec_lists(BaseModel):
     userid: UUID = Field(default_factory=uuid4)
-    Whiskies: List[Whiskey] = Field(default_factory=list)
+    popularity: List[Whiskey] = Field(default_factory=list)
+    model: List[Whiskey] = Field(default_factory=list)
+    tag: List[Whiskey] = Field(default_factory=list)
+
     created_at: datetime = Field(default_factory=datetime.now)
     updated_at: datetime = Field(default_factory=datetime.now)
-    
-    # @property
-    def add_product(self, item: Whiskey):
-        self.Whiskies.append(item)
-        self.updated_at = datetime.now()
-        return self
 
 
-rec_random = []
-@app.get("/recommend_e_list", description="Expert 추천 리스트를 가져옵니다")
-async def get_rec_random() -> List[Whiskey]:
-    return rec_random
+
+
 
 @app.post("/recommend_e", description="Expert 추천을 요청합니다.")
 async def make_rec_random(item:Request):
     item_dict = await item.json()
+
+    whiskies_like = item_dict['whiskies_like']
+    whiskies_hate = item_dict['whiskies_hate']
     topk = item_dict['topk']
-    whiskies_like = item_dict['whiskies']
-    whiskies_hate = item_dict['whiskies']
+    agent = Collector(CONFIG,config, model, dataset, dataloader,whiskies_like,whiskies_hate)
+    df_pop = agent._popularity(topk)
+    df_recvae = agent._recvae_topk(topk)
+    pop,recvae=[],[]
+    for i in range(topk):
+        condition=total_df.Whiskey==df_pop[i]
+
+        pop.append(
+        Whiskey(name=total_df[condition].Whiskey.iloc[0],
+        info_link=total_df[condition].links.iloc[0],
+        image_link=total_df[condition].images.iloc[0])
+        )
+
+        condition=total_df.Whiskey==df_recvae[i]
+
+        recvae.append(
+        Whiskey(name=total_df[condition].Whiskey.iloc[0],
+        info_link=total_df[condition].links.iloc[0],
+        image_link=total_df[condition].images.iloc[0])
+        )
+    result=Rec_lists(popularity=pop,model=recvae)
+
+    return result
     
-    agent = Collector(whiskies_like,whiskies_hate)
-    list_pop = agent._popularity(topk)
-    list_recvae = agent._recvae_topk(topk)
-    return list_recvae
-    
-@app.get("/recommend_b_list", description="Beginner 추천 리스트를 가져옵니다")
-async def get_rec_random() -> List[Whiskey]:
-    return rec_random
 
 @app.post("/recommend_b", description="Beginner 추천을 요청합니다.")
 async def make_rec_random(item:Request):
     item_dict = await item.json()
+
+    tag_list = item_dict['tag_list']
+    price_low=item_dict['price_low']
+    price_high=item_dict['price_high']
     topk = item_dict['topk']
-    dict_taste = item_dict['dict_taste']
-    agent = Greeter()
-    result_orga = agent._cal_cos_sim(dict_taste, organized=True)
-    result_cluster, result_df_cluster = agent.find_cluster(dict_taste)
-    result_sort_by_popularity = agent.sort_by_popularity(result_df_cluster, topk=topk)
+    
+    agent = Greeter(CONFIG)
+    df_pop = agent._popularity(topk)
+
+    result_cluster, result_df_cluster = agent.find_cluster(tag_list)
+    result_filter_by_price = agent.filter_by_price(result_df_cluster, price_low, price_high)
+    result_sort_by_popularity = agent.sort_by_popularity(result_filter_by_price, topk=topk)
+
+    df_tag_pop = result_sort_by_popularity.Whiskey.iloc
+    
+    pop,tags=[],[]
+    for i in range(topk):
+        condition=total_df.Whiskey==df_pop[i]
+
+        pop.append(
+        Whiskey(name=total_df[condition].Whiskey.iloc[0],
+        info_link=total_df[condition].links.iloc[0],
+        image_link=total_df[condition].images.iloc[0])
+        )
+
+        condition=total_df.Whiskey==df_tag_pop[i]
+
+        tags.append(
+        Whiskey(name=total_df[condition].Whiskey.iloc[0],
+        info_link=total_df[condition].links.iloc[0],
+        image_link=total_df[condition].images.iloc[0])
+        )
+    result=Rec_lists(popularity=pop,tag=tags)
+    return result
 #     
 
 
