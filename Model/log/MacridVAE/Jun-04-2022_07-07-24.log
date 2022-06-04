@@ -1,0 +1,259 @@
+Sat 04 Jun 2022 07:07:24 INFO  
+General Hyper Parameters:
+gpu_id = 0
+use_gpu = True
+seed = 2020
+state = INFO
+reproducibility = True
+data_path = ../Dataset/whiskey_with_taste
+checkpoint_dir = ../model_saved
+show_progress = True
+save_dataset = False
+dataset_save_path = None
+save_dataloaders = False
+dataloaders_save_path = None
+log_wandb = False
+
+Training Hyper Parameters:
+epochs = 300
+train_batch_size = 64
+learner = adam
+learning_rate = 0.001
+neg_sampling = {'popularity': 10}
+eval_step = 1
+stopping_step = 10
+clip_grad_norm = None
+weight_decay = 0.0
+loss_decimal_place = 4
+
+Evaluation Hyper Parameters:
+eval_args = {'split': {'RS': [0.8, 0.1, 0.1]}, 'group_by': 'user', 'order': 'RO', 'mode': 'full'}
+repeatable = False
+metrics = ['Recall', 'NDCG']
+topk = [5, 10]
+valid_metric = NDCG@10
+valid_metric_bigger = True
+eval_batch_size = 256
+metric_decimal_place = 4
+
+Dataset Hyper Parameters:
+field_separator = 	
+seq_separator =  
+USER_ID_FIELD = user
+ITEM_ID_FIELD = whiskey
+RATING_FIELD = rating
+TIME_FIELD = None
+seq_len = None
+LABEL_FIELD = label
+threshold = None
+NEG_PREFIX = neg_
+load_col = {'inter': ['user', 'whiskey', 'rating']}
+unload_col = None
+unused_col = None
+additional_feat_suffix = None
+rm_dup_inter = None
+val_interval = {'rating': '[0,100]'}
+filter_inter_by_user_or_item = True
+user_inter_num_interval = [0,inf)
+item_inter_num_interval = [0,inf)
+alias_of_user_id = None
+alias_of_item_id = None
+alias_of_entity_id = None
+alias_of_relation_id = None
+preload_weight = None
+normalize_field = None
+normalize_all = None
+ITEM_LIST_LENGTH_FIELD = item_length
+LIST_SUFFIX = _list
+MAX_ITEM_LIST_LENGTH = 50
+POSITION_FIELD = position_id
+HEAD_ENTITY_ID_FIELD = head_id
+TAIL_ENTITY_ID_FIELD = tail_id
+RELATION_ID_FIELD = relation_id
+ENTITY_ID_FIELD = entity_id
+benchmark_filename = None
+
+Other Hyper Parameters: 
+wandb_project = recbole_whiskey
+require_pow = False
+embedding_size = 64
+drop_out = 0.5
+kfac = 10
+nogb = False
+std = 0.01
+encoder_hidden_size = [600]
+tau = 0.1
+anneal_cap = 0.2
+total_anneal_steps = 200000
+reg_weights = [0, 0]
+MODEL_TYPE = ModelType.GENERAL
+MODEL_INPUT_TYPE = InputType.PAIRWISE
+eval_type = EvaluatorType.RANKING
+device = cuda
+train_neg_sample_args = {'strategy': 'by', 'by': 10, 'distribution': 'popularity', 'dynamic': 'none'}
+eval_neg_sample_args = {'strategy': 'full', 'distribution': 'uniform'}
+
+
+Sat 04 Jun 2022 07:07:31 INFO  whiskey_with_taste
+The number of users: 17665
+Average actions of users: 30.80366847826087
+The number of items: 1126
+Average actions of items: 483.65866666666665
+The number of inters: 544116
+The sparsity of the dataset: 97.26448270782609%
+Remain Fields: ['user', 'whiskey', 'rating']
+Sat 04 Jun 2022 07:07:34 INFO  [Training]: train_batch_size = [64] negative sampling: [{'popularity': 10}]
+Sat 04 Jun 2022 07:07:34 INFO  [Evaluation]: eval_batch_size = [256] eval_args: [{'split': {'RS': [0.8, 0.1, 0.1]}, 'group_by': 'user', 'order': 'RO', 'mode': 'full'}]
+Sat 04 Jun 2022 07:07:34 WARNING  Max value of user's history interaction records has reached 72.64653641207815% of the total.
+Sat 04 Jun 2022 07:07:38 INFO  MacridVAE(
+  (encoder): Sequential(
+    (0): Linear(in_features=1126, out_features=600, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=600, out_features=128, bias=True)
+  )
+  (item_embedding): Embedding(1126, 64)
+  (k_embedding): Embedding(10, 64)
+  (l2_loss): EmbLoss()
+)
+Trainable parameters: 825832
+Sat 04 Jun 2022 07:07:45 INFO  epoch 0 training [time: 6.91s, train loss: 25101.2296]
+Sat 04 Jun 2022 07:09:58 INFO  epoch 0 evaluating [time: 132.23s, valid_score: 0.533800]
+Sat 04 Jun 2022 07:09:58 INFO  valid result: 
+recall@5 : 0.4871    recall@10 : 0.5506    ndcg@5 : 0.5258    ndcg@10 : 0.5338
+Sat 04 Jun 2022 07:09:58 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:10:04 INFO  epoch 1 training [time: 6.75s, train loss: 23991.2235]
+Sat 04 Jun 2022 07:12:17 INFO  epoch 1 evaluating [time: 132.65s, valid_score: 0.562500]
+Sat 04 Jun 2022 07:12:17 INFO  valid result: 
+recall@5 : 0.5116    recall@10 : 0.5712    ndcg@5 : 0.5579    ndcg@10 : 0.5625
+Sat 04 Jun 2022 07:12:17 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:12:24 INFO  epoch 2 training [time: 7.03s, train loss: 23912.9667]
+Sat 04 Jun 2022 07:14:37 INFO  epoch 2 evaluating [time: 132.83s, valid_score: 0.573400]
+Sat 04 Jun 2022 07:14:37 INFO  valid result: 
+recall@5 : 0.5212    recall@10 : 0.5801    ndcg@5 : 0.5686    ndcg@10 : 0.5734
+Sat 04 Jun 2022 07:14:37 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:14:44 INFO  epoch 3 training [time: 7.04s, train loss: 23654.6735]
+Sat 04 Jun 2022 07:17:00 INFO  epoch 3 evaluating [time: 135.73s, valid_score: 0.580900]
+Sat 04 Jun 2022 07:17:00 INFO  valid result: 
+recall@5 : 0.5252    recall@10 : 0.5866    ndcg@5 : 0.5759    ndcg@10 : 0.5809
+Sat 04 Jun 2022 07:17:00 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:17:07 INFO  epoch 4 training [time: 6.96s, train loss: 23516.0566]
+Sat 04 Jun 2022 07:19:17 INFO  epoch 4 evaluating [time: 129.87s, valid_score: 0.602500]
+Sat 04 Jun 2022 07:19:17 INFO  valid result: 
+recall@5 : 0.538    recall@10 : 0.5953    ndcg@5 : 0.6018    ndcg@10 : 0.6025
+Sat 04 Jun 2022 07:19:17 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:19:24 INFO  epoch 5 training [time: 7.12s, train loss: 23628.2986]
+Sat 04 Jun 2022 07:21:35 INFO  epoch 5 evaluating [time: 130.73s, valid_score: 0.602200]
+Sat 04 Jun 2022 07:21:35 INFO  valid result: 
+recall@5 : 0.5378    recall@10 : 0.5947    ndcg@5 : 0.6012    ndcg@10 : 0.6022
+Sat 04 Jun 2022 07:21:41 INFO  epoch 6 training [time: 6.90s, train loss: 23411.8507]
+Sat 04 Jun 2022 07:23:52 INFO  epoch 6 evaluating [time: 130.87s, valid_score: 0.603300]
+Sat 04 Jun 2022 07:23:52 INFO  valid result: 
+recall@5 : 0.5386    recall@10 : 0.5959    ndcg@5 : 0.6023    ndcg@10 : 0.6033
+Sat 04 Jun 2022 07:23:52 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:23:59 INFO  epoch 7 training [time: 7.01s, train loss: 23400.8770]
+Sat 04 Jun 2022 07:26:08 INFO  epoch 7 evaluating [time: 128.63s, valid_score: 0.601200]
+Sat 04 Jun 2022 07:26:08 INFO  valid result: 
+recall@5 : 0.5364    recall@10 : 0.5953    ndcg@5 : 0.5992    ndcg@10 : 0.6012
+Sat 04 Jun 2022 07:26:15 INFO  epoch 8 training [time: 7.20s, train loss: 23340.9683]
+Sat 04 Jun 2022 07:28:33 INFO  epoch 8 evaluating [time: 137.56s, valid_score: 0.606200]
+Sat 04 Jun 2022 07:28:33 INFO  valid result: 
+recall@5 : 0.5433    recall@10 : 0.5992    ndcg@5 : 0.6067    ndcg@10 : 0.6062
+Sat 04 Jun 2022 07:28:33 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:28:40 INFO  epoch 9 training [time: 7.10s, train loss: 23326.0928]
+Sat 04 Jun 2022 07:30:55 INFO  epoch 9 evaluating [time: 135.18s, valid_score: 0.610900]
+Sat 04 Jun 2022 07:30:55 INFO  valid result: 
+recall@5 : 0.5444    recall@10 : 0.6013    ndcg@5 : 0.6114    ndcg@10 : 0.6109
+Sat 04 Jun 2022 07:30:55 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:31:02 INFO  epoch 10 training [time: 7.05s, train loss: 23315.2406]
+Sat 04 Jun 2022 07:33:12 INFO  epoch 10 evaluating [time: 130.26s, valid_score: 0.612900]
+Sat 04 Jun 2022 07:33:12 INFO  valid result: 
+recall@5 : 0.5433    recall@10 : 0.6009    ndcg@5 : 0.6139    ndcg@10 : 0.6129
+Sat 04 Jun 2022 07:33:12 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:33:20 INFO  epoch 11 training [time: 7.08s, train loss: 23311.8568]
+Sat 04 Jun 2022 07:35:24 INFO  epoch 11 evaluating [time: 124.52s, valid_score: 0.608400]
+Sat 04 Jun 2022 07:35:24 INFO  valid result: 
+recall@5 : 0.5413    recall@10 : 0.5989    ndcg@5 : 0.6082    ndcg@10 : 0.6084
+Sat 04 Jun 2022 07:35:31 INFO  epoch 12 training [time: 7.04s, train loss: 23280.8095]
+Sat 04 Jun 2022 07:37:44 INFO  epoch 12 evaluating [time: 132.76s, valid_score: 0.614000]
+Sat 04 Jun 2022 07:37:44 INFO  valid result: 
+recall@5 : 0.5441    recall@10 : 0.5993    ndcg@5 : 0.615    ndcg@10 : 0.614
+Sat 04 Jun 2022 07:37:44 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:37:51 INFO  epoch 13 training [time: 6.89s, train loss: 23763.1158]
+Sat 04 Jun 2022 07:40:06 INFO  epoch 13 evaluating [time: 135.42s, valid_score: 0.613100]
+Sat 04 Jun 2022 07:40:06 INFO  valid result: 
+recall@5 : 0.5448    recall@10 : 0.6    ndcg@5 : 0.6145    ndcg@10 : 0.6131
+Sat 04 Jun 2022 07:40:13 INFO  epoch 14 training [time: 7.03s, train loss: 23519.8643]
+Sat 04 Jun 2022 07:42:27 INFO  epoch 14 evaluating [time: 133.82s, valid_score: 0.612700]
+Sat 04 Jun 2022 07:42:27 INFO  valid result: 
+recall@5 : 0.5447    recall@10 : 0.5997    ndcg@5 : 0.614    ndcg@10 : 0.6127
+Sat 04 Jun 2022 07:42:34 INFO  epoch 15 training [time: 6.97s, train loss: 23296.8965]
+Sat 04 Jun 2022 07:44:37 INFO  epoch 15 evaluating [time: 122.98s, valid_score: 0.615700]
+Sat 04 Jun 2022 07:44:37 INFO  valid result: 
+recall@5 : 0.5455    recall@10 : 0.6011    ndcg@5 : 0.6171    ndcg@10 : 0.6157
+Sat 04 Jun 2022 07:44:37 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:44:44 INFO  epoch 16 training [time: 6.87s, train loss: 23257.9267]
+Sat 04 Jun 2022 07:46:53 INFO  epoch 16 evaluating [time: 128.66s, valid_score: 0.616700]
+Sat 04 Jun 2022 07:46:53 INFO  valid result: 
+recall@5 : 0.5477    recall@10 : 0.6009    ndcg@5 : 0.6195    ndcg@10 : 0.6167
+Sat 04 Jun 2022 07:46:53 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:47:00 INFO  epoch 17 training [time: 6.90s, train loss: 23241.2903]
+Sat 04 Jun 2022 07:48:58 INFO  epoch 17 evaluating [time: 118.40s, valid_score: 0.616400]
+Sat 04 Jun 2022 07:48:58 INFO  valid result: 
+recall@5 : 0.5463    recall@10 : 0.6043    ndcg@5 : 0.6167    ndcg@10 : 0.6164
+Sat 04 Jun 2022 07:49:05 INFO  epoch 18 training [time: 6.76s, train loss: 23252.2366]
+Sat 04 Jun 2022 07:51:12 INFO  epoch 18 evaluating [time: 127.53s, valid_score: 0.616100]
+Sat 04 Jun 2022 07:51:12 INFO  valid result: 
+recall@5 : 0.5453    recall@10 : 0.6011    ndcg@5 : 0.6175    ndcg@10 : 0.6161
+Sat 04 Jun 2022 07:51:19 INFO  epoch 19 training [time: 7.13s, train loss: 23446.6623]
+Sat 04 Jun 2022 07:53:30 INFO  epoch 19 evaluating [time: 130.31s, valid_score: 0.623600]
+Sat 04 Jun 2022 07:53:30 INFO  valid result: 
+recall@5 : 0.5516    recall@10 : 0.6033    ndcg@5 : 0.629    ndcg@10 : 0.6236
+Sat 04 Jun 2022 07:53:30 INFO  Saving current: ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 07:53:37 INFO  epoch 20 training [time: 6.86s, train loss: 23243.9064]
+Sat 04 Jun 2022 07:55:44 INFO  epoch 20 evaluating [time: 127.05s, valid_score: 0.617100]
+Sat 04 Jun 2022 07:55:44 INFO  valid result: 
+recall@5 : 0.5476    recall@10 : 0.6054    ndcg@5 : 0.6178    ndcg@10 : 0.6171
+Sat 04 Jun 2022 07:55:51 INFO  epoch 21 training [time: 7.00s, train loss: 23558.8976]
+Sat 04 Jun 2022 07:57:51 INFO  epoch 21 evaluating [time: 120.06s, valid_score: 0.619100]
+Sat 04 Jun 2022 07:57:51 INFO  valid result: 
+recall@5 : 0.5507    recall@10 : 0.6034    ndcg@5 : 0.6221    ndcg@10 : 0.6191
+Sat 04 Jun 2022 07:57:58 INFO  epoch 22 training [time: 7.07s, train loss: 23249.5682]
+Sat 04 Jun 2022 08:00:03 INFO  epoch 22 evaluating [time: 124.98s, valid_score: 0.622400]
+Sat 04 Jun 2022 08:00:03 INFO  valid result: 
+recall@5 : 0.5492    recall@10 : 0.6047    ndcg@5 : 0.6256    ndcg@10 : 0.6224
+Sat 04 Jun 2022 08:00:10 INFO  epoch 23 training [time: 6.92s, train loss: 23208.8675]
+Sat 04 Jun 2022 08:02:15 INFO  epoch 23 evaluating [time: 124.84s, valid_score: 0.615700]
+Sat 04 Jun 2022 08:02:15 INFO  valid result: 
+recall@5 : 0.547    recall@10 : 0.6022    ndcg@5 : 0.6169    ndcg@10 : 0.6157
+Sat 04 Jun 2022 08:02:22 INFO  epoch 24 training [time: 7.14s, train loss: 23211.4111]
+Sat 04 Jun 2022 08:04:32 INFO  epoch 24 evaluating [time: 130.71s, valid_score: 0.613700]
+Sat 04 Jun 2022 08:04:32 INFO  valid result: 
+recall@5 : 0.5454    recall@10 : 0.6003    ndcg@5 : 0.6144    ndcg@10 : 0.6137
+Sat 04 Jun 2022 08:04:39 INFO  epoch 25 training [time: 6.94s, train loss: 23310.7610]
+Sat 04 Jun 2022 08:06:37 INFO  epoch 25 evaluating [time: 118.07s, valid_score: 0.620300]
+Sat 04 Jun 2022 08:06:37 INFO  valid result: 
+recall@5 : 0.5495    recall@10 : 0.6043    ndcg@5 : 0.6236    ndcg@10 : 0.6203
+Sat 04 Jun 2022 08:06:44 INFO  epoch 26 training [time: 7.01s, train loss: 23223.9737]
+Sat 04 Jun 2022 08:08:48 INFO  epoch 26 evaluating [time: 123.78s, valid_score: 0.623500]
+Sat 04 Jun 2022 08:08:48 INFO  valid result: 
+recall@5 : 0.5509    recall@10 : 0.6072    ndcg@5 : 0.6269    ndcg@10 : 0.6235
+Sat 04 Jun 2022 08:08:55 INFO  epoch 27 training [time: 6.82s, train loss: 23193.7562]
+Sat 04 Jun 2022 08:10:56 INFO  epoch 27 evaluating [time: 121.38s, valid_score: 0.617300]
+Sat 04 Jun 2022 08:10:56 INFO  valid result: 
+recall@5 : 0.5476    recall@10 : 0.603    ndcg@5 : 0.619    ndcg@10 : 0.6173
+Sat 04 Jun 2022 08:11:03 INFO  epoch 28 training [time: 6.73s, train loss: 23347.2267]
+Sat 04 Jun 2022 08:13:10 INFO  epoch 28 evaluating [time: 126.84s, valid_score: 0.614200]
+Sat 04 Jun 2022 08:13:10 INFO  valid result: 
+recall@5 : 0.5446    recall@10 : 0.5999    ndcg@5 : 0.6155    ndcg@10 : 0.6142
+Sat 04 Jun 2022 08:13:17 INFO  epoch 29 training [time: 6.86s, train loss: 23206.0666]
+Sat 04 Jun 2022 08:15:24 INFO  epoch 29 evaluating [time: 127.06s, valid_score: 0.622400]
+Sat 04 Jun 2022 08:15:24 INFO  valid result: 
+recall@5 : 0.5504    recall@10 : 0.6037    ndcg@5 : 0.6263    ndcg@10 : 0.6224
+Sat 04 Jun 2022 08:15:31 INFO  epoch 30 training [time: 6.77s, train loss: 23204.5656]
+Sat 04 Jun 2022 08:17:35 INFO  epoch 30 evaluating [time: 124.54s, valid_score: 0.616900]
+Sat 04 Jun 2022 08:17:35 INFO  valid result: 
+recall@5 : 0.546    recall@10 : 0.6012    ndcg@5 : 0.6198    ndcg@10 : 0.6169
+Sat 04 Jun 2022 08:17:35 INFO  Finished training, best eval result in epoch 19
+Sat 04 Jun 2022 08:17:35 INFO  Loading model structure and parameters from ../model_saved/MacridVAE-Jun-04-2022_07-07-38.pth
+Sat 04 Jun 2022 08:20:02 INFO  best valid : OrderedDict([('recall@5', 0.5516), ('recall@10', 0.6033), ('ndcg@5', 0.629), ('ndcg@10', 0.6236)])
+Sat 04 Jun 2022 08:20:02 INFO  test result: OrderedDict([('recall@5', 0.5353), ('recall@10', 0.5865), ('ndcg@5', 0.6049), ('ndcg@10', 0.6008)])

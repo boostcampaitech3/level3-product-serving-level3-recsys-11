@@ -17,15 +17,15 @@ col_item: 'whiskey'
 # 주의 사항 : whiskey_cluster.csv와 total_df.csv에서의 열 'cluster'를 열 'Cluster'로 변경함.
 # 'cluster' -> 'Cluster'
 name_dataset:               'whiskey_with_taste'
-dir_dataset:                '../Dataset/'
+dir_dataset:                '/opt/ml/workspace/team_git/Model/../Dataset/'
 
-dir_source_of_interaction:  '../Dataset/user_whiskey_interaction_renamed.csv'
-dir_source_of_item:         '../Dataset/total_df.csv'
+dir_source_of_interaction:  '/opt/ml/workspace/team_git/Model/../Dataset/user_whiskey_interaction_renamed.csv'
+dir_source_of_item:         '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
 
-dir_model_saved:            'model_saved'
-dir_whiskey_cluster:        '../Dataset/whiskey_cluster.csv'
-dir_whiskey_w_tag:          '../Dataset/total_df.csv'
-dir_integration:            '../Dataset/total_df.csv'
+dir_model_saved:            '/opt/ml/workspace/team_git/Model/model_saved'
+dir_whiskey_cluster:        '/opt/ml/workspace/team_git/Model/../Dataset/whiskey_cluster.csv'
+dir_whiskey_w_tag:          '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
+dir_integration:            '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
 
 # version.1
 # file_model_used:            'LightGCN-May-20-2022_05-21-45.pth'

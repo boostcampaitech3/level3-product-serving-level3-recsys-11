@@ -11,12 +11,12 @@ from deprecated import deprecated
 # %%
 # 가격 환산.
 dict_range_cost = {
-    "$":        (0,     30),
-    "$$":       (30,    50),
-    "$$$":      (50,    70),
-    "$$$$":     (70,    125),
-    "$$$$$":    (125,   300),
-    "$$$$$+":   (300,   ''),
+    "$":        ('3만원 이하',),
+    "$$":       ('3만원 이상', '5만원 이하'),
+    "$$$":      ('5만원 이상', '7만원 이하'),
+    "$$$$":     ('6만원 이상', '12만원 이하'),
+    "$$$$$":    ('12만원 이상', '30만원 이하'),
+    "$$$$$+":   ('30만원 이상', ),
     }
 
 # button을 위해 설계 & 상수 정의 함수
@@ -42,12 +42,9 @@ def info_whisky(name:str):
     price = price[condition].iloc[0]
     price = dict_range_cost[price]
     
-    st.write(f'**price:**')
-    st.write(f'[CAD] {price[0]} ~ {price[1]}')
-    st.write(f'**type :**')
-    st.write(f'{Type[condition].iloc[0]}')
-    st.write(f'**link :**')
-    st.write(f'[{name}]({links[condition].iloc[0]})')
+    st.write(f'**[{name}]({links[condition].iloc[0]})**')
+    st.text(f'{price[0]}')
+    st.text(f'{price[1]}')
 
 # 위스키 평가표 출력
 def radio_whisky(name:str):
@@ -295,6 +292,7 @@ def Scene4():
     
     # st.sidebar.write(st.session_state["whisky_list"])
     # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
+
     
 def Scene5():
     encode = {True: '👍', False: '👎'}

@@ -22,7 +22,7 @@ config_file_list = ['whiskey_pairwise.yaml', 'common.yaml']
 config_file_list = [dir_config / i for i in config_file_list]
 
 # %%
-# https://recbole.io/docs/user_guide/model_intro.html
-run_recbole(dataset=name_dataset, model="MultiVAE", config_file_list=config_file_list, config_dict=config_dict)
+# https://recbole.io/docs/user_guide/model_intzro.html
+run_recbole(dataset=name_dataset, model="MacridVAE", config_file_list=config_file_list, config_dict=config_dict)
 
 # %%
