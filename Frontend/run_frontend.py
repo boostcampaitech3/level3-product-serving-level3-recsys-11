@@ -132,12 +132,11 @@ for k,v in init.items():
 
 # %%
 def Scene1():
-    with st.columns([1.5,3])[1]:
-        # st.title(':wine_glass: 환영합니다!! :wine_glass:')
-        st.title('환영합니다!!')
+    with st.columns([1,15])[1]:
+        st.image('img/환영합니다.jpg')
     st.title("")
-    with st.columns([1.1,3])[1]:
-        st.subheader('나는 위스키를 마셔본 적이')
+    with st.columns([1,5])[1]:
+        st.image('img/나는_위스키를_마셔본_적이.jpg')
     
     st.title("")
     
@@ -157,70 +156,87 @@ def Scene2():
     opt_bool = ['그렇지 않음', '그러함']
     
     if st.session_state['counter'] == 0:
-        # with st.expander("바디감이란?"):
-        #     st.write("바디감은 알코올, 음료의 무게감이라고도 표현합니다.")
-        #     st.write("음료의 진하기라고도 표현하며, 비교를 하자면")
-        #     st.write("안동소주:바디감 강함, 진로:바디감 약함 입니다.")
-        val=st.select_slider("바디감 있는게 좋으신가요?",options =opt_list,key = "value", value='모름')
+        with st.columns([1, 0.2])[0]:
+            st.image('img/body.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름')
         key = 'body'
         val = encode[val]
     elif st.session_state['counter'] == 1:
-        val=st.select_slider("단맛을 즐기시나요?",options =opt_list,key = "value", value='모름') #단맛을 즐기시나요?
+        with st.columns([1,1.20])[0]:
+            st.image('img/sweet.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #단맛을 즐기시나요?
         key = 'sweet'
         val = encode[val]
     elif st.session_state['counter'] == 2:
-        # val=st.checkbox("와인을 좋아하시나요?",key = "value") #와인을 좋아하시나요?
-        val=st.select_slider("와인을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,0.25])[0]:
+            st.image('img/sherry.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'sherry'
         val = encode[val]
     elif st.session_state['counter'] == 3:
-        # val=st.checkbox("곡물을 좋아하시나요?",key = "value") #곡물을 좋아하시나요?
-        val=st.select_slider("곡물을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,1.4])[0]:
+            st.image('img/malt.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'malt'
         val = encode[val]
     elif st.session_state['counter'] == 4:
-        # val=st.checkbox("식전주를 즐겨드시나요?",key = "value") #식전주를 즐겨드시나요?
-        val=st.select_slider("식전주을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,1.15])[0]:
+            st.image('img/aperitif.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'aperitif'
         val = encode[val]
     elif st.session_state['counter'] == 5:
-        val=st.select_slider("훈연향을 좋아하시나요?",options =opt_list,key = "value", value='모름') #훈연향을 좋아하시나요?
+        with st.columns([1,0.3])[0]:
+            st.image('img/smoky.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #훈연향을 좋아하시나요?
         key = 'smoky'
         val = encode[val]
     elif st.session_state['counter'] == 6:
-        # val=st.checkbox("양파향(?)을 좋아하시나요?",key = "value") #양파향(?)을 좋아하시나요?
-        val=st.select_slider("양파향을 즐기시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,0.4])[0]:
+            st.image('img/pungent.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'pungent'
         val = encode[val]
     elif st.session_state['counter'] == 7:
-        val=st.select_slider("과일을 좋아하시나요?",options =opt_list,key = "value", value='모름') #과일을 좋아하시나요?
+        with st.columns([1,0.8])[0]:
+            st.image('img/fruity.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #과일을 좋아하시나요?
         key = 'fruity'
         val = encode[val]
     elif st.session_state['counter'] == 8:
-        # val=st.checkbox("꿀을 좋아하시나요?",key = "value") #꿀을 좋아하시나요?
-        val=st.select_slider("꿀을 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,0.84])[0]:
+            st.image('img/honey.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'honey'
         val = encode[val]
     elif st.session_state['counter'] == 9:  
-        val=st.select_slider("꽃향기를 좋아하시나요?",options =opt_list,key = "value", value='모름') #꽃향기를 좋아하시나요?
+        with st.columns([1,0.7])[0]:
+            st.image('img/floral.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #꽃향기를 좋아하시나요?
         key = 'floral'
         val = encode[val]
     elif st.session_state['counter'] == 10:
-        val=st.select_slider("매운 것을 잘 드시나요?",options =opt_list,key = "value", value='모름') #매운 것을 잘 드시나요?
+        with st.columns([1,0.73])[0]:
+            st.image('img/spicy.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #매운 것을 잘 드시나요?
         key = 'spicy'
         val = encode[val]
     elif st.session_state['counter'] == 11:
-        val=st.select_slider("한약을 잘 드시나요?",options =opt_list,key = "value", value='모름') #한약을 잘 드시나요?
+        with st.columns([1,0.60])[0]:
+            st.image('img/medicinal.jpg')
+        val=st.select_slider("",options =opt_list,key = "value", value='모름') #한약을 잘 드시나요?
         key = 'medicinal'
         val = encode[val]
     elif st.session_state['counter'] == 12:
-        # val=st.checkbox("견과류 향기를 좋아하시나요?",key = "value")  #견과류 향기를 좋아하시나요?
-        val=st.select_slider("견과류 향기를 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,0.73])[0]:
+            st.image('img/nutty.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'nutty'
         val = encode[val]
     elif st.session_state['counter'] == 13:
-        # val=st.checkbox("포도주 좋아하시나요?",key = "value") #포도주 좋아하시나요?
-        val=st.select_slider("포도주 좋아하시나요?",options =opt_bool,key = "value", value='그렇지 않음')
+        with st.columns([1,0.73])[0]:
+            st.image('img/winey.jpg')
+        val=st.select_slider("",options =opt_bool,key = "value", value='그렇지 않음')
         key = 'winey'
         val = encode[val]
     
@@ -253,9 +269,10 @@ def Scene2():
 def Scene3():
     st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
     
-    with st.columns([1,3,1])[1]:
-        st.title('답변 주신 취향을 확정지을까요??')
+    with st.columns([1,5,1])[1]:
+            st.image('img/선택하신_취향으로_추천을_받으시겠습니까.jpg')
     
+    st.title("")
     st.title("")
     
     _, left, right = st.columns([1.0,2,2])
@@ -271,7 +288,7 @@ def Scene4():
     df_final = st.session_state['df_final']
 
     with st.columns([1,3,1])[1]:
-        st.title('당신의 경험을 이야기해주세요!')
+        st.image('img/마셔본_위스키들을_선택하고_평가해주세요.jpg')
         st.title('')
         whiskey = st.multiselect('검색창', df_final.Whiskey)
     
@@ -298,9 +315,10 @@ def Scene5():
     encode = {True: '👍', False: '👎'}
     st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부').map(lambda x : encode[x]))
     
-    with st.columns([1,3,1])[1]:
-        st.title('답변 주신 위스키들을 확정지을까요??')
+    with st.columns([1,5,1])[1]:
+        st.image('img/선택하신_취향과_위스키들로_추천을_받으시겠습니까.jpg')
     
+    st.title("")
     st.title("")
     
     _, left, right = st.columns([1,2,2])
