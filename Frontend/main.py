@@ -327,7 +327,8 @@ def Scene6():
             else:
                 whiskies_hate.append(k)
 
-        params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"topk":topk}
+        # params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"topk":topk}
+        params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"price_low":price_low,"price_high":price_high,"topk":topk}
         result = requests.post("http://127.0.0.1:8001/recommend_m", json=params)
         result=json.loads(result.text)
     

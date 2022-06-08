@@ -77,10 +77,9 @@ class pop_rec():
     def _popularity(self, k:int=10, _price_min:int=0, _price_max:int=1000000) -> list:
         list_pop = []
         dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
-        df_feature = pd.read_csv(self.CONFIG['dir_source_of_item'], sep=self.CONFIG['sep_source'], index_col='Whiskey')
-        
         iterator = pd.read_csv(dir_Pop).iterrows()
         
+        df_feature = pd.read_csv(self.CONFIG['dir_source_of_item'], sep=self.CONFIG['sep_source'], index_col='Whiskey')
         list_cost_allowed = filter_Cost_by_price(self.CONFIG, _price_min, _price_max)
         
         for idx, row in iterator:
@@ -180,6 +179,26 @@ class model_rec():
         scores = self._recvae_predict()
         topk_scores, topk_index = torch.topk(scores, k)
         return self._decode(topk_index.cpu()).tolist()[0]
+    
+    def _recvae_topk_filtered_by_Cost(self, k:int=10, _price_min:int=0, _price_max:int=1000000) -> tuple:
+        scores = self._recvae_predict()[0]
+        
+        list_index_val = sorted(enumerate(scores.cpu()), key=lambda x: -x[1])
+        tuple_idx_of_predict = list(zip(*list_index_val))[0]
+        tuple_idx_of_predict = list(tuple_idx_of_predict)
+        iterator = (i for i in self._decode(tuple_idx_of_predict))
+        
+        df_feature = pd.read_csv(self.CONFIG['dir_source_of_item'], sep=self.CONFIG['sep_source'], index_col='Whiskey')
+        list_cost_allowed = filter_Cost_by_price(self.CONFIG, _price_min, _price_max)
+        
+        list_model_rec = []
+        for whiskey in iterator:
+            if len(list_model_rec) == k:
+                break
+            if not df_feature.loc[whiskey].Cost in list_cost_allowed:
+                continue
+            list_model_rec.append(whiskey)
+        return list_model_rec
     
     # ##########################
     # 내부적으로만 사용되는 함수들

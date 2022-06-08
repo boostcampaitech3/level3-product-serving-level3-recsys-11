@@ -75,9 +75,12 @@ async def make_rec_random(item:Request):
 
     whiskies_like = item_dict['whiskies_like']
     whiskies_hate = item_dict['whiskies_hate']
+    price_low=item_dict['price_low']
+    price_high=item_dict['price_high']
     topk = item_dict['topk']
     agent = model_rec(CONFIG,config, model, dataset, dataloader,whiskies_like,whiskies_hate)
-    df_recvae = agent._recvae_topk(topk)
+    # df_recvae = agent._recvae_topk(topk)
+    df_recvae = agent._recvae_topk_filtered_by_Cost(topk,price_low,price_high)
     recvae=[]
     for i in range(topk):
 
