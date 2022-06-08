@@ -77,7 +77,7 @@ class pop_rec():
     def _popularity(self, k:int=10, _price_min:int=0, _price_max:int=1000000) -> list:
         list_pop = []
         dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
-        # df_feature = pd.read_csv(self.CONFIG['dir_source_of_item'], index_col='Whiskey')
+        df_feature = pd.read_csv(self.CONFIG['dir_source_of_item'], sep=self.CONFIG['sep_source'], index_col='Whiskey')
         
         iterator = pd.read_csv(dir_Pop).iterrows()
         
@@ -87,8 +87,8 @@ class pop_rec():
             whiskey = row['whiskey']
             if len(list_pop) == k:
                 break
-            # if not df_feature.loc[whiskey].Cost in list_cost_allowed:
-            #     continue
+            if not df_feature.loc[whiskey].Cost in list_cost_allowed:
+                continue
             list_pop.append(whiskey)
         return list_pop
 
