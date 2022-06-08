@@ -6,7 +6,9 @@ current_module = sys.modules[__name__]
 import pandas as pd
 import numpy as np
 from deprecated import deprecated
+from PIL import Image
 
+df_img_path = pd.read_csv('/opt/ml/input/code/demo2/total_img_path.csv', sep=',')
 
 # %%
 # 가격 환산.
@@ -28,8 +30,11 @@ def save(**kwarg):
 def img_whisky(name:str):
     df = st.session_state['df_final']
     
-    img_url = df[df.Whiskey.isin([name])].images.iloc[0]
-    st.image(img_url, caption=name, width=128)
+    #img_url = df[df.Whiskey.isin([name])].images.iloc[0]
+    img_path = df_img_path[df.Whiskey.isin([name])].img_path.iloc[0]
+    img = Image.open(img_path)
+    crop_img = img.resize((128,200))
+    st.image(crop_img, caption=name, width=128)
 
 # 위스키 정보 출력
 def info_whisky(name:str):
@@ -318,7 +323,7 @@ def Scene4():
 
     survey_whisky_with_df(df_with_condition)
     
-    # st.sidebar.write(st.session_state["whisky_list"])
+    # st.sidebar.write(st.session_state["whisky_list"]) 
     # st.sidebar.table(pd.Series(st.session_state["whisky_list"], name='선호 여부'))
 
     
