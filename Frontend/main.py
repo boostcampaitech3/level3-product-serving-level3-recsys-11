@@ -23,15 +23,15 @@ def img_whisky(name:str):
 
 # 위스키 정보 출력
 def info_whisky(name:str):
-    
-    result=requests.get("http://127.0.0.1:8001/info/"+name).text
-    result=result.rstrip(']').lstrip('[').split(",")
-    price=result[:2]
-    links=result[-1].strip('"')
-    price[1]=price[1].rstrip(']')
+    result=requests.get("http://127.0.0.1:8001/info/"+name).json()
+    price=result[0]
+    links=result[1]
     st.write(f'**[{name}]({links})**')
     st.text(f'{price[0]}')
-    st.text(f'{price[1]}')
+    try:
+        st.text(f'{price[1]}')
+    except:
+        st.text(f'')
 
 # 위스키 평가표 출력
 def radio_whisky(name:str):
@@ -112,7 +112,7 @@ def Scene1():
 
 def Scene2():
     key, val = None, None
-    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':1.0, '그러함':0.0}
+    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':0.0, '그러함':1.0}
     
     opt_list = ['매우 안좋아함','안좋아함','모름','좋아함','매우 좋아함']
     opt_bool = ['그렇지 않음', '그러함']
@@ -307,7 +307,15 @@ def Scene6():
 
 
     # API.
-
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write(' ')
+    with col2:
+        st.image("Frontend/img/추천_결과.jpg")
+    with col3:
+        st.write(' ')
+    st.title("")
+    st.title("")
     #model
     if not st.session_state['is_beginner']:
         whiskies_like=[]
@@ -326,7 +334,7 @@ def Scene6():
         for i in result['model']:
             result_model.append(i['name'])
 
-        st.title('나에게 맞는 상품')
+        st.image('Frontend/img/경험을_바탕으로_추천해드리는_위스키.jpg')
         display_whisky(topk, result_model)
 
     #tag
@@ -334,10 +342,11 @@ def Scene6():
     result = requests.post("http://127.0.0.1:8001/recommend_t", json=params)
     result=json.loads(result.text)
 
+    st.title("")
     result_tag=[]
     for i in result['tag']:
         result_tag.append(i['name'])
-    st.title('내 취향에 맞는 상품')
+    st.image('Frontend/img/취향_저격_베스트_위스키.jpg')
     display_whisky(topk, result_tag)
 
     #popularity
@@ -345,10 +354,11 @@ def Scene6():
     result = requests.post("http://127.0.0.1:8001/recommend_p", json=params)
     result=json.loads(result.text)
 
+    st.title("")
     result_pop=[]
     for i in result['popularity']:
         result_pop.append(i['name'])
-    st.title('인기 있는 상품')
+    st.image('Frontend/img/현재_가장_인기가_많은_위스키.jpg')
     display_whisky(topk, result_pop)
 
     
