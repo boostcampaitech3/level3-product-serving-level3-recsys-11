@@ -299,10 +299,12 @@ def Scene5():
         
         
 def Scene6():
-    
 
     # sidebar
-    price_low, price_high = st.sidebar.slider('가격 [원화 기준]', 0, 1000000, (0, 1000000), step=5000)
+    opt_price = {'0원':0, '3만원':30000, '5만원':50000, '7만원':70000, '12만원':125000, '30만원':300000, '30만원+':1000000}
+    price_low, price_high = st.sidebar.select_slider("", options =opt_price.keys(), value=('0원', '30만원+'))
+    price_low, price_high = opt_price[price_low], opt_price[price_high]
+    st.write(price_low, price_high)
     topk = st.sidebar.number_input('갯수', step=1, value=5, min_value=0, max_value=6)
 
 
@@ -340,6 +342,7 @@ def Scene6():
     #tag
     params={"tag_list":st.session_state['tag_list'],"price_low":price_low,"price_high":price_high,"topk":topk}
     result = requests.post("http://127.0.0.1:8001/recommend_t", json=params)
+    st.write(result.status_code)
     result=json.loads(result.text)
 
     st.title("")
@@ -350,7 +353,8 @@ def Scene6():
     display_whisky(topk, result_tag)
 
     #popularity
-    params={"topk":topk}
+    # params={"topk":topk}
+    params={"price_low":price_low, "price_high":price_high, "topk":topk}
     result = requests.post("http://127.0.0.1:8001/recommend_p", json=params)
     result=json.loads(result.text)
 

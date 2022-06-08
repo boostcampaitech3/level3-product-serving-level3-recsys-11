@@ -50,9 +50,11 @@ class Rec_lists(BaseModel):
 async def make_rec_random(item:Request):
     item_dict = await item.json()
 
+    price_low = item_dict['price_low']
+    price_high = item_dict['price_high']
     topk = item_dict['topk']
     agent = pop_rec(CONFIG)
-    df_pop = agent._popularity(topk)
+    df_pop = agent._popularity(topk, price_low, price_high)
     pop=[]
     for i in range(topk):
         condition=total_df.Whiskey==df_pop[i]
@@ -131,7 +133,7 @@ dict_range_cost = {
         "$":        ('3만원 이하',),
         "$$":       ('3만원 이상', '5만원 이하'),
         "$$$":      ('5만원 이상', '7만원 이하'),
-        "$$$$":     ('6만원 이상', '12만원 이하'),
+        "$$$$":     ('7만원 이상', '12만원 이하'),
         "$$$$$":    ('12만원 이상', '30만원 이하'),
         "$$$$$+":   ('30만원 이상', ),
         }

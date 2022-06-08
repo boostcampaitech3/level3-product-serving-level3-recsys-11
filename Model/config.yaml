@@ -23,7 +23,8 @@ dir_integration:            'Dataset/total_df.csv'
 
 file_model_used:            'model.pth'
 
-won_per_cad: 984.52
+# won_per_cad: 984.52
+won_per_cad: 1000
 sort_by: ['Meta Critic', '#']
 
 #Train Params
