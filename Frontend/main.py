@@ -29,7 +29,10 @@ def info_whisky(name:str):
     links=result[1]
     st.write(f'**[{name}]({links})**')
     st.text(f'{price[0]}')
-    st.text(f'{price[1]}')
+    try:
+        st.text(f'{price[1]}')
+    except:
+        st.text(f'')
 
 # 위스키 평가표 출력
 def radio_whisky(name:str):
@@ -110,7 +113,7 @@ def Scene1():
 
 def Scene2():
     key, val = None, None
-    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':1.0, '그러함':0.0}
+    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':0.0, '그러함':1.0}
     
     opt_list = ['매우 안좋아함','안좋아함','모름','좋아함','매우 좋아함']
     opt_bool = ['그렇지 않음', '그러함']
