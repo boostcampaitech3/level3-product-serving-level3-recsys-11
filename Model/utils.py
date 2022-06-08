@@ -28,8 +28,97 @@ def  initiate(CONFIG):
         
 
 
+class pop_rec():
+    def __init__(self,CONFIG) -> None:
+        self.CONFIG=CONFIG
+    
+    def _popularity(self, k:int=10) -> list:
+        list_pop = []
+        dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
+        iterator = pd.read_csv(dir_Pop).iterrows()
+        
+        for idx, row in iterator:
+            whiskey = row['whiskey']
+            if len(list_pop) == k:
+                break
+            list_pop.append(whiskey)
+        return list_pop
 
-class Collector():
+    
+class tag_rec():
+    def __init__(self,CONFIG) -> None:
+        self.CONFIG=CONFIG
+        self.df_whisky = pd.read_csv(self.CONFIG['dir_integration'], sep=self.CONFIG['sep_source'])
+        self.cluster2taste = pd.read_csv(self.CONFIG['dir_whiskey_cluster'], sep=self.CONFIG['sep_source']).set_index('Cluster')
+        self.minmaxscaler = MinMaxScaler()
+        self.dict_range_cost = {
+            "$":        (0,     30),
+            "$$":       (30,    50),
+            "$$$":      (50,    70),
+            "$$$$":     (70,    125),
+            "$$$$$":    (125,   300),
+            "$$$$$+":   (300,   np.inf),
+        }
+        self.list_cost = list(self.dict_range_cost.keys())
+    
+    def _cal_cos_sim(self, dict_taste:Dict[str, str], organized=False) -> np.ndarray:
+        _dict_taste = defaultdict(float)
+        _dict_taste.update(dict_taste)
+        col_taste = self.cluster2taste.columns
+        
+        list_taste = [_dict_taste[k] for k in col_taste]
+        list_taste = [list_taste]
+        
+        sim = cosine_distances(self.cluster2taste, list_taste)
+        
+        if organized:
+            self.minmaxscaler.fit(sim)
+            sim = self.minmaxscaler.transform(sim)
+    
+        return sim
+    
+    def find_cluster(self, dict_taste:Dict[str, str]) -> str:
+        array_cluster = self._cal_cos_sim(dict_taste)
+        idx_cluster = array_cluster.argmin()
+        
+        class_cluster = self.cluster2taste.index[idx_cluster]
+        condition_cluster = self.df_whisky.Cluster == class_cluster
+        df_cluster = self.df_whisky[condition_cluster]
+        
+        return class_cluster, df_cluster
+
+    
+    def filter_by_price(self, df_cluster, _price_min, _price_max):            
+        if _price_min > _price_max:
+            tmp = _price_min
+            _price_min = _price_max
+            _price_max = tmp
+        
+        idx_min = self._find_idx_range_cost(_price_min)
+        idx_max = self._find_idx_range_cost(_price_max)
+        
+        list_price_allowed = self.list_cost[idx_min:idx_max+1]
+        
+        condition = df_cluster.Cost.isin(list_price_allowed)
+        return df_cluster[condition]
+
+    def _find_idx_range_cost(self, val):
+        won_per_cad = self.CONFIG['won_per_cad']
+        val = val / won_per_cad
+        
+        for idx, (k, (v_min, v_max)) in enumerate(self.dict_range_cost.items()):
+            if v_min <= val < v_max:
+                return idx
+        raise IndexError
+    
+    def sort_by_popularity(self, df_cluster, topk=None):
+        sort_by = self.CONFIG['sort_by']
+        
+        if topk:
+            return df_cluster.sort_values(by=sort_by).iloc[:topk, :]
+        else:
+            return df_cluster.sort_values(by=sort_by)
+class model_rec():
     def __init__(self,CONFIG,config, model, dataset, dataloader:UserDataLoader=None, goods:list=[], poors:list=[], user_id:str=None) -> None:
         self.goods = goods
         self.poors = poors
@@ -44,25 +133,7 @@ class Collector():
         if dataloader:
             self.dataloader = dataloader
     
-    def topk(self, k:int=10) -> list:
-        return self._popularity(k)
-    
-    def _popularity(self, k:int=10) -> list:
-        list_pop = []
-        dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
-        iterator = pd.read_csv(dir_Pop).iterrows()
-        
-        for idx, row in iterator:
-            whiskey = row['whiskey']
-            if len(list_pop) == k:
-                break
-            if whiskey in self.goods:
-                continue
-            elif whiskey in self.poors:
-                continue
-            list_pop.append(whiskey)
-        return list_pop
-    
+
     
     def _recvae_predict(self) -> torch.Tensor:
         uid_series_good = self._encode(self.goods)
@@ -108,107 +179,7 @@ class Collector():
         return self.dataset.id2token(self.dataset.iid_field, array_id)
 
 
-class Greeter():
-    def __init__(self,CONFIG) -> None:
-        self.CONFIG=CONFIG
-        self.df_whisky = pd.read_csv(self.CONFIG['dir_integration'], sep=self.CONFIG['sep_source'])
-        self.cluster2taste = pd.read_csv(self.CONFIG['dir_whiskey_cluster'], sep=self.CONFIG['sep_source'])
-        self.cluster2taste = self.cluster2taste.set_index('Cluster')
-        self.minmaxscaler = MinMaxScaler()
-        self.dict_range_cost = {
-            "$":        (0,     30),
-            "$$":       (30,    50),
-            "$$$":      (50,    70),
-            "$$$$":     (70,    125),
-            "$$$$$":    (125,   300),
-            "$$$$$+":   (300,   np.inf),
-        }
-        self.list_cost = list(self.dict_range_cost.keys())
-    
-    def _cal_cos_sim(self, dict_taste:Dict[str, str], organized=False) -> np.ndarray:
-        _dict_taste = defaultdict(float)
-        _dict_taste.update(dict_taste)
-        col_taste = self.cluster2taste.columns
-        
-        list_taste = [_dict_taste[k] for k in col_taste]
-        list_taste = [list_taste]
-        
-        sim = cosine_distances(self.cluster2taste, list_taste)
-        
-        if organized:
-            self.minmaxscaler.fit(sim)
-            sim = self.minmaxscaler.transform(sim)
-    
-        return sim
-    
-    def find_cluster(self, dict_taste:Dict[str, str]) -> str:
-        array_cluster = self._cal_cos_sim(dict_taste)
-        idx_cluster = array_cluster.argmin()
-        
-        class_cluster = self.cluster2taste.index[idx_cluster]
-        condition_cluster = self.df_whisky.Cluster == class_cluster
-        df_cluster = self.df_whisky[condition_cluster]
-        
-        return class_cluster, df_cluster
-    
-    @deprecated(reason='데이터셋이 바뀜.')
-    def filter_by_price_class(self, df_cluster, _price_min, _price_max):            
-        if _price_min > _price_max:
-            tmp = _price_min
-            _price_min = _price_max
-            _price_max = tmp
-        
-        condition = (_price_min <= df_cluster.price) & (df_cluster.price < _price_max)
-        return df_cluster[condition]
 
-    
-    def filter_by_price(self, df_cluster, _price_min, _price_max):            
-        if _price_min > _price_max:
-            tmp = _price_min
-            _price_min = _price_max
-            _price_max = tmp
-        
-        idx_min = self._find_idx_range_cost(_price_min)
-        idx_max = self._find_idx_range_cost(_price_max)
-        
-        list_price_allowed = self.list_cost[idx_min:idx_max+1]
-        
-        condition = df_cluster.Cost.isin(list_price_allowed)
-        return df_cluster[condition]
-
-    def _find_idx_range_cost(self, val):
-        won_per_cad = self.CONFIG['won_per_cad']
-        val = val / won_per_cad
-        
-        for idx, (k, (v_min, v_max)) in enumerate(self.dict_range_cost.items()):
-            if v_min <= val < v_max:
-                return idx
-        raise IndexError
-    
-    def sort_by_popularity(self, df_cluster, topk=None):
-        sort_by = self.CONFIG['sort_by']
-        
-        if topk:
-            return df_cluster.sort_values(by=sort_by).iloc[:topk, :]
-        else:
-            return df_cluster.sort_values(by=sort_by)
-    def topk(self, k:int=10) -> list:
-        return self._popularity(k)
-    
-    def _popularity(self, k:int=10) -> list:
-        list_pop = []
-        dir_Pop = Path(self.CONFIG['dir_dataset']) / self.CONFIG['name_dataset'] / f'Pop.csv'
-        iterator = pd.read_csv(dir_Pop).iterrows()
-        
-        for idx, row in iterator:
-            whiskey = row['whiskey']
-            if len(list_pop) == k:
-                break
-            list_pop.append(whiskey)
-        return list_pop
-
-if __name__ == '__main__':
-    initiate()
 #     from IPython.display import display
     
 #     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.
