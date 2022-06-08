@@ -7,8 +7,3 @@ valid_metric: AUC
 LABEL_FIELD: rating
 threshold:
     rating: 80.0
-
-
-# data setting
-load_col:
-    item: ['Whiskey', 'Meta Critic',  'STDEV',  '#',      'Class',  'Cost',   'Super Cluster', 'Cluster', 'body',   'sweet',  'sherry',   'malt',   'aperitif',   'smoky', 'pungent',   'fruity',   'honey',  'floral',   'spicy',  'medicinal',  'nutty',  'winey']

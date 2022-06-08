@@ -1,6 +1,5 @@
-/Dataset/origin_data
-/Model/Context_Awared/ml-1m
-/Model/Context_Awared/ml-1m.zip
+log/
+__pycache__/
 
-Dataset/tag_whiskey_interaction.csv
-Dataset/tag_whiskey_interaction_norm.csv
+/Dataset/origin_data
+

@@ -1,10 +1,6 @@
 columns_inter:        ['user',  'whiskey',  'rating']
 columns_inter_types:  ['token', 'token',    'float']
 
-# ver2
-# columns_item:         ['whiskey', 'Meta Critic',  '#',      'Country',  'Type',   'price',  'body',   'sweet',  'sherry',   'malt',   'aperitif', 'smoky', 'pungent', 'fruity', 'honey',  'floral', 'spicy',  'medicinal',  'nutty',  'winey']
-# columns_item_types:   ['token',   'float',        'float',  'float',    'token',  'float',  'float',  'float',  'float',    'float',  'float',    'float', 'float',   'float',  'float',  'float',  'float',  'float',      'float',  'float']
-# ver3
 columns_item:         ['Whiskey', 'Meta Critic',  'STDEV',  '#',      'Class',  'Cost',   'Super Cluster', 'Cluster', 'body',   'sweet',  'sherry',   'malt',   'aperitif',   'smoky', 'pungent',   'fruity',   'honey',  'floral',   'spicy',  'medicinal',  'nutty',  'winey']
 columns_item_types:   ['token',   'float',        'float',  'float',  'token',  'token',  'token',         'token,',  'float',  'float',  'float',    'float',  'float',      'float',  'float',    'float',    'float',  'float',    'float',  'float',      'float',  'float']
 
@@ -14,30 +10,23 @@ sep_source:     '$'
 col_user: 'user'
 col_item: 'whiskey'
 
-# 주의 사항 : whiskey_cluster.csv와 total_df.csv에서의 열 'cluster'를 열 'Cluster'로 변경함.
-# 'cluster' -> 'Cluster'
 name_dataset:               'whiskey_with_taste'
-dir_dataset:                '/opt/ml/workspace/team_git/Model/../Dataset/'
+dir_dataset:                'Dataset/'
 
-dir_source_of_interaction:  '/opt/ml/workspace/team_git/Model/../Dataset/user_whiskey_interaction_renamed.csv'
-dir_source_of_item:         '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
+dir_source_of_interaction:  'Dataset/user_whiskey_interaction_renamed.csv'
+dir_source_of_item:         'Dataset/total_df.csv'
 
-dir_model_saved:            '/opt/ml/workspace/team_git/Model/model_saved'
-dir_whiskey_cluster:        '/opt/ml/workspace/team_git/Model/../Dataset/whiskey_cluster.csv'
-dir_whiskey_w_tag:          '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
-dir_integration:            '/opt/ml/workspace/team_git/Model/../Dataset/total_df.csv'
+dir_model_saved:            'Model/model_saved'
+dir_whiskey_cluster:        'Dataset/whiskey_cluster_norm.csv'
+dir_whiskey_w_tag:          'Dataset/total_df.csv'
+dir_integration:            'Dataset/total_df.csv'
 
-# version.1
-# file_model_used:            'LightGCN-May-20-2022_05-21-45.pth'
-# file_model_vae_used:        'RecVAE-May-20-2022_05-03-35.pth'
-
-# version.2
-# file_model_used:            'LightGCN-May-29-2022_11-40-52.pth'
-# file_model_vae_used:        'RecVAE-May-29-2022_11-09-28.pth'
-
-# version.3
-file_model_used:            'EASE-Jun-02-2022_08-03-17.pth'
-file_model_vae_used:        'RecVAE-Jun-02-2022_04-18-51.pth'
+file_model_used:            'model.pth'
 
 won_per_cad: 984.52
 sort_by: ['Meta Critic', '#']
+
+#Train Params
+epochs: 1
+train_batch_size: 64
+eval_batch_size: 256
