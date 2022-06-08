@@ -24,11 +24,9 @@ def img_whisky(name:str):
 # 위스키 정보 출력
 def info_whisky(name:str):
     
-    result=requests.get("http://127.0.0.1:8001/info/"+name).text
-    result=result.rstrip(']').lstrip('[').split(",")
-    price=result[:2]
-    links=result[-1].strip('"')
-    price[1]=price[1].rstrip(']')
+    result=requests.get("http://127.0.0.1:8001/info/"+name).json()
+    price=result[0]
+    links=result[1]
     st.write(f'**[{name}]({links})**')
     st.text(f'{price[0]}')
     st.text(f'{price[1]}')
