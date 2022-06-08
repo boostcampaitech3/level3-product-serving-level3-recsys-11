@@ -11,7 +11,8 @@ class TagWhiskeyInterDataset(Dataset):
     def __init__(self, sep=',', threshold=86):
         root = '/opt/ml/workspace/team_git/Dataset/'
         df_iid = pd.read_csv(root+'whiskey_id.csv', sep=sep)
-        self.df_inter = pd.read_csv(root+'tag_whiskey_interaction.csv', sep=sep)
+        # self.df_inter = pd.read_csv(root+'tag_whiskey_interaction.csv', sep=sep)
+        self.df_inter = pd.read_csv(root+'tag_whiskey_interaction_norm.csv', sep=sep)
         
         self.encoder = df_iid.set_index('whiskey').to_dict()['iid']
         self.decoder = df_iid.set_index('iid').to_dict()['whiskey']
