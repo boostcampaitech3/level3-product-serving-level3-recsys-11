@@ -1,9 +1,8 @@
-# %%
 import pandas as pd
 from pathlib import Path
 
 import yaml
-with open('config.yaml', 'r') as f:
+with open('Model/config.yaml', 'r') as f:
     CONFIG = yaml.safe_load(f)
 
 
@@ -63,5 +62,3 @@ df_pop = df_source_of_interaction[[col_user, col_item]]\
 # %%
 # 데이터 인기도순 추천을 위한 전처리 과정
 df_pop.to_csv(dir_Pop, index=False)
-
-# %%
