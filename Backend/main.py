@@ -14,7 +14,7 @@ from pathlib import Path
 import sys, os
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('Model'))))
 
-from Model.utils import initiate,Collector,Greeter
+from Model.utils import initiate,pop_rec,tag_rec,model_rec
 from Model.train import train
 
 import pandas as pd
@@ -45,21 +45,15 @@ class Rec_lists(BaseModel):
     created_at: datetime = Field(default_factory=datetime.now)
     updated_at: datetime = Field(default_factory=datetime.now)
 
-
-
-
-
-@app.post("/recommend_e", description="Expert 추천을 요청합니다.")
+###Recommendations
+@app.post("/recommend_p", description="popularity 추천을 요청합니다.")
 async def make_rec_random(item:Request):
     item_dict = await item.json()
 
-    whiskies_like = item_dict['whiskies_like']
-    whiskies_hate = item_dict['whiskies_hate']
     topk = item_dict['topk']
-    agent = Collector(CONFIG,config, model, dataset, dataloader,whiskies_like,whiskies_hate)
+    agent = pop_rec(CONFIG)
     df_pop = agent._popularity(topk)
-    df_recvae = agent._recvae_topk(topk)
-    pop,recvae=[],[]
+    pop=[]
     for i in range(topk):
         condition=total_df.Whiskey==df_pop[i]
 
@@ -69,6 +63,22 @@ async def make_rec_random(item:Request):
         image_link=total_df[condition].images.iloc[0])
         )
 
+    result=Rec_lists(popularity=pop)
+
+    return result
+
+@app.post("/recommend_m", description="model 추천을 요청합니다.")
+async def make_rec_random(item:Request):
+    item_dict = await item.json()
+
+    whiskies_like = item_dict['whiskies_like']
+    whiskies_hate = item_dict['whiskies_hate']
+    topk = item_dict['topk']
+    agent = model_rec(CONFIG,config, model, dataset, dataloader,whiskies_like,whiskies_hate)
+    df_recvae = agent._recvae_topk(topk)
+    recvae=[]
+    for i in range(topk):
+
         condition=total_df.Whiskey==df_recvae[i]
 
         recvae.append(
@@ -76,12 +86,12 @@ async def make_rec_random(item:Request):
         info_link=total_df[condition].links.iloc[0],
         image_link=total_df[condition].images.iloc[0])
         )
-    result=Rec_lists(popularity=pop,model=recvae)
+    result=Rec_lists(model=recvae)
 
     return result
     
 
-@app.post("/recommend_b", description="Beginner 추천을 요청합니다.")
+@app.post("/recommend_t", description="tag 추천을 요청합니다.")
 async def make_rec_random(item:Request):
     item_dict = await item.json()
 
@@ -90,8 +100,7 @@ async def make_rec_random(item:Request):
     price_high=item_dict['price_high']
     topk = item_dict['topk']
     
-    agent = Greeter(CONFIG)
-    df_pop = agent._popularity(topk)
+    agent = tag_rec(CONFIG)
 
     result_cluster, result_df_cluster = agent.find_cluster(tag_list)
     result_filter_by_price = agent.filter_by_price(result_df_cluster, price_low, price_high)
@@ -101,13 +110,6 @@ async def make_rec_random(item:Request):
     
     pop,tags=[],[]
     for i in range(topk):
-        condition=total_df.Whiskey==df_pop[i]
-
-        pop.append(
-        Whiskey(name=total_df[condition].Whiskey.iloc[0],
-        info_link=total_df[condition].links.iloc[0],
-        image_link=total_df[condition].images.iloc[0])
-        )
 
         condition=total_df.Whiskey==df_tag_pop[i]
 
@@ -116,13 +118,33 @@ async def make_rec_random(item:Request):
         info_link=total_df[condition].links.iloc[0],
         image_link=total_df[condition].images.iloc[0])
         )
-    result=Rec_lists(popularity=pop,tag=tags)
+    result=Rec_lists(tag=tags)
     return result
-#     
+#### etcs
+#image
+@app.get("/image/{whiskey_name}")
+async def image(whiskey_name: str):
+        img_url = total_df[total_df.Whiskey.isin([whiskey_name])].images.iloc[0]
+        return img_url
+#infomation
+dict_range_cost = {
+        "$":        ('3만원 이하',),
+        "$$":       ('3만원 이상', '5만원 이하'),
+        "$$$":      ('5만원 이상', '7만원 이하'),
+        "$$$$":     ('6만원 이상', '12만원 이하'),
+        "$$$$$":    ('12만원 이상', '30만원 이하'),
+        "$$$$$+":   ('30만원 이상', ),
+        }
+@app.get("/info/{whiskey_name}")
+async def info(whiskey_name: str):
 
+        condition = total_df.Whiskey == whiskey_name
+        price = total_df[condition].Cost.iloc[0]
+        Type = total_df[condition].Class.iloc[0]
+        links = total_df[condition].links.iloc[0]
+        price = dict_range_cost[price]
+        return price,links
 
-
-
-
-
-
+@app.get("/whisky_datas")
+async def whiskies():
+        return total_df.Whiskey
