@@ -115,11 +115,10 @@ code
 
 ### 1) SW 구성
 
-![Untitled](https://user-images.githubusercontent.com/91198452/172394318-980681d3-cb23-44db-af1b-63d94f8869fb.png)
 
 ### 2) FrontEnd (Streamlit)
 
-- 사용자 인터페이스 제공 : 이미지 업로드, 크롭, 전시 등
+- 사용자 인터페이스 제공 : 이미지 업로드, 크롭, 설문, 전시 등
 - 서비스 결과 전시 : 제품 유형, 유사 제품 이미지 등
 
 ### 3) BackEnd (FastAPI)
