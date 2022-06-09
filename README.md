@@ -85,7 +85,7 @@ code
 
 ---
 
-## 3️⃣ DataSet
+## 3️. DataSet
 
 
 ### 1) [Whiskybase](https://whiskybase.com)
@@ -102,7 +102,7 @@ code
 
 ---
 
-## 4️⃣ Modeling
+## 4️. Modeling
 
 ### 1) 무 경험자
 
@@ -111,7 +111,7 @@ code
 
 ---
 
-## 5️⃣Product Serving
+## 5️. Product Serving
 
 ### 1) SW 구성
 
@@ -130,7 +130,7 @@ code
 
 
 
-## 6️⃣ ****How to Run****
+## 6️. ****How to Run****
 
 
 ### run
@@ -138,11 +138,11 @@ code
 make -j 2 run_app
 
 ```
-## 8️⃣ 후속 개발
+## 7. 후속 개발
 - DB 추가
 - 클라우드
 - 추천 결과에 대한 유저피드백 저장후 
 
 
-## 8️⃣ Reference
+## 8️. Reference
 
