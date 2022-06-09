@@ -19,7 +19,8 @@ def img_whisky(name:str):
     
     img_url = requests.get("http://127.0.0.1:8001/image/"+name).text[1:-1]
 
-    st.image(img_url, caption=name, width=128)
+    st.components.v1.html(f'<img src="{img_url}" style="display: block; margin: 0 auto; height:220px;" />', height=240)
+    st.caption(name)
 
 # 위스키 정보 출력
 def info_whisky(name:str):
@@ -112,7 +113,8 @@ def Scene1():
 
 def Scene2():
     key, val = None, None
-    encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':0.0, '그러함':1.0}
+    # encode = {'모름':0.50,'매우 안좋아함':0.0,'안좋아함':0.25,'좋아함':0.75,'매우 좋아함':1.0, True:1.0, False:0.0, '그렇지 않음':0.0, '그러함':1.0}
+    encode = {'모름':0.0,'매우 안좋아함':-1.0,'안좋아함':-0.5,'좋아함':0.5,'매우 좋아함':1.0, True:1.0, False:-1.0, '그렇지 않음':0.0, '그러함':1.0}
     
     opt_list = ['매우 안좋아함','안좋아함','모름','좋아함','매우 좋아함']
     opt_bool = ['그렇지 않음', '그러함']
@@ -266,7 +268,6 @@ def Scene4():
     
     if not whiskey:
         whiskey = []
-    print(whiskey)
     condition_word = df_final.isin(whiskey)
     df_with_condition = df_final[condition_word]
     
@@ -299,10 +300,11 @@ def Scene5():
         
         
 def Scene6():
-    
 
     # sidebar
-    price_low, price_high = st.sidebar.slider('가격 [원화 기준]', 0, 1000000, (0, 1000000), step=5000)
+    opt_price = {'0원':0, '3만원':30000, '5만원':50000, '7만원':70000, '12만원':125000, '30만원':300000, '30만원+':1000000}
+    price_low, price_high = st.sidebar.select_slider("", options =opt_price.keys(), value=('0원', '30만원+'))
+    price_low, price_high = opt_price[price_low], opt_price[price_high]
     topk = st.sidebar.number_input('갯수', step=1, value=5, min_value=0, max_value=6)
 
 
@@ -326,7 +328,8 @@ def Scene6():
             else:
                 whiskies_hate.append(k)
 
-        params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"topk":topk}
+        # params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"topk":topk}
+        params={"whiskies_like":whiskies_like,"whiskies_hate":whiskies_hate,"price_low":price_low,"price_high":price_high,"topk":topk}
         result = requests.post("http://127.0.0.1:8001/recommend_m", json=params)
         result=json.loads(result.text)
     
@@ -350,7 +353,8 @@ def Scene6():
     display_whisky(topk, result_tag)
 
     #popularity
-    params={"topk":topk}
+    # params={"topk":topk}
+    params={"price_low":price_low, "price_high":price_high, "topk":topk}
     result = requests.post("http://127.0.0.1:8001/recommend_p", json=params)
     result=json.loads(result.text)
 

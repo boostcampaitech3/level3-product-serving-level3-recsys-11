@@ -1,0 +1,501 @@
+Sat 04 Jun 2022 03:41:01 INFO  
+General Hyper Parameters:
+gpu_id = 0
+use_gpu = True
+seed = 2020
+state = INFO
+reproducibility = True
+data_path = ../Dataset/whiskey_with_taste
+checkpoint_dir = ../model_saved
+show_progress = True
+save_dataset = False
+dataset_save_path = None
+save_dataloaders = False
+dataloaders_save_path = None
+log_wandb = False
+
+Training Hyper Parameters:
+epochs = 300
+train_batch_size = 64
+learner = adam
+learning_rate = 0.001
+neg_sampling = {'popularity': 10}
+eval_step = 1
+stopping_step = 10
+clip_grad_norm = None
+weight_decay = 0.0
+loss_decimal_place = 4
+
+Evaluation Hyper Parameters:
+eval_args = {'split': {'RS': [0.8, 0.1, 0.1]}, 'group_by': 'user', 'order': 'RO', 'mode': 'full'}
+repeatable = False
+metrics = ['Recall', 'NDCG']
+topk = [5, 10]
+valid_metric = NDCG@10
+valid_metric_bigger = True
+eval_batch_size = 256
+metric_decimal_place = 4
+
+Dataset Hyper Parameters:
+field_separator = 	
+seq_separator =  
+USER_ID_FIELD = user
+ITEM_ID_FIELD = whiskey
+RATING_FIELD = rating
+TIME_FIELD = None
+seq_len = None
+LABEL_FIELD = label
+threshold = None
+NEG_PREFIX = neg_
+load_col = {'inter': ['user', 'whiskey', 'rating']}
+unload_col = None
+unused_col = None
+additional_feat_suffix = None
+rm_dup_inter = None
+val_interval = {'rating': '[0,100]'}
+filter_inter_by_user_or_item = True
+user_inter_num_interval = [0,inf)
+item_inter_num_interval = [0,inf)
+alias_of_user_id = None
+alias_of_item_id = None
+alias_of_entity_id = None
+alias_of_relation_id = None
+preload_weight = None
+normalize_field = None
+normalize_all = None
+ITEM_LIST_LENGTH_FIELD = item_length
+LIST_SUFFIX = _list
+MAX_ITEM_LIST_LENGTH = 50
+POSITION_FIELD = position_id
+HEAD_ENTITY_ID_FIELD = head_id
+TAIL_ENTITY_ID_FIELD = tail_id
+RELATION_ID_FIELD = relation_id
+ENTITY_ID_FIELD = entity_id
+benchmark_filename = None
+
+Other Hyper Parameters: 
+wandb_project = recbole_whiskey
+require_pow = False
+mlp_hidden_size = [600]
+latent_dimension = 64
+dropout_prob = 0.5
+MODEL_TYPE = ModelType.GENERAL
+MODEL_INPUT_TYPE = InputType.PAIRWISE
+eval_type = EvaluatorType.RANKING
+device = cuda
+train_neg_sample_args = {'strategy': 'by', 'by': 10, 'distribution': 'popularity', 'dynamic': 'none'}
+eval_neg_sample_args = {'strategy': 'full', 'distribution': 'uniform'}
+
+
+Sat 04 Jun 2022 03:41:09 INFO  whiskey_with_taste
+The number of users: 17665
+Average actions of users: 30.80366847826087
+The number of items: 1126
+Average actions of items: 483.65866666666665
+The number of inters: 544116
+The sparsity of the dataset: 97.26448270782609%
+Remain Fields: ['user', 'whiskey', 'rating']
+Sat 04 Jun 2022 03:41:11 INFO  [Training]: train_batch_size = [64] negative sampling: [{'popularity': 10}]
+Sat 04 Jun 2022 03:41:11 INFO  [Evaluation]: eval_batch_size = [256] eval_args: [{'split': {'RS': [0.8, 0.1, 0.1]}, 'group_by': 'user', 'order': 'RO', 'mode': 'full'}]
+Sat 04 Jun 2022 03:41:11 WARNING  Max value of user's history interaction records has reached 72.64653641207815% of the total.
+Sat 04 Jun 2022 03:41:16 INFO  MultiDAE(
+  (encoder): MLPLayers(
+    (mlp_layers): Sequential(
+      (0): Dropout(p=0.0, inplace=False)
+      (1): Linear(in_features=1126, out_features=600, bias=True)
+      (2): Tanh()
+      (3): Dropout(p=0.0, inplace=False)
+      (4): Linear(in_features=600, out_features=64, bias=True)
+      (5): Tanh()
+    )
+  )
+  (decoder): Sequential(
+    (0): Linear(in_features=64, out_features=600, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=600, out_features=1126, bias=True)
+  )
+)
+Trainable parameters: 1430390
+Sat 04 Jun 2022 03:41:18 INFO  epoch 0 training [time: 1.82s, train loss: 26829.6285]
+Sat 04 Jun 2022 03:42:23 INFO  epoch 0 evaluating [time: 64.88s, valid_score: 0.240600]
+Sat 04 Jun 2022 03:42:23 INFO  valid result: 
+recall@5 : 0.2323    recall@10 : 0.3141    ndcg@5 : 0.2214    ndcg@10 : 0.2406
+Sat 04 Jun 2022 03:42:23 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:42:25 INFO  epoch 1 training [time: 1.76s, train loss: 25358.4170]
+Sat 04 Jun 2022 03:43:31 INFO  epoch 1 evaluating [time: 66.16s, valid_score: 0.376700]
+Sat 04 Jun 2022 03:43:31 INFO  valid result: 
+recall@5 : 0.3576    recall@10 : 0.4361    ndcg@5 : 0.3594    ndcg@10 : 0.3767
+Sat 04 Jun 2022 03:43:31 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:43:32 INFO  epoch 2 training [time: 1.71s, train loss: 25582.2315]
+Sat 04 Jun 2022 03:44:38 INFO  epoch 2 evaluating [time: 65.67s, valid_score: 0.421600]
+Sat 04 Jun 2022 03:44:38 INFO  valid result: 
+recall@5 : 0.4021    recall@10 : 0.4734    ndcg@5 : 0.4065    ndcg@10 : 0.4216
+Sat 04 Jun 2022 03:44:38 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:44:40 INFO  epoch 3 training [time: 1.80s, train loss: 24449.5058]
+Sat 04 Jun 2022 03:45:53 INFO  epoch 3 evaluating [time: 72.99s, valid_score: 0.444900]
+Sat 04 Jun 2022 03:45:53 INFO  valid result: 
+recall@5 : 0.4185    recall@10 : 0.4923    ndcg@5 : 0.4307    ndcg@10 : 0.4449
+Sat 04 Jun 2022 03:45:53 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:45:55 INFO  epoch 4 training [time: 1.78s, train loss: 24280.1553]
+Sat 04 Jun 2022 03:46:58 INFO  epoch 4 evaluating [time: 63.42s, valid_score: 0.449200]
+Sat 04 Jun 2022 03:46:58 INFO  valid result: 
+recall@5 : 0.4247    recall@10 : 0.496    ndcg@5 : 0.4355    ndcg@10 : 0.4492
+Sat 04 Jun 2022 03:46:58 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:47:00 INFO  epoch 5 training [time: 1.74s, train loss: 24093.5616]
+Sat 04 Jun 2022 03:48:03 INFO  epoch 5 evaluating [time: 62.44s, valid_score: 0.460900]
+Sat 04 Jun 2022 03:48:03 INFO  valid result: 
+recall@5 : 0.434    recall@10 : 0.5037    ndcg@5 : 0.4486    ndcg@10 : 0.4609
+Sat 04 Jun 2022 03:48:03 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:48:04 INFO  epoch 6 training [time: 1.72s, train loss: 23948.8523]
+Sat 04 Jun 2022 03:49:07 INFO  epoch 6 evaluating [time: 62.30s, valid_score: 0.461100]
+Sat 04 Jun 2022 03:49:07 INFO  valid result: 
+recall@5 : 0.4359    recall@10 : 0.5067    ndcg@5 : 0.4483    ndcg@10 : 0.4611
+Sat 04 Jun 2022 03:49:07 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:49:08 INFO  epoch 7 training [time: 1.78s, train loss: 23989.1545]
+Sat 04 Jun 2022 03:50:10 INFO  epoch 7 evaluating [time: 61.97s, valid_score: 0.467600]
+Sat 04 Jun 2022 03:50:10 INFO  valid result: 
+recall@5 : 0.439    recall@10 : 0.5103    ndcg@5 : 0.4544    ndcg@10 : 0.4676
+Sat 04 Jun 2022 03:50:11 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:50:12 INFO  epoch 8 training [time: 1.76s, train loss: 23829.7680]
+Sat 04 Jun 2022 03:51:15 INFO  epoch 8 evaluating [time: 62.81s, valid_score: 0.467200]
+Sat 04 Jun 2022 03:51:15 INFO  valid result: 
+recall@5 : 0.4382    recall@10 : 0.5104    ndcg@5 : 0.454    ndcg@10 : 0.4672
+Sat 04 Jun 2022 03:51:17 INFO  epoch 9 training [time: 1.76s, train loss: 23838.4428]
+Sat 04 Jun 2022 03:52:20 INFO  epoch 9 evaluating [time: 63.44s, valid_score: 0.469400]
+Sat 04 Jun 2022 03:52:20 INFO  valid result: 
+recall@5 : 0.4436    recall@10 : 0.5135    ndcg@5 : 0.4572    ndcg@10 : 0.4694
+Sat 04 Jun 2022 03:52:20 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:52:22 INFO  epoch 10 training [time: 1.78s, train loss: 23748.0985]
+Sat 04 Jun 2022 03:53:26 INFO  epoch 10 evaluating [time: 63.49s, valid_score: 0.467400]
+Sat 04 Jun 2022 03:53:26 INFO  valid result: 
+recall@5 : 0.4407    recall@10 : 0.5129    ndcg@5 : 0.4538    ndcg@10 : 0.4674
+Sat 04 Jun 2022 03:53:27 INFO  epoch 11 training [time: 1.71s, train loss: 23860.2768]
+Sat 04 Jun 2022 03:54:31 INFO  epoch 11 evaluating [time: 63.83s, valid_score: 0.473100]
+Sat 04 Jun 2022 03:54:31 INFO  valid result: 
+recall@5 : 0.4465    recall@10 : 0.5168    ndcg@5 : 0.4611    ndcg@10 : 0.4731
+Sat 04 Jun 2022 03:54:31 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:54:33 INFO  epoch 12 training [time: 1.72s, train loss: 24650.1688]
+Sat 04 Jun 2022 03:55:36 INFO  epoch 12 evaluating [time: 62.87s, valid_score: 0.466800]
+Sat 04 Jun 2022 03:55:36 INFO  valid result: 
+recall@5 : 0.4415    recall@10 : 0.512    ndcg@5 : 0.4533    ndcg@10 : 0.4668
+Sat 04 Jun 2022 03:55:38 INFO  epoch 13 training [time: 1.72s, train loss: 23869.0711]
+Sat 04 Jun 2022 03:56:40 INFO  epoch 13 evaluating [time: 62.89s, valid_score: 0.468200]
+Sat 04 Jun 2022 03:56:40 INFO  valid result: 
+recall@5 : 0.4449    recall@10 : 0.516    ndcg@5 : 0.4549    ndcg@10 : 0.4682
+Sat 04 Jun 2022 03:56:42 INFO  epoch 14 training [time: 1.71s, train loss: 23655.7625]
+Sat 04 Jun 2022 03:57:45 INFO  epoch 14 evaluating [time: 62.48s, valid_score: 0.477000]
+Sat 04 Jun 2022 03:57:45 INFO  valid result: 
+recall@5 : 0.4486    recall@10 : 0.5202    ndcg@5 : 0.4636    ndcg@10 : 0.477
+Sat 04 Jun 2022 03:57:45 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 03:57:46 INFO  epoch 15 training [time: 1.72s, train loss: 24230.1437]
+Sat 04 Jun 2022 03:58:49 INFO  epoch 15 evaluating [time: 62.95s, valid_score: 0.469600]
+Sat 04 Jun 2022 03:58:49 INFO  valid result: 
+recall@5 : 0.443    recall@10 : 0.5146    ndcg@5 : 0.4561    ndcg@10 : 0.4696
+Sat 04 Jun 2022 03:58:51 INFO  epoch 16 training [time: 1.80s, train loss: 23674.5397]
+Sat 04 Jun 2022 03:59:54 INFO  epoch 16 evaluating [time: 62.70s, valid_score: 0.473900]
+Sat 04 Jun 2022 03:59:54 INFO  valid result: 
+recall@5 : 0.4461    recall@10 : 0.5187    ndcg@5 : 0.4606    ndcg@10 : 0.4739
+Sat 04 Jun 2022 03:59:56 INFO  epoch 17 training [time: 1.73s, train loss: 23592.2694]
+Sat 04 Jun 2022 04:01:00 INFO  epoch 17 evaluating [time: 63.93s, valid_score: 0.477000]
+Sat 04 Jun 2022 04:01:00 INFO  valid result: 
+recall@5 : 0.4488    recall@10 : 0.5203    ndcg@5 : 0.4638    ndcg@10 : 0.477
+Sat 04 Jun 2022 04:01:00 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:01:01 INFO  epoch 18 training [time: 1.71s, train loss: 23562.9328]
+Sat 04 Jun 2022 04:02:04 INFO  epoch 18 evaluating [time: 62.25s, valid_score: 0.481700]
+Sat 04 Jun 2022 04:02:04 INFO  valid result: 
+recall@5 : 0.4516    recall@10 : 0.521    ndcg@5 : 0.4703    ndcg@10 : 0.4817
+Sat 04 Jun 2022 04:02:04 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:02:05 INFO  epoch 19 training [time: 1.76s, train loss: 23612.5542]
+Sat 04 Jun 2022 04:03:07 INFO  epoch 19 evaluating [time: 62.09s, valid_score: 0.477700]
+Sat 04 Jun 2022 04:03:07 INFO  valid result: 
+recall@5 : 0.4494    recall@10 : 0.519    ndcg@5 : 0.4663    ndcg@10 : 0.4777
+Sat 04 Jun 2022 04:03:09 INFO  epoch 20 training [time: 1.75s, train loss: 23568.1692]
+Sat 04 Jun 2022 04:04:11 INFO  epoch 20 evaluating [time: 62.01s, valid_score: 0.480900]
+Sat 04 Jun 2022 04:04:11 INFO  valid result: 
+recall@5 : 0.4526    recall@10 : 0.5236    ndcg@5 : 0.4683    ndcg@10 : 0.4809
+Sat 04 Jun 2022 04:04:13 INFO  epoch 21 training [time: 1.68s, train loss: 23533.5631]
+Sat 04 Jun 2022 04:05:16 INFO  epoch 21 evaluating [time: 62.81s, valid_score: 0.478800]
+Sat 04 Jun 2022 04:05:16 INFO  valid result: 
+recall@5 : 0.4518    recall@10 : 0.5215    ndcg@5 : 0.4667    ndcg@10 : 0.4788
+Sat 04 Jun 2022 04:05:18 INFO  epoch 22 training [time: 1.79s, train loss: 23749.4793]
+Sat 04 Jun 2022 04:06:21 INFO  epoch 22 evaluating [time: 63.33s, valid_score: 0.480600]
+Sat 04 Jun 2022 04:06:21 INFO  valid result: 
+recall@5 : 0.451    recall@10 : 0.5212    ndcg@5 : 0.4685    ndcg@10 : 0.4806
+Sat 04 Jun 2022 04:06:23 INFO  epoch 23 training [time: 1.76s, train loss: 23723.7260]
+Sat 04 Jun 2022 04:07:25 INFO  epoch 23 evaluating [time: 62.59s, valid_score: 0.479300]
+Sat 04 Jun 2022 04:07:25 INFO  valid result: 
+recall@5 : 0.4528    recall@10 : 0.5217    ndcg@5 : 0.468    ndcg@10 : 0.4793
+Sat 04 Jun 2022 04:07:27 INFO  epoch 24 training [time: 1.74s, train loss: 23545.9502]
+Sat 04 Jun 2022 04:08:29 INFO  epoch 24 evaluating [time: 62.12s, valid_score: 0.478200]
+Sat 04 Jun 2022 04:08:29 INFO  valid result: 
+recall@5 : 0.4502    recall@10 : 0.5223    ndcg@5 : 0.4652    ndcg@10 : 0.4782
+Sat 04 Jun 2022 04:08:31 INFO  epoch 25 training [time: 1.72s, train loss: 23505.9574]
+Sat 04 Jun 2022 04:09:34 INFO  epoch 25 evaluating [time: 62.83s, valid_score: 0.480300]
+Sat 04 Jun 2022 04:09:34 INFO  valid result: 
+recall@5 : 0.4498    recall@10 : 0.5234    ndcg@5 : 0.4668    ndcg@10 : 0.4803
+Sat 04 Jun 2022 04:09:35 INFO  epoch 26 training [time: 1.79s, train loss: 23491.2442]
+Sat 04 Jun 2022 04:10:38 INFO  epoch 26 evaluating [time: 62.49s, valid_score: 0.482400]
+Sat 04 Jun 2022 04:10:38 INFO  valid result: 
+recall@5 : 0.452    recall@10 : 0.5239    ndcg@5 : 0.4697    ndcg@10 : 0.4824
+Sat 04 Jun 2022 04:10:38 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:10:40 INFO  epoch 27 training [time: 1.73s, train loss: 23852.7450]
+Sat 04 Jun 2022 04:11:42 INFO  epoch 27 evaluating [time: 62.53s, valid_score: 0.479300]
+Sat 04 Jun 2022 04:11:42 INFO  valid result: 
+recall@5 : 0.4502    recall@10 : 0.5219    ndcg@5 : 0.4665    ndcg@10 : 0.4793
+Sat 04 Jun 2022 04:11:44 INFO  epoch 28 training [time: 1.75s, train loss: 23668.2136]
+Sat 04 Jun 2022 04:12:47 INFO  epoch 28 evaluating [time: 62.67s, valid_score: 0.482200]
+Sat 04 Jun 2022 04:12:47 INFO  valid result: 
+recall@5 : 0.4535    recall@10 : 0.5247    ndcg@5 : 0.4703    ndcg@10 : 0.4822
+Sat 04 Jun 2022 04:12:48 INFO  epoch 29 training [time: 1.73s, train loss: 23500.6217]
+Sat 04 Jun 2022 04:13:51 INFO  epoch 29 evaluating [time: 63.04s, valid_score: 0.486000]
+Sat 04 Jun 2022 04:13:51 INFO  valid result: 
+recall@5 : 0.4568    recall@10 : 0.5261    ndcg@5 : 0.4747    ndcg@10 : 0.486
+Sat 04 Jun 2022 04:13:52 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:13:53 INFO  epoch 30 training [time: 1.69s, train loss: 23577.1957]
+Sat 04 Jun 2022 04:14:55 INFO  epoch 30 evaluating [time: 62.02s, valid_score: 0.477000]
+Sat 04 Jun 2022 04:14:55 INFO  valid result: 
+recall@5 : 0.4517    recall@10 : 0.5202    ndcg@5 : 0.4649    ndcg@10 : 0.477
+Sat 04 Jun 2022 04:14:57 INFO  epoch 31 training [time: 1.74s, train loss: 23510.3873]
+Sat 04 Jun 2022 04:16:01 INFO  epoch 31 evaluating [time: 63.87s, valid_score: 0.485700]
+Sat 04 Jun 2022 04:16:01 INFO  valid result: 
+recall@5 : 0.4568    recall@10 : 0.528    ndcg@5 : 0.4744    ndcg@10 : 0.4857
+Sat 04 Jun 2022 04:16:03 INFO  epoch 32 training [time: 1.74s, train loss: 23457.2958]
+Sat 04 Jun 2022 04:17:04 INFO  epoch 32 evaluating [time: 61.90s, valid_score: 0.477300]
+Sat 04 Jun 2022 04:17:04 INFO  valid result: 
+recall@5 : 0.4499    recall@10 : 0.5209    ndcg@5 : 0.4647    ndcg@10 : 0.4773
+Sat 04 Jun 2022 04:17:06 INFO  epoch 33 training [time: 1.71s, train loss: 23431.1694]
+Sat 04 Jun 2022 04:18:09 INFO  epoch 33 evaluating [time: 62.99s, valid_score: 0.484300]
+Sat 04 Jun 2022 04:18:09 INFO  valid result: 
+recall@5 : 0.4557    recall@10 : 0.526    ndcg@5 : 0.4727    ndcg@10 : 0.4843
+Sat 04 Jun 2022 04:18:11 INFO  epoch 34 training [time: 1.76s, train loss: 23422.8779]
+Sat 04 Jun 2022 04:19:13 INFO  epoch 34 evaluating [time: 61.77s, valid_score: 0.484400]
+Sat 04 Jun 2022 04:19:13 INFO  valid result: 
+recall@5 : 0.4547    recall@10 : 0.527    ndcg@5 : 0.4721    ndcg@10 : 0.4844
+Sat 04 Jun 2022 04:19:14 INFO  epoch 35 training [time: 1.77s, train loss: 23468.0254]
+Sat 04 Jun 2022 04:20:17 INFO  epoch 35 evaluating [time: 62.39s, valid_score: 0.482700]
+Sat 04 Jun 2022 04:20:17 INFO  valid result: 
+recall@5 : 0.4515    recall@10 : 0.5245    ndcg@5 : 0.47    ndcg@10 : 0.4827
+Sat 04 Jun 2022 04:20:19 INFO  epoch 36 training [time: 1.80s, train loss: 23882.7533]
+Sat 04 Jun 2022 04:21:21 INFO  epoch 36 evaluating [time: 62.16s, valid_score: 0.482100]
+Sat 04 Jun 2022 04:21:21 INFO  valid result: 
+recall@5 : 0.4509    recall@10 : 0.526    ndcg@5 : 0.4692    ndcg@10 : 0.4821
+Sat 04 Jun 2022 04:21:23 INFO  epoch 37 training [time: 1.70s, train loss: 23500.4690]
+Sat 04 Jun 2022 04:22:25 INFO  epoch 37 evaluating [time: 62.56s, valid_score: 0.485100]
+Sat 04 Jun 2022 04:22:25 INFO  valid result: 
+recall@5 : 0.4552    recall@10 : 0.528    ndcg@5 : 0.4726    ndcg@10 : 0.4851
+Sat 04 Jun 2022 04:22:27 INFO  epoch 38 training [time: 1.70s, train loss: 23413.0515]
+Sat 04 Jun 2022 04:23:29 INFO  epoch 38 evaluating [time: 62.39s, valid_score: 0.483200]
+Sat 04 Jun 2022 04:23:29 INFO  valid result: 
+recall@5 : 0.4557    recall@10 : 0.5239    ndcg@5 : 0.472    ndcg@10 : 0.4832
+Sat 04 Jun 2022 04:23:31 INFO  epoch 39 training [time: 1.74s, train loss: 23410.7402]
+Sat 04 Jun 2022 04:24:34 INFO  epoch 39 evaluating [time: 62.62s, valid_score: 0.489800]
+Sat 04 Jun 2022 04:24:34 INFO  valid result: 
+recall@5 : 0.4593    recall@10 : 0.5286    ndcg@5 : 0.479    ndcg@10 : 0.4898
+Sat 04 Jun 2022 04:24:34 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:24:35 INFO  epoch 40 training [time: 1.73s, train loss: 23408.2942]
+Sat 04 Jun 2022 04:25:37 INFO  epoch 40 evaluating [time: 61.62s, valid_score: 0.481100]
+Sat 04 Jun 2022 04:25:37 INFO  valid result: 
+recall@5 : 0.4517    recall@10 : 0.5234    ndcg@5 : 0.4692    ndcg@10 : 0.4811
+Sat 04 Jun 2022 04:25:39 INFO  epoch 41 training [time: 1.76s, train loss: 23379.7341]
+Sat 04 Jun 2022 04:26:41 INFO  epoch 41 evaluating [time: 61.92s, valid_score: 0.482800]
+Sat 04 Jun 2022 04:26:41 INFO  valid result: 
+recall@5 : 0.4561    recall@10 : 0.5273    ndcg@5 : 0.4706    ndcg@10 : 0.4828
+Sat 04 Jun 2022 04:26:42 INFO  epoch 42 training [time: 1.67s, train loss: 23389.9405]
+Sat 04 Jun 2022 04:27:45 INFO  epoch 42 evaluating [time: 62.20s, valid_score: 0.490200]
+Sat 04 Jun 2022 04:27:45 INFO  valid result: 
+recall@5 : 0.4595    recall@10 : 0.5286    ndcg@5 : 0.4794    ndcg@10 : 0.4902
+Sat 04 Jun 2022 04:27:45 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:27:46 INFO  epoch 43 training [time: 1.74s, train loss: 23400.5538]
+Sat 04 Jun 2022 04:28:49 INFO  epoch 43 evaluating [time: 62.36s, valid_score: 0.482900]
+Sat 04 Jun 2022 04:28:49 INFO  valid result: 
+recall@5 : 0.4557    recall@10 : 0.5233    ndcg@5 : 0.4712    ndcg@10 : 0.4829
+Sat 04 Jun 2022 04:28:51 INFO  epoch 44 training [time: 1.90s, train loss: 23403.2296]
+Sat 04 Jun 2022 04:29:53 INFO  epoch 44 evaluating [time: 62.41s, valid_score: 0.489500]
+Sat 04 Jun 2022 04:29:53 INFO  valid result: 
+recall@5 : 0.4591    recall@10 : 0.5277    ndcg@5 : 0.4787    ndcg@10 : 0.4895
+Sat 04 Jun 2022 04:29:55 INFO  epoch 45 training [time: 1.70s, train loss: 23383.8198]
+Sat 04 Jun 2022 04:31:15 INFO  epoch 45 evaluating [time: 80.04s, valid_score: 0.487400]
+Sat 04 Jun 2022 04:31:15 INFO  valid result: 
+recall@5 : 0.4588    recall@10 : 0.5294    ndcg@5 : 0.4755    ndcg@10 : 0.4874
+Sat 04 Jun 2022 04:31:16 INFO  epoch 46 training [time: 1.75s, train loss: 23377.0635]
+Sat 04 Jun 2022 04:32:19 INFO  epoch 46 evaluating [time: 62.37s, valid_score: 0.477900]
+Sat 04 Jun 2022 04:32:19 INFO  valid result: 
+recall@5 : 0.4511    recall@10 : 0.5201    ndcg@5 : 0.4653    ndcg@10 : 0.4779
+Sat 04 Jun 2022 04:32:21 INFO  epoch 47 training [time: 1.74s, train loss: 23377.5108]
+Sat 04 Jun 2022 04:33:23 INFO  epoch 47 evaluating [time: 62.86s, valid_score: 0.489000]
+Sat 04 Jun 2022 04:33:23 INFO  valid result: 
+recall@5 : 0.4591    recall@10 : 0.5282    ndcg@5 : 0.478    ndcg@10 : 0.489
+Sat 04 Jun 2022 04:33:25 INFO  epoch 48 training [time: 1.74s, train loss: 23464.0636]
+Sat 04 Jun 2022 04:34:27 INFO  epoch 48 evaluating [time: 62.26s, valid_score: 0.486300]
+Sat 04 Jun 2022 04:34:27 INFO  valid result: 
+recall@5 : 0.4555    recall@10 : 0.528    ndcg@5 : 0.4739    ndcg@10 : 0.4863
+Sat 04 Jun 2022 04:34:29 INFO  epoch 49 training [time: 1.71s, train loss: 23381.4024]
+Sat 04 Jun 2022 04:35:37 INFO  epoch 49 evaluating [time: 67.40s, valid_score: 0.486200]
+Sat 04 Jun 2022 04:35:37 INFO  valid result: 
+recall@5 : 0.455    recall@10 : 0.5275    ndcg@5 : 0.4742    ndcg@10 : 0.4862
+Sat 04 Jun 2022 04:35:38 INFO  epoch 50 training [time: 1.73s, train loss: 23439.7588]
+Sat 04 Jun 2022 04:36:44 INFO  epoch 50 evaluating [time: 66.22s, valid_score: 0.490300]
+Sat 04 Jun 2022 04:36:44 INFO  valid result: 
+recall@5 : 0.4593    recall@10 : 0.5291    ndcg@5 : 0.4797    ndcg@10 : 0.4903
+Sat 04 Jun 2022 04:36:45 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:36:46 INFO  epoch 51 training [time: 1.75s, train loss: 23376.9713]
+Sat 04 Jun 2022 04:37:50 INFO  epoch 51 evaluating [time: 64.07s, valid_score: 0.490000]
+Sat 04 Jun 2022 04:37:50 INFO  valid result: 
+recall@5 : 0.459    recall@10 : 0.5297    ndcg@5 : 0.4789    ndcg@10 : 0.49
+Sat 04 Jun 2022 04:37:52 INFO  epoch 52 training [time: 1.72s, train loss: 23357.9637]
+Sat 04 Jun 2022 04:38:55 INFO  epoch 52 evaluating [time: 62.44s, valid_score: 0.491800]
+Sat 04 Jun 2022 04:38:55 INFO  valid result: 
+recall@5 : 0.4635    recall@10 : 0.5301    ndcg@5 : 0.4822    ndcg@10 : 0.4918
+Sat 04 Jun 2022 04:38:55 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:38:56 INFO  epoch 53 training [time: 1.65s, train loss: 23504.4641]
+Sat 04 Jun 2022 04:39:59 INFO  epoch 53 evaluating [time: 62.28s, valid_score: 0.488800]
+Sat 04 Jun 2022 04:39:59 INFO  valid result: 
+recall@5 : 0.4587    recall@10 : 0.5285    ndcg@5 : 0.4776    ndcg@10 : 0.4888
+Sat 04 Jun 2022 04:40:00 INFO  epoch 54 training [time: 1.72s, train loss: 23414.3257]
+Sat 04 Jun 2022 04:41:03 INFO  epoch 54 evaluating [time: 62.41s, valid_score: 0.487000]
+Sat 04 Jun 2022 04:41:03 INFO  valid result: 
+recall@5 : 0.4584    recall@10 : 0.5282    ndcg@5 : 0.4754    ndcg@10 : 0.487
+Sat 04 Jun 2022 04:41:04 INFO  epoch 55 training [time: 1.73s, train loss: 23377.5093]
+Sat 04 Jun 2022 04:42:06 INFO  epoch 55 evaluating [time: 61.99s, valid_score: 0.487900]
+Sat 04 Jun 2022 04:42:06 INFO  valid result: 
+recall@5 : 0.4589    recall@10 : 0.5269    ndcg@5 : 0.477    ndcg@10 : 0.4879
+Sat 04 Jun 2022 04:42:08 INFO  epoch 56 training [time: 1.74s, train loss: 23360.3753]
+Sat 04 Jun 2022 04:43:10 INFO  epoch 56 evaluating [time: 61.82s, valid_score: 0.491100]
+Sat 04 Jun 2022 04:43:10 INFO  valid result: 
+recall@5 : 0.4611    recall@10 : 0.5283    ndcg@5 : 0.4811    ndcg@10 : 0.4911
+Sat 04 Jun 2022 04:43:12 INFO  epoch 57 training [time: 1.73s, train loss: 23573.0070]
+Sat 04 Jun 2022 04:44:14 INFO  epoch 57 evaluating [time: 62.17s, valid_score: 0.485000]
+Sat 04 Jun 2022 04:44:14 INFO  valid result: 
+recall@5 : 0.4542    recall@10 : 0.5247    ndcg@5 : 0.4728    ndcg@10 : 0.485
+Sat 04 Jun 2022 04:44:16 INFO  epoch 58 training [time: 1.71s, train loss: 23375.7835]
+Sat 04 Jun 2022 04:45:18 INFO  epoch 58 evaluating [time: 62.49s, valid_score: 0.486900]
+Sat 04 Jun 2022 04:45:18 INFO  valid result: 
+recall@5 : 0.4569    recall@10 : 0.526    ndcg@5 : 0.4755    ndcg@10 : 0.4869
+Sat 04 Jun 2022 04:45:20 INFO  epoch 59 training [time: 1.74s, train loss: 23320.9543]
+Sat 04 Jun 2022 04:46:22 INFO  epoch 59 evaluating [time: 62.43s, valid_score: 0.490000]
+Sat 04 Jun 2022 04:46:22 INFO  valid result: 
+recall@5 : 0.4594    recall@10 : 0.5285    ndcg@5 : 0.4792    ndcg@10 : 0.49
+Sat 04 Jun 2022 04:46:24 INFO  epoch 60 training [time: 1.71s, train loss: 23323.5402]
+Sat 04 Jun 2022 04:47:26 INFO  epoch 60 evaluating [time: 61.95s, valid_score: 0.489100]
+Sat 04 Jun 2022 04:47:26 INFO  valid result: 
+recall@5 : 0.4595    recall@10 : 0.5275    ndcg@5 : 0.4788    ndcg@10 : 0.4891
+Sat 04 Jun 2022 04:47:28 INFO  epoch 61 training [time: 1.74s, train loss: 23327.9056]
+Sat 04 Jun 2022 04:48:31 INFO  epoch 61 evaluating [time: 62.97s, valid_score: 0.492100]
+Sat 04 Jun 2022 04:48:31 INFO  valid result: 
+recall@5 : 0.4609    recall@10 : 0.5288    ndcg@5 : 0.4819    ndcg@10 : 0.4921
+Sat 04 Jun 2022 04:48:31 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:48:32 INFO  epoch 62 training [time: 1.77s, train loss: 23331.1588]
+Sat 04 Jun 2022 04:49:35 INFO  epoch 62 evaluating [time: 62.43s, valid_score: 0.489800]
+Sat 04 Jun 2022 04:49:35 INFO  valid result: 
+recall@5 : 0.4579    recall@10 : 0.5286    ndcg@5 : 0.4786    ndcg@10 : 0.4898
+Sat 04 Jun 2022 04:49:37 INFO  epoch 63 training [time: 1.71s, train loss: 23490.8012]
+Sat 04 Jun 2022 04:50:39 INFO  epoch 63 evaluating [time: 62.01s, valid_score: 0.489000]
+Sat 04 Jun 2022 04:50:39 INFO  valid result: 
+recall@5 : 0.4584    recall@10 : 0.5286    ndcg@5 : 0.4775    ndcg@10 : 0.489
+Sat 04 Jun 2022 04:50:40 INFO  epoch 64 training [time: 1.73s, train loss: 23377.3524]
+Sat 04 Jun 2022 04:51:42 INFO  epoch 64 evaluating [time: 61.84s, valid_score: 0.494300]
+Sat 04 Jun 2022 04:51:42 INFO  valid result: 
+recall@5 : 0.463    recall@10 : 0.5316    ndcg@5 : 0.484    ndcg@10 : 0.4943
+Sat 04 Jun 2022 04:51:42 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 04:51:44 INFO  epoch 65 training [time: 1.73s, train loss: 23456.6564]
+Sat 04 Jun 2022 04:52:46 INFO  epoch 65 evaluating [time: 62.30s, valid_score: 0.486500]
+Sat 04 Jun 2022 04:52:46 INFO  valid result: 
+recall@5 : 0.4584    recall@10 : 0.5282    ndcg@5 : 0.475    ndcg@10 : 0.4865
+Sat 04 Jun 2022 04:52:48 INFO  epoch 66 training [time: 1.73s, train loss: 23542.8693]
+Sat 04 Jun 2022 04:53:51 INFO  epoch 66 evaluating [time: 63.13s, valid_score: 0.489200]
+Sat 04 Jun 2022 04:53:51 INFO  valid result: 
+recall@5 : 0.4576    recall@10 : 0.5278    ndcg@5 : 0.4777    ndcg@10 : 0.4892
+Sat 04 Jun 2022 04:53:53 INFO  epoch 67 training [time: 1.72s, train loss: 23345.3635]
+Sat 04 Jun 2022 04:54:55 INFO  epoch 67 evaluating [time: 62.03s, valid_score: 0.491000]
+Sat 04 Jun 2022 04:54:55 INFO  valid result: 
+recall@5 : 0.4599    recall@10 : 0.529    ndcg@5 : 0.4803    ndcg@10 : 0.491
+Sat 04 Jun 2022 04:54:57 INFO  epoch 68 training [time: 1.69s, train loss: 23294.1678]
+Sat 04 Jun 2022 04:55:59 INFO  epoch 68 evaluating [time: 62.13s, valid_score: 0.489400]
+Sat 04 Jun 2022 04:55:59 INFO  valid result: 
+recall@5 : 0.4573    recall@10 : 0.5302    ndcg@5 : 0.4772    ndcg@10 : 0.4894
+Sat 04 Jun 2022 04:56:00 INFO  epoch 69 training [time: 1.71s, train loss: 23946.0480]
+Sat 04 Jun 2022 04:57:03 INFO  epoch 69 evaluating [time: 62.80s, valid_score: 0.490500]
+Sat 04 Jun 2022 04:57:03 INFO  valid result: 
+recall@5 : 0.4584    recall@10 : 0.5293    ndcg@5 : 0.4787    ndcg@10 : 0.4905
+Sat 04 Jun 2022 04:57:05 INFO  epoch 70 training [time: 1.74s, train loss: 23375.7594]
+Sat 04 Jun 2022 04:58:07 INFO  epoch 70 evaluating [time: 61.84s, valid_score: 0.492200]
+Sat 04 Jun 2022 04:58:07 INFO  valid result: 
+recall@5 : 0.4604    recall@10 : 0.5287    ndcg@5 : 0.4823    ndcg@10 : 0.4922
+Sat 04 Jun 2022 04:58:09 INFO  epoch 71 training [time: 1.70s, train loss: 23463.2731]
+Sat 04 Jun 2022 04:59:10 INFO  epoch 71 evaluating [time: 61.64s, valid_score: 0.492300]
+Sat 04 Jun 2022 04:59:10 INFO  valid result: 
+recall@5 : 0.4604    recall@10 : 0.5297    ndcg@5 : 0.482    ndcg@10 : 0.4923
+Sat 04 Jun 2022 04:59:12 INFO  epoch 72 training [time: 1.72s, train loss: 23424.8689]
+Sat 04 Jun 2022 05:00:14 INFO  epoch 72 evaluating [time: 62.59s, valid_score: 0.485900]
+Sat 04 Jun 2022 05:00:14 INFO  valid result: 
+recall@5 : 0.4567    recall@10 : 0.5288    ndcg@5 : 0.4734    ndcg@10 : 0.4859
+Sat 04 Jun 2022 05:00:16 INFO  epoch 73 training [time: 1.70s, train loss: 23487.2721]
+Sat 04 Jun 2022 05:01:18 INFO  epoch 73 evaluating [time: 62.22s, valid_score: 0.485800]
+Sat 04 Jun 2022 05:01:18 INFO  valid result: 
+recall@5 : 0.4559    recall@10 : 0.5268    ndcg@5 : 0.4736    ndcg@10 : 0.4858
+Sat 04 Jun 2022 05:01:20 INFO  epoch 74 training [time: 1.68s, train loss: 23308.5517]
+Sat 04 Jun 2022 05:02:23 INFO  epoch 74 evaluating [time: 63.28s, valid_score: 0.491300]
+Sat 04 Jun 2022 05:02:23 INFO  valid result: 
+recall@5 : 0.46    recall@10 : 0.5316    ndcg@5 : 0.4804    ndcg@10 : 0.4913
+Sat 04 Jun 2022 05:02:25 INFO  epoch 75 training [time: 1.77s, train loss: 23274.4531]
+Sat 04 Jun 2022 05:03:27 INFO  epoch 75 evaluating [time: 61.82s, valid_score: 0.495000]
+Sat 04 Jun 2022 05:03:27 INFO  valid result: 
+recall@5 : 0.4634    recall@10 : 0.5329    ndcg@5 : 0.4845    ndcg@10 : 0.495
+Sat 04 Jun 2022 05:03:27 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 05:03:29 INFO  epoch 76 training [time: 1.70s, train loss: 23277.2510]
+Sat 04 Jun 2022 05:04:31 INFO  epoch 76 evaluating [time: 62.51s, valid_score: 0.494300]
+Sat 04 Jun 2022 05:04:31 INFO  valid result: 
+recall@5 : 0.4609    recall@10 : 0.5324    ndcg@5 : 0.4828    ndcg@10 : 0.4943
+Sat 04 Jun 2022 05:04:33 INFO  epoch 77 training [time: 1.68s, train loss: 23271.8724]
+Sat 04 Jun 2022 05:05:35 INFO  epoch 77 evaluating [time: 62.56s, valid_score: 0.497100]
+Sat 04 Jun 2022 05:05:35 INFO  valid result: 
+recall@5 : 0.466    recall@10 : 0.5311    ndcg@5 : 0.4884    ndcg@10 : 0.4971
+Sat 04 Jun 2022 05:05:36 INFO  Saving current: ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 05:05:37 INFO  epoch 78 training [time: 1.75s, train loss: 23257.2290]
+Sat 04 Jun 2022 05:06:40 INFO  epoch 78 evaluating [time: 62.95s, valid_score: 0.489600]
+Sat 04 Jun 2022 05:06:40 INFO  valid result: 
+recall@5 : 0.4589    recall@10 : 0.5277    ndcg@5 : 0.4792    ndcg@10 : 0.4896
+Sat 04 Jun 2022 05:06:42 INFO  epoch 79 training [time: 1.67s, train loss: 23273.5788]
+Sat 04 Jun 2022 05:07:44 INFO  epoch 79 evaluating [time: 62.47s, valid_score: 0.494800]
+Sat 04 Jun 2022 05:07:44 INFO  valid result: 
+recall@5 : 0.4627    recall@10 : 0.5331    ndcg@5 : 0.4842    ndcg@10 : 0.4948
+Sat 04 Jun 2022 05:07:46 INFO  epoch 80 training [time: 1.72s, train loss: 23272.0738]
+Sat 04 Jun 2022 05:08:48 INFO  epoch 80 evaluating [time: 61.96s, valid_score: 0.492400]
+Sat 04 Jun 2022 05:08:48 INFO  valid result: 
+recall@5 : 0.4604    recall@10 : 0.5308    ndcg@5 : 0.4813    ndcg@10 : 0.4924
+Sat 04 Jun 2022 05:08:50 INFO  epoch 81 training [time: 1.71s, train loss: 23248.6837]
+Sat 04 Jun 2022 05:09:52 INFO  epoch 81 evaluating [time: 62.55s, valid_score: 0.488900]
+Sat 04 Jun 2022 05:09:52 INFO  valid result: 
+recall@5 : 0.4582    recall@10 : 0.5283    ndcg@5 : 0.4773    ndcg@10 : 0.4889
+Sat 04 Jun 2022 05:09:54 INFO  epoch 82 training [time: 1.73s, train loss: 23392.7831]
+Sat 04 Jun 2022 05:10:56 INFO  epoch 82 evaluating [time: 61.86s, valid_score: 0.491800]
+Sat 04 Jun 2022 05:10:56 INFO  valid result: 
+recall@5 : 0.4592    recall@10 : 0.5292    ndcg@5 : 0.4802    ndcg@10 : 0.4918
+Sat 04 Jun 2022 05:10:58 INFO  epoch 83 training [time: 1.78s, train loss: 23306.8402]
+Sat 04 Jun 2022 05:12:01 INFO  epoch 83 evaluating [time: 62.90s, valid_score: 0.494400]
+Sat 04 Jun 2022 05:12:01 INFO  valid result: 
+recall@5 : 0.4622    recall@10 : 0.5287    ndcg@5 : 0.4842    ndcg@10 : 0.4944
+Sat 04 Jun 2022 05:12:02 INFO  epoch 84 training [time: 1.77s, train loss: 23306.1403]
+Sat 04 Jun 2022 05:13:04 INFO  epoch 84 evaluating [time: 62.01s, valid_score: 0.493600]
+Sat 04 Jun 2022 05:13:04 INFO  valid result: 
+recall@5 : 0.4622    recall@10 : 0.5298    ndcg@5 : 0.4833    ndcg@10 : 0.4936
+Sat 04 Jun 2022 05:13:06 INFO  epoch 85 training [time: 1.74s, train loss: 23267.5920]
+Sat 04 Jun 2022 05:14:09 INFO  epoch 85 evaluating [time: 62.43s, valid_score: 0.495400]
+Sat 04 Jun 2022 05:14:09 INFO  valid result: 
+recall@5 : 0.4637    recall@10 : 0.5319    ndcg@5 : 0.4854    ndcg@10 : 0.4954
+Sat 04 Jun 2022 05:14:10 INFO  epoch 86 training [time: 1.72s, train loss: 23271.5483]
+Sat 04 Jun 2022 05:15:12 INFO  epoch 86 evaluating [time: 62.07s, valid_score: 0.491600]
+Sat 04 Jun 2022 05:15:12 INFO  valid result: 
+recall@5 : 0.4607    recall@10 : 0.5315    ndcg@5 : 0.4808    ndcg@10 : 0.4916
+Sat 04 Jun 2022 05:15:14 INFO  epoch 87 training [time: 1.67s, train loss: 23739.3278]
+Sat 04 Jun 2022 05:16:16 INFO  epoch 87 evaluating [time: 62.42s, valid_score: 0.489700]
+Sat 04 Jun 2022 05:16:16 INFO  valid result: 
+recall@5 : 0.4579    recall@10 : 0.5283    ndcg@5 : 0.4783    ndcg@10 : 0.4897
+Sat 04 Jun 2022 05:16:18 INFO  epoch 88 training [time: 1.74s, train loss: 23338.0858]
+Sat 04 Jun 2022 05:17:21 INFO  epoch 88 evaluating [time: 63.05s, valid_score: 0.489500]
+Sat 04 Jun 2022 05:17:21 INFO  valid result: 
+recall@5 : 0.4584    recall@10 : 0.5286    ndcg@5 : 0.478    ndcg@10 : 0.4895
+Sat 04 Jun 2022 05:17:21 INFO  Finished training, best eval result in epoch 77
+Sat 04 Jun 2022 05:17:21 INFO  Loading model structure and parameters from ../model_saved/MultiDAE-Jun-04-2022_03-41-16.pth
+Sat 04 Jun 2022 05:18:30 INFO  best valid : OrderedDict([('recall@5', 0.466), ('recall@10', 0.5311), ('ndcg@5', 0.4884), ('ndcg@10', 0.4971)])
+Sat 04 Jun 2022 05:18:30 INFO  test result: OrderedDict([('recall@5', 0.4538), ('recall@10', 0.5243), ('ndcg@5', 0.4731), ('ndcg@10', 0.4848)])
