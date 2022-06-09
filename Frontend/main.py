@@ -231,7 +231,9 @@ def Scene2():
     
 
 def Scene3():
-    st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 점수'))
+    decode = {0.0:'모름',-1.0:'매우 안좋아함',-0.5:'안좋아함',0.5:'좋아함',1.0:'매우 좋아함'}
+    
+    st.sidebar.table(pd.Series(st.session_state["tag_list"], name='취향 선택').map(lambda x: decode[x]))
     
     with st.columns([1,5,1])[1]:
             st.image('Frontend/img/선택하신_취향으로_추천을_받으시겠습니까.jpg')
