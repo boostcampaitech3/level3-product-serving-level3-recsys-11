@@ -20,7 +20,7 @@ from Model.train import train
 import pandas as pd
 app = FastAPI()
 with open('Model/config.yaml', 'r') as f:
-        CONFIG = yaml.safe_load(f)
+    CONFIG = yaml.safe_load(f)
 
 # train(CONFIG)
 config, model, dataset, dataloader, _, _=initiate(CONFIG)
@@ -55,7 +55,9 @@ async def make_rec_random(item:Request):
     topk = item_dict['topk']
     agent = pop_rec(CONFIG)
     df_pop = agent._popularity(topk, price_low, price_high)
+    
     pop=[]
+    topk = min(len(df_pop), topk)
     for i in range(topk):
         condition=total_df.Whiskey==df_pop[i]
 
@@ -79,9 +81,10 @@ async def make_rec_random(item:Request):
     price_high=item_dict['price_high']
     topk = item_dict['topk']
     agent = model_rec(CONFIG,config, model, dataset, dataloader,whiskies_like,whiskies_hate)
-    # df_recvae = agent._recvae_topk(topk)
     df_recvae = agent._recvae_topk_filtered_by_Cost(topk,price_low,price_high)
+    
     recvae=[]
+    topk = min(len(df_recvae), topk)
     for i in range(topk):
 
         condition=total_df.Whiskey==df_recvae[i]
@@ -113,7 +116,8 @@ async def make_rec_random(item:Request):
 
     df_tag_pop = result_sort_by_popularity.Whiskey.iloc
     
-    pop,tags=[],[]
+    tags=[]
+    topk = min(len(result_sort_by_popularity), topk)
     for i in range(topk):
 
         condition=total_df.Whiskey==df_tag_pop[i]
@@ -133,12 +137,12 @@ async def image(whiskey_name: str):
         return img_url
 #infomation
 dict_range_cost = {
-        "$":        ('3만원 이하',),
+        "$":        ('3만원 이하', ''),
         "$$":       ('3만원 이상', '5만원 이하'),
         "$$$":      ('5만원 이상', '7만원 이하'),
         "$$$$":     ('7만원 이상', '12만원 이하'),
         "$$$$$":    ('12만원 이상', '30만원 이하'),
-        "$$$$$+":   ('30만원 이상', ),
+        "$$$$$+":   ('30만원 이상', ''),
         }
 @app.get("/info/{whiskey_name}")
 async def info(whiskey_name: str):
