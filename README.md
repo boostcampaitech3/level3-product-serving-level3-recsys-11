@@ -72,7 +72,7 @@
 
 ---
 
-## 2️. 서비스 아키텍쳐
+## 3. 서비스 아키텍쳐
 
 ### 1) Project Tree
 ```bash
@@ -123,7 +123,7 @@ code
 
 ---
 
-## 3️. DataSet
+## 4. DataSet
 
 
 ### 1) [Whiskybase](https://whiskybase.com)
@@ -140,7 +140,7 @@ code
 
 ---
 
-## 4️. Modeling
+## 5. Modeling
 
 ### 1) 무 경험자
 
@@ -149,7 +149,7 @@ code
 
 ---
 
-## 5️. Product Serving
+## 6. Product Serving
 
 ### 1) SW 구성
 
@@ -167,19 +167,16 @@ code
 
 
 
-## 6️. ****How to Run****
+## 7. ****How to Run****
 
-
-### run
 ```
 make -j 2 run_app
-
 ```
-## 7. 후속 개발
-- DB 추가
-- 클라우드
-- 추천 결과에 대한 유저피드백 저장후 
+
+## 8. 후속 개발
+
+- 추천 결과에 대한 유저피드백 저장 후 재학습
 
 
-## 8️. Reference
+## 9. Reference
 
