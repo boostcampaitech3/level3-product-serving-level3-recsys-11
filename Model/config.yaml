@@ -28,6 +28,6 @@ won_per_cad: 1000
 sort_by: ['Meta Critic', '#']
 
 #Train Params
-epochs: 1
+epochs: 100
 train_batch_size: 64
 eval_batch_size: 256

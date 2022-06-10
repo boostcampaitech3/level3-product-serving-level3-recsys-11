@@ -67,7 +67,10 @@ def display_whisky(array_items, Num=5):
         arrange_units(array_items, Num, [img_whisky, info_whisky])
     else:
         with st.columns([1.4,1,1])[1]:
+            st.write('')
             st.text('조회 결과가 없음')
+            st.write('')
+            st.write('')
  
 # 상수 초기값 정의
 init = {
