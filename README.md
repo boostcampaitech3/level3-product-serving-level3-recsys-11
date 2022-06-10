@@ -10,9 +10,8 @@
 ##  1. 프로젝트 개요
 
 
-> **문제 정의**: 
 
-> **개발 목표** : 사용자들에게 개인 취향을 반영하여 사용자 맞춤의 새로운 위스키를 추천하는 서비스
+> **개발 목표** : 사용자들에게 개인 취향을 반영하여 사용자 맞춤의 새로운 위스키를 추천하는 서비스를 구현
 
 
 ## 2. 서비스 Demo
@@ -140,43 +139,41 @@ code
 
 ---
 
-## 5. Modeling
-
-### 1) 무 경험자
-
-### 2) 유 경험자
-
-
----
-
-## 6. Product Serving
-
-### 1) SW 구성
-
-
-### 2) FrontEnd (Streamlit)
-
-- 사용자 인터페이스 제공 : 이미지 업로드, 크롭, 설문, 전시 등
-- 서비스 결과 전시 : 제품 유형, 유사 제품 이미지 등
-
-### 3) BackEnd (FastAPI)
-
-- Model 과 FrontEnd 를 연결
-- Client로부터 데이터를 수신하여 Inference 모듈을 호출
-- Inference 모듈로부터 추론 결과를 수신하여 Client로 전송
+## 5. Product Serving
 
 
 
-## 7. ****How to Run****
+**무경험자 flow chart**
+- Model : 인기도 기반, 코사인 유사도
+
+![image](https://user-images.githubusercontent.com/99862931/173078329-497a306b-cc2f-4443-9027-585a0d961e51.png)
+
+
+**유경험자 flow chart**
+- Model : RecVAE
+
+![image](https://user-images.githubusercontent.com/99862931/173078121-f8857a0b-efe2-4285-a84a-ab0add3359b8.png)
+
+## 6. ****How to Run****
 
 ```
 make -j 2 run_app
 ```
 
-## 8. 후속 개발
+## 7. Result & Conclusion
 
-- 추천 결과에 대한 유저피드백 저장 후 재학습
+**위스키를 이미 즐기는 사람 뿐만 아니라 새로 입문하는 유저에게
+취향에 맞는 위스키를 추천해주는 서비스 “We Suki“ 를 구축함**
+
+[확장성 & 기대효과] 
+- 추천한 결과를 저장하여 재학습을 통해 더 좋은 성능의 추천 제공
+
+- 위스키에 국한되지 않고 타 주류/도메인에 대한 추천으로도 확장 가능
+
+- 위스키 시장의 활성화
 
 
-## 9. Reference
+
+
+
 
