@@ -103,7 +103,7 @@ Ardbeg Supernova 2014,1494
 Jura Superstition,1494
 Ardbeg An Oa,1493
 Bruichladdich Octomore 7.3,1485
-Game of Thrones The Night’s Watch Oban Bay Reserve,1482
+Game of Thrones The Night's Watch Oban Bay Reserve,1482
 Hibiki 17yo,1476
 Auchentoshan 12yo,1464
 Glenfiddich 18yo,1458
@@ -257,7 +257,7 @@ Macallan Edition No. 6,726
 Aberlour A'Bunadh (Batch 54),723
 Bruichladdich Octomore 7.4,723
 Compass Box Spice Tree,720
-Bruichladdich 21yo Cuvée 407 PX,720
+Bruichladdich 21yo Cuvee 407 PX,720
 Glenrothes 12yo,714
 Dalmore King Alexander III,711
 Macallan 12yo Fine Oak,708
@@ -293,7 +293,7 @@ Port Ellen 2nd release 24yo 59.35%,610
 Bowmore 12yo Enigma,608
 Amrut Portpipe Peated Single Cask #4668 (2017),608
 Glenrothes Select Reserve,606
-Glenmorangie A Midwinter Night’s Dram,603
+Glenmorangie A Midwinter Night's Dram,603
 Arran Malt 14yo,600
 Macallan Sienna,599
 Tobermory 15yo,587
@@ -390,7 +390,7 @@ BenRiach 25yo,334
 Talisker Distiller's Edition (all editions),333
 Glendalough 13yo Single Malt,331
 Highland Park 15yo Freya,328
-Game of Thrones House Stark Dalwhinnie Winter’s Frost,328
+Game of Thrones House Stark Dalwhinnie Winter's Frost,328
 GlenDronach Cask Strength (batch 5),322
 Aberlour A'Bunadh (Batch 57),320
 Tamdhu 10yo,319
@@ -468,7 +468,7 @@ Talisker 30yo,249
 Dalmore Port Wood Reserve,249
 Port Ellen 6th release 27yo,247
 GlenDronach 19yo Madeira Finish,247
-Arran Malt The Devil’s Punch Bowl (all chapters),246
+Arran Malt The Devil's Punch Bowl (all chapters),246
 Bruichladdich Rocks,246
 Longrow 7yo Gaja Barolo Finish,245
 Bruichladdich Black Art 6.x 1990,244
@@ -504,10 +504,10 @@ Glenfiddich 15yo Solera,220
 "Macallan 10yo Full Proof 57% 1980 (OB, Giovinetti & Figli)",219
 Aberlour A'Bunadh (Batch 66),218
 Longrow 10yo Tokaji Finish,218
-Bruichladdich 21yo Cuvée 382 La Berenice,216
+Bruichladdich 21yo Cuvee 382 La Berenice,216
 Tullibardine Sovereign,215
 AnCnoc 22yo,213
-Bruichladdich 21yo Cuvée 640 Eroica,213
+Bruichladdich 21yo Cuvee 640 Eroica,213
 Nikka Taketsuru 12yo,212
 Tullibardine 25yo,211
 Kilchoman Sauternes Cask Matured,209
@@ -806,7 +806,7 @@ Wemyss Malts Kiln Embers,76
 Highland Park 12yo Viking Honour (post-2017),76
 Nikka Miyagikyo NAS,76
 Knappogue Castle 12yo,75
-Spirit of Hven Tycho’s Star,75
+Spirit of Hven Tycho's Star,75
 Blue Spot 7yo Cask Strength,75
 Jura 21yo 200th Anniversary,74
 Aberlour A'Bunadh (Batch 36),73
@@ -833,7 +833,7 @@ BenRiach Heart of Speyside,67
 Nikka Taketsuru NAS,67
 Hakushu Single Malt Heavily Peated,66
 Glen Garioch 1991,66
-Ledaig 19yo 1998 Pedro Ximénez Finish,65
+Ledaig 19yo 1998 Pedro Ximenez Finish,65
 Aberlour A'Bunadh (Batch 40),65
 Talisker 10yo,64
 Glen Garioch Virgin Oak,63
@@ -899,7 +899,7 @@ Auchentoshan Bartender's Malt,44
 High Coast (Box) Dalvve Sherry Influence,44
 Hibiki 12yo,44
 Wemyss Malts Velvet Fig,44
-Teerenpeli Distiller’s Choice KARHI,43
+Teerenpeli Distiller's Choice KARHI,43
 McClelland's Highland Single Malt,42
 Amrut Double Cask,42
 Blair Athol 12yo (F&F),42
@@ -911,7 +911,7 @@ Pig's Nose 5yo Blended Malt,41
 Glenlivet Nadurra First Fill (White Oak),40
 Westland Peated,40
 The Irishman Single Malt (NAS),39
-Teerenpeli Distiller’s Choice RASI,39
+Teerenpeli Distiller's Choice RASI,39
 Midleton Very Rare 2016,39
 High Coast (Box) Quercus I Robur,38
 Penderyn Madeira,37
@@ -1007,7 +1007,7 @@ AnCnoc Peter Arkle (all releases),18
 GlenDronach vintage 20yo Single Cask (all vintages),18
 Glencadam 30yo,18
 Spirit of Hven Seven Stars No. 3 Phecda,18
-Singleton of Dufftown Unité,18
+Singleton of Dufftown Unite,18
 Kavalan Solist Manzanilla Cask,18
 Midleton Very Rare 2017,18
 Spirit of Hven Seven Stars No. 5 Alioth,17
@@ -1040,7 +1040,7 @@ Glenfiddich Cask of Dreams,12
 Shelter Point Artisanal Single Malt Whisky,12
 Bladnoch 16yo (Signatory),12
 Balvenie 25yo Single Barrel,12
-High Coast (Box) PX - Pedro Ximénez Finish,12
+High Coast (Box) PX - Pedro Ximenez Finish,12
 Kavalan Solist Peaty Cask,12
 Compass Box Peat Monster 2012,12
 Teerenpeli Suomi 100 Juhlaviski,12
@@ -1078,7 +1078,7 @@ Dun Bheagan Islay 1999,7
 Ichiro's Malt Chichibu The Peated,7
 Lismore 21yo,7
 Balvenie TUN 1509 (all batches),6
-Teerenpeli Distiller’s Choice AURA,6
+Teerenpeli Distiller's Choice AURA,6
 Amrut Virgin Oak Single Cask,6
 Ichiro's Malt Chichibu The Floor Malted,6
 FEW Single Malt,6

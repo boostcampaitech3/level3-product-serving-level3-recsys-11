@@ -1,30 +1,17 @@
 # %%
-from recbole.utils.case_study import full_sort_scores, full_sort_topk
 from recbole.quick_start.quick_start import load_data_and_model
 from recbole.data.dataloader.user_dataloader import UserDataLoader
 
 import pandas as pd
 import numpy as np
 import torch
-from pathlib import Path
 
-import yaml
-
-
-from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
+from sklearn.metrics.pairwise import cosine_distances
 from sklearn.preprocessing import MinMaxScaler
 
-from typing import Dict, List
+from typing import Dict
+from pathlib import Path
 from collections import defaultdict
-
-from deprecated import deprecated
-
-def  initiate(CONFIG):
-
-    config, model, dataset, dataloader, _, _ = load_data_and_model(
-            model_file= Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_used'],
-        )
-    return config, model, dataset, dataloader, _, _
 
 
 DICT_RANGE_COST = {
@@ -37,6 +24,13 @@ DICT_RANGE_COST = {
 }
 LIST_COST = list(DICT_RANGE_COST.keys())
 LEN_LIST_COST = len(LIST_COST)
+
+# 모델 불러오기 기능
+def  initiate(CONFIG):
+    config, model, dataset, dataloader, _, _ = load_data_and_model(
+            model_file= Path((CONFIG['dir_model_saved'])) / CONFIG['file_model_used'],
+        )
+    return config, model, dataset, dataloader, _, _
 
 def filter_by_price(CONFIG, df_cluster, _price_min, _price_max):               
     list_cost_allowed = filter_Cost_by_price(CONFIG, _price_min, _price_max)
@@ -70,6 +64,7 @@ def find_idx_range_cost(CONFIG, val, min=True):
             return idx
     raise IndexError
 
+
 class pop_rec():
     def __init__(self,CONFIG) -> None:
         self.CONFIG=CONFIG
@@ -84,6 +79,11 @@ class pop_rec():
         
         for idx, row in iterator:
             whiskey = row['whiskey']
+            
+            whiskey = whiskey.replace('ä', 'a')
+            whiskey = whiskey.replace('é', 'e')
+            if whiskey=='[PAD]':continue
+            
             if len(list_pop) == k:
                 break
             if not df_feature.loc[whiskey].Cost in list_cost_allowed:
@@ -144,6 +144,8 @@ class tag_rec():
             return df_cluster.sort_values(by=sort_by).iloc[:topk, :]
         else:
             return df_cluster.sort_values(by=sort_by)
+        
+        
 class model_rec():
     def __init__(self,CONFIG,config, model, dataset, dataloader:UserDataLoader=None, goods:list=[], poors:list=[], user_id:str=None) -> None:
         self.goods = goods
@@ -158,8 +160,6 @@ class model_rec():
 
         if dataloader:
             self.dataloader = dataloader
-    
-
     
     def _recvae_predict(self) -> torch.Tensor:
         uid_series_good = self._encode(self.goods)
@@ -193,6 +193,11 @@ class model_rec():
         
         list_model_rec = []
         for whiskey in iterator:
+            
+            whiskey = whiskey.replace('ä', 'a')
+            whiskey = whiskey.replace('é', 'e')
+            if whiskey=='[PAD]':continue
+            
             if len(list_model_rec) == k:
                 break
             if not df_feature.loc[whiskey].Cost in list_cost_allowed:
@@ -224,44 +229,4 @@ class model_rec():
     def _decode(self, array_id:list) -> np.ndarray:
         return self.dataset.id2token(self.dataset.iid_field, array_id)
 
-# %%
-
-#     from IPython.display import display
-    
-#     # 인스턴스 생성 시, 좋아하는 위스키 목록과 싫어하는 위스키 목록 전달.
-#     agent = Collector(['ledaig-1972', 'highland-park-freya', 'ardbeg-ten'], ['mcclellands-islay'])
-    
-#     # 해당 목록을 기준으로 '인기도 기반 추천 목록'과 'VAE 기반 알고리즘 추천 목록' 전달.
-#     list_pop = agent._popularity(10)
-#     list_recvae = agent._recvae_topk(10)
-#     print(f"list_pop : \n{list_pop}")
-#     print(f"list_recvae : \n{list_recvae}")
-
-# if __name__ == '__main__':
-#     from IPython.display import display
-    
-#     # 인스턴스 생성 및 사용자의 취향을 설정.
-#     agent = Greeter()
-#     dict_taste = {'body':2, 'sweet':5, 'sherry':0}
-    
-#     # 코사인 거리를 각 클러스터 별로 계산
-#     result_orga = agent._cal_cos_sim(dict_taste, organized=True)
-#     print(result_orga)
-    
-#     # 가장 유사도가 높은 클러스터를 'A'와 같이 출력
-#     # 해당 클러스터에 해당하는 DataFrame을 출력
-#     result_cluster, result_df_cluster = agent.find_cluster(dict_taste)
-#     print(result_cluster)
-#     display(result_df_cluster)
-    
-#     # 원화 가격 기준으로 가격을 필터링한 DataFrame을 출력
-#     result_filter_by_price = agent.filter_by_price(result_df_cluster, 125000, 500000)
-#     display(result_filter_by_price)
-    
-#     # 인기도 기준으로 정렬된 DataFrame을 출력
-#     # topk를 설정한 경우 k개만 출력
-#     result_sort_by_popularity = agent.sort_by_popularity(result_df_cluster, topk=10)
-#     display(result_sort_by_popularity)
-    
-    
 # %%

@@ -1,5 +1,5 @@
 # dir setting
-data_path: "Model/dataset"
+data_path: "Dataset/"
 checkpoint_dir: "Model/model_saved"
 
 # general setting
